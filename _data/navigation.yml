@@ -1,0 +1,12 @@
+# main links
+main:
+  - title: "Klasse 10"
+    url: /klasse10/
+  - title: "Klasse 11"
+    url: /klasse11/
+  #- title: "Klasse 12"
+  #  url: /klasse12/
+  # - title: "Sample Collections"
+  #   url: /collection-archive/
+  # - title: "Sitemap"
+  #   url: /sitemap/

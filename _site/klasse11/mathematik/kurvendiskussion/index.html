@@ -1,0 +1,882 @@
+<!doctype html>
+<!--
+  Minimal Mistakes Jekyll Theme 4.17.1 by Michael Rose
+  Copyright 2013-2019 Michael Rose - mademistakes.com | @mmistakes
+  Free for personal and commercial use under the MIT license
+  https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE
+-->
+<html lang="de" class="no-js">
+  <head>
+    <meta charset="utf-8">
+
+<!-- begin _includes/seo.html --><title>Kurvendiskussion - Der Streber Blog</title>
+<meta name="description" content="1. Der Definitionsbereich">
+
+
+  <meta name="author" content="Adrian">
+
+
+<meta property="og:type" content="article">
+<meta property="og:locale" content="de_DE">
+<meta property="og:site_name" content="Der Streber Blog">
+<meta property="og:title" content="Kurvendiskussion">
+<meta property="og:url" content="/klasse11/mathematik/kurvendiskussion/">
+
+
+  <meta property="og:description" content="1. Der Definitionsbereich">
+
+
+
+
+
+  <meta name="twitter:site" content="@monkischonki02">
+  <meta name="twitter:title" content="Kurvendiskussion">
+  <meta name="twitter:description" content="1. Der Definitionsbereich">
+  <meta name="twitter:url" content="/klasse11/mathematik/kurvendiskussion/">
+
+  
+    <meta name="twitter:card" content="summary">
+    
+  
+
+  
+
+
+
+  <meta property="article:published_time" content="2019-12-04T00:00:00+01:00">
+
+
+
+
+
+  
+
+  
+
+
+<link rel="canonical" href="/klasse11/mathematik/kurvendiskussion/">
+
+
+
+
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    
+      "@type": "Person",
+      "name": "Adrian H.",
+      "url": "/"
+    
+  }
+</script>
+
+
+
+
+
+
+<!-- end _includes/seo.html -->
+
+
+<link href="/feed.xml" type="application/atom+xml" rel="alternate" title="Der Streber Blog Feed">
+
+<!-- https://t.co/dKP3o1e -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<script>
+  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+</script>
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="/assets/css/main.css">
+
+<!--[if IE]>
+  <style>
+    /* old IE unsupported flexbox fixes */
+    .greedy-nav .site-title {
+      padding-right: 3em;
+    }
+    .greedy-nav button {
+      position: absolute;
+      top: 0;
+      right: 0;
+      height: 100%;
+    }
+  </style>
+<![endif]-->
+
+
+
+    <!-- start custom head snippets -->
+
+<!-- insert favicons. use https://realfavicongenerator.net/ -->
+
+<!-- end custom head snippets -->
+
+  </head>
+
+  <body class="layout--single">
+    <nav class="skip-links">
+  <h2 class="screen-reader-text">Skip links</h2>
+  <ul>
+    <li><a href="#site-nav" class="screen-reader-shortcut">Skip to primary navigation</a></li>
+    <li><a href="#main" class="screen-reader-shortcut">Skip to content</a></li>
+    <li><a href="#footer" class="screen-reader-shortcut">Skip to footer</a></li>
+  </ul>
+</nav>
+
+    <!--[if lt IE 9]>
+<div class="notice--danger align-center" style="margin: 0;">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience.</div>
+<![endif]-->
+
+    
+
+<div class="masthead">
+  <div class="masthead__inner-wrap">
+    <div class="masthead__menu">
+      <nav id="site-nav" class="greedy-nav">
+        
+        <a class="site-title" href="/">
+          Der Streber Blog
+          
+        </a>
+        <ul class="visible-links"><li class="masthead__menu-item">
+              <a href="/klasse10/" >Klasse 10</a>
+            </li><li class="masthead__menu-item">
+              <a href="/klasse11/" >Klasse 11</a>
+            </li></ul>
+        
+        <button class="greedy-nav__toggle hidden" type="button">
+          <span class="visually-hidden">Menü ein-/ausschalten</span>
+          <div class="navicon"></div>
+        </button>
+        <ul class="hidden-links hidden"></ul>
+      </nav>
+    </div>
+  </div>
+</div>
+
+
+    <div class="initial-content">
+      
+
+
+
+<script src='https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_CHTML' async></script>
+        <script type="text/x-mathjax-config">
+        MathJax.Hub.Config({tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}});
+        </script>
+
+<div id="main" role="main">
+  
+  <div class="sidebar sticky">
+  
+
+
+<div itemscope itemtype="https://schema.org/Person">
+
+  
+
+  <div class="author__content">
+    
+      <h3 class="author__name" itemprop="name">Adrian</h3>
+    
+    
+      <div class="author__bio" itemprop="description">
+        <p>Schüler am RCL welcher versucht, Zusammenfassungen in den Fächern Mathe, Physik und Chemie in seiner Freizeit zu schreiben</p>
+
+      </div>
+    
+  </div>
+
+  <div class="author__urls-wrapper">
+    <button class="btn btn--inverse">Folgen</button>
+    <ul class="author__urls social-icons">
+      
+        <li itemprop="homeLocation" itemscope itemtype="https://schema.org/Place">
+          <i class="fas fa-fw fa-map-marker-alt" aria-hidden="true"></i> <span itemprop="name">Deutschland</span>
+        </li>
+      
+
+      
+        
+          
+        
+          
+        
+          
+            <li><a href="https://twitter.com/monkischwonki02" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-twitter-square" aria-hidden="true"></i> Twitter</a></li>
+          
+        
+          
+        
+          
+            <li><a href="https://github.com/adrianspieltHD" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-github" aria-hidden="true"></i> GitHub</a></li>
+          
+        
+          
+            <li><a href="https://instagram.com/adrianh0802" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-instagram" aria-hidden="true"></i> Instagram</a></li>
+          
+        
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      <!--
+  <li>
+    <a href="http://link-to-whatever-social-network.com/user/" itemprop="sameAs" rel="nofollow noopener noreferrer">
+      <i class="fas fa-fw" aria-hidden="true"></i> Custom Social Profile Link
+    </a>
+  </li>
+-->
+    </ul>
+  </div>
+</div>
+
+  
+  </div>
+
+
+  <article class="page" itemscope itemtype="https://schema.org/CreativeWork">
+    <meta itemprop="headline" content="Kurvendiskussion">
+    <meta itemprop="description" content="1. Der Definitionsbereich">
+    <meta itemprop="datePublished" content="December 04, 2019">
+    
+
+    <div class="page__inner-wrap">
+      
+        <header>
+          <h1 id="page-title" class="page__title" itemprop="headline">Kurvendiskussion
+</h1>
+          
+            <p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> 
+
+
+
+
+  7 Minuten zum lesen
+
+</p>
+          
+        </header>
+      
+
+      <section class="page__content" itemprop="text">
+        
+          <aside class="sidebar__right sticky">
+            <nav class="toc">
+              <header><h4 class="nav__title"><i class="fas fa-file-alt"></i> Inhalt</h4></header>
+              <ul class="toc__menu">
+  <li><a href="#1-der-definitionsbereich">1. Der Definitionsbereich</a></li>
+  <li><a href="#2-der-wertebereich">2. Der Wertebereich</a></li>
+  <li><a href="#3-die-symmetrie">3. Die Symmetrie</a>
+    <ul>
+      <li><a href="#31-achsensymmetrie">3.1 Achsensymmetrie</a></li>
+      <li><a href="#32-punktsymmetrie">3.2 Punktsymmetrie</a></li>
+    </ul>
+  </li>
+  <li><a href="#4-nullstellen-und-schnittpunkt-mit-der-x-achse">4. Nullstellen und Schnittpunkt mit der X-Achse</a>
+    <ul>
+      <li><a href="#41-ganzrationale-funktion">4.1 ganzrationale Funktion</a></li>
+      <li><a href="#42-wurzelfunktionen-potenzfunktion-mit-gebrochenem-exponenten">4.2 Wurzelfunktionen (Potenzfunktion mit gebrochenem Exponenten)</a></li>
+      <li><a href="#43-exponentialfunktionen">4.3 Exponentialfunktionen</a></li>
+      <li><a href="#44-logarithmusfunktionen">4.4 Logarithmusfunktionen</a></li>
+      <li><a href="#45-trigonometrische-funktionen">4.5 Trigonometrische Funktionen</a></li>
+      <li><a href="#46-schnittpunkt-angeben">4.6 Schnittpunkt angeben</a></li>
+    </ul>
+  </li>
+  <li><a href="#5-schnittpunkt-mit-der-y-achse">5. Schnittpunkt mit der y-Achse</a></li>
+  <li><a href="#6-das-verhalten-von-funktionen-im-unendlichen">6. Das Verhalten von Funktionen im Unendlichen</a></li>
+  <li><a href="#7-funktion-auf-polstelle-untersuchen">7. Funktion auf Polstelle untersuchen</a></li>
+  <li><a href="#8-asymptoten">8. Asymptoten</a>
+    <ul>
+      <li><a href="#81-waagerechte-asymptote">8.1 waagerechte Asymptote</a></li>
+      <li><a href="#82-senkrechte-asymptote">8.2 senkrechte Asymptote</a></li>
+      <li><a href="#83-schräge-asymptote">8.3 schräge Asymptote</a></li>
+    </ul>
+  </li>
+  <li><a href="#9-ableitungen">9. Ableitungen</a>
+    <ul>
+      <li><a href="#91-potenzregel">9.1 Potenzregel</a></li>
+      <li><a href="#92-summenregel">9.2 Summenregel</a></li>
+      <li><a href="#93-produktregel">9.3 Produktregel</a></li>
+      <li><a href="#94-kettenregel-nur-lk">9.4 Kettenregel (Nur LK)</a></li>
+      <li><a href="#95-quotientenregel-optional">9.5 Quotientenregel (optional)</a></li>
+      <li><a href="#96-die-ableitung-spezieller-funktionen">9.6 Die Ableitung spezieller Funktionen</a></li>
+    </ul>
+  </li>
+  <li><a href="#10-extrempunkte-berechnen">10. Extrempunkte berechnen</a></li>
+  <li><a href="#11-wendepunkte-berechnen">11. Wendepunkte berechnen</a></li>
+  <li><a href="#12-krümmungsänderung-an-wendepunkten-bestimmen">12. Krümmungsänderung an Wendepunkten bestimmen</a></li>
+</ul>
+            </nav>
+          </aside>
+        
+        <h1 id="1-der-definitionsbereich">1. Der Definitionsbereich</h1>
+
+<p>Der Definitionsbereich einer Funktion gibt an, welche x-Werte einer Menge auf eine Zielmenge abgebildet werden können. (Ich weiß nicht, ob man das so richtig formulieren kann)</p>
+
+<p>Bei <strong>ganzrationalen Funktionen</strong> ist dies immer $x \in \mathbb{R}$</p>
+
+<p>Bei Funktionen mit einem Bruch wie zum Beispiel $f(x) = \dfrac{x^2+4}{x-2}$ ist es allerdings nicht gleich $x \in \mathbb{R}$ da bei der 2 im Nenner des Bruches eine 0 stehen würde und durch 0 darf man ja nicht teilen, wenn man ein bisschen in der Schule aufpasst.</p>
+
+<p>Deswegen sieht das ganze jetzt für den Definitionsbereich so aus: $x \in \mathbb{R},x≠2$</p>
+
+<hr />
+<h1 id="2-der-wertebereich">2. Der Wertebereich</h1>
+
+<p>Der Wertebereich einer Funktion gibt an, welche y-Werte die Funktion annehmen kann.</p>
+
+<p>Bei $f(x) = x^3$ ist es zum Beispiel $y \in \mathbb{R}$</p>
+
+<p>Bei $f(x) = x^2$ ist es aber $y \in \mathbb{R}, y \geq 0$</p>
+
+<hr />
+<h1 id="3-die-symmetrie">3. Die Symmetrie</h1>
+
+<p>Es gibt zwei Arten von Symmetrien zu untersuchen:</p>
+
+<h2 id="31-achsensymmetrie">3.1 Achsensymmetrie</h2>
+
+<p>Wenn man von der Funktion $f(x)$ jetzt $f(-x)$ bildet und dort dann wieder die Ursprungsfunktion $f(x)$ rauskommt, dann haben wir eine Achsensymmetrie an der Stellen $x=0$ (y-Achse) vorliegen.</p>
+
+<h2 id="32-punktsymmetrie">3.2 Punktsymmetrie</h2>
+
+<p>Wenn man von der Funktion $f(x)$ jetzt $f(-x)$ und dort jetzt die Ursprungsfunktion nur mit dem jeweils anderen Vorzeichen $-f(x)$ rauskommt, dann ist es eine Punktsymmetrie am Punkt $O(0/0)$</p>
+
+<hr />
+<h1 id="4-nullstellen-und-schnittpunkt-mit-der-x-achse">4. Nullstellen und Schnittpunkt mit der X-Achse</h1>
+
+<p>Nullstellen berechnet man, indem man immer als erstes die Funktion gleich 0 setzt ($f(x) = 0$). Danach gibt es verschiedene Lösungsverfahren und Arten von Funktionen, welche man nehmen oder vorfinden kann.</p>
+
+<h2 id="41-ganzrationale-funktion">4.1 ganzrationale Funktion</h2>
+
+<p>Bei einer Ganzrationalen Funktion können wir verschiedene Wege gehen, um auf ein Ergebniss zu kommen.</p>
+
+<p>zum einen wäre dort:</p>
+
+<ol>
+  <li>Polynomdivision</li>
+  <li>Ausklammern eines/mehrerer x (wenn kein absolutes Glied vorhanden ist)</li>
+  <li>Substitution (biquadratische Funktionen ($f(x) = ax^4+bx^2+c$))</li>
+  <li>Bei quadr. Funktionen: abc- oder pq-Formel</li>
+</ol>
+
+<h2 id="42-wurzelfunktionen-potenzfunktion-mit-gebrochenem-exponenten">4.2 Wurzelfunktionen (Potenzfunktion mit gebrochenem Exponenten)</h2>
+
+<p>Was man sich bei den Wurzelfunktionen eigentlich nur merken muss ist, dass die Umkehrung von einer $\sqrt{a}$ das $a²$ (a -&gt; irgendeine Zahl) ist.</p>
+
+<p>Mit dem Quadrieren wird die Wurzel in dem Term aufgehoben.</p>
+
+<p>Aber Achtung!:</p>
+
+<p>Es könnten die binomischen Formeln vertreten. Deswegen schön auswendig lernen oder diese im Tafelwerk nachschlagen.</p>
+
+<p><strong>Die Ergebnisse nach dem Ausrechnen nochmal zu einer Probe in die Ausgangsgleichung einsetzen, wenn 0 rauskommt -&gt; Nullstelle</strong></p>
+
+<h2 id="43-exponentialfunktionen">4.3 Exponentialfunktionen</h2>
+
+<p>Um eine Exponentialfunktion aufzuheben benötigen wir den sogenannten Logarithmus. Der Logarithmus, welcher verwendet werden muss, sagt uns die Basis, welcher das x im Exponenten hat. Hier mal ein Beispiel: (Das X ist nur ein Platzhalter)</p>
+
+<p>$10^x -&gt; log_{10}(x)$</p>
+
+<p>Also um die Basis 10 bei der Exponentialfunktion loszuwerden, musst du den Logarithmus zur Basis 10 nehmen, damit das x dann alleine steht.</p>
+
+<p>Eine kleine Sache noch:</p>
+
+<p>$a^x \quad a \in \mathbb{R}, a≠0 ​$ –&gt; es gibt keine Nullstellen</p>
+
+<h2 id="44-logarithmusfunktionen">4.4 Logarithmusfunktionen</h2>
+
+<p>Wenn wir gerade schon von Logarithmus geredet haben, kommen wir jetzt dazu. Um den Logarithmus aufzuheben, müssen wir eine den Logarithmus als Exponent zur Basis nehmen, welcher der Logarithmus hat. Hier ein Beispiel: (Das X ist nur ein Platzhalter)</p>
+
+<p>$log_{10}(x) –&gt; 10^x$</p>
+
+<p>Zudem gilt:</p>
+
+<p>$log_a(x) \quad a \in \mathbb{R}, a &gt; 0$ –&gt; Nullstelle bei $x = 1$</p>
+
+<h2 id="45-trigonometrische-funktionen">4.5 Trigonometrische Funktionen</h2>
+
+<p>Zu den Trigonometrischen Funktionen habe ich schon mal eine kleine (Zusammenfassung)[] erstellt. Hier geht es jetzt nur darum, wie man die Substitution bei einer Aufgabe macht.</p>
+
+<p>Beispiel $[-\pi;2\pi]$:</p>
+
+<p>$f(x) = 3sin(x+1)+2$</p>
+
+<p>–&gt; bis $sin(x+1)$ umstellen</p>
+
+<p>$-\dfrac{1}{3} = sin(x+1)$</p>
+
+<p>-&gt; x+1 durch z.B. z ersetzen</p>
+
+<p>$-\dfrac{1}{3} = sin(z)$</p>
+
+<p>alle z-Werte für das Intervall ausrechnen</p>
+
+<ul>
+  <li>$z_1 = -0.34$</li>
+  <li>$z_2 = -2.8$</li>
+  <li>$z_3 = 3.48$</li>
+  <li>$z_4 = 5.94$</li>
+</ul>
+
+<p>Rücksubstitution von z:</p>
+
+<p>$z_n = x_n + 1$</p>
+
+<ul>
+  <li>$x_1 = -0.34 - 1 = -1.34$</li>
+  <li>$x_2 = -2.8 - 1 = -3.8$ –&gt; entfällt, da außerhalb des Bereiches</li>
+  <li>$x_3 = 3.48 - 1 = 2.48$</li>
+  <li>$x_4 = 5.94 - 1 = 4.94$</li>
+</ul>
+
+<h2 id="46-schnittpunkt-angeben">4.6 Schnittpunkt angeben</h2>
+
+<p>Den Schnittpunkt mit der X-Achse gibt man wie folgt an –&gt; $S_{x_n}(x_n / 0)$</p>
+
+<hr />
+<h1 id="5-schnittpunkt-mit-der-y-achse">5. Schnittpunkt mit der y-Achse</h1>
+
+<p>Dort braucht man einfach nur für die x-Werte die Zahl 0 einsetzen und dann kommt man auf folgenden Schnittpunkt: $S_y(0/f(0))$</p>
+
+<hr />
+<h1 id="6-das-verhalten-von-funktionen-im-unendlichen">6. Das Verhalten von Funktionen im Unendlichen</h1>
+
+<p>Um das Verhalten im Unendlichen zu überprüfen, brauchen wir den Limes. Bei ganzrationalen Funktionen muss man immer nach der höchsten Potenz gucken, da diese am schnellsten im Unendlichen ansteigt.</p>
+
+<p>Bei Brüchen ist das ein bisschen anders.</p>
+
+<p>Dort muss man die <strong>höchste Potenz im Nenner ausklammern</strong>, um so viele Nullfolgen (Funktionen, die im Unendlichen gegen 0 gehen) zu kriegen. Ein Beispiel:</p>
+
+<p>$f(x) = \dfrac{x^2+4x+5}{x^3+4}$</p>
+
+<p>$\lim\limits_{x \rightarrow \pm\infty} (\dfrac{x^3+4x+5}{x^2+4})$</p>
+
+<p>$ \lim\limits_{x \rightarrow \pm\infty} (\dfrac{x^3(\dfrac{1}{x}+\dfrac{4}{x^2}+\dfrac{5}{x^3})}{x^3(1+\dfrac{4}{x})}) = \dfrac{0}{1} = 0$</p>
+
+<p>Und natürlich kann man auch eine Exponentialfunktion ausklammern, falls diese vorhanden sein sollte und dies die größe “Potenz” im Nenner ist.</p>
+
+<hr />
+<h1 id="7-funktion-auf-polstelle-untersuchen">7. Funktion auf Polstelle untersuchen</h1>
+
+<p>Eine Polstelle ist dann vorhanden, wenn bei $\dfrac{u(x)}{v(x)}$ –&gt; $u(x) ≠ 0$ und $v(x) = 0$. Wenn dies erfüllt ist, ist bei $x_0$ eine Polstelle. ($x_p$)</p>
+
+<hr />
+<h1 id="8-asymptoten">8. Asymptoten</h1>
+
+<p>Es gibt 3 verschiedene Asymptoten:</p>
+
+<h2 id="81-waagerechte-asymptote">8.1 waagerechte Asymptote</h2>
+
+<p>Diese kann man schon aus der davor gemachten Grenzwertbetrachtung ablesen. Eine waagerechte Asymptote ist auch dann vorhanden, wenn der Zählergrad (ZG) kleiner oder gleich dem Nennergrad (NG) ist</p>
+
+<h2 id="82-senkrechte-asymptote">8.2 senkrechte Asymptote</h2>
+
+<p>Eine senkrechte Asymptote bekommt man nur, wenn man eine Polstelle zu der jeweiligen Funktion gefunden hat.</p>
+
+<h2 id="83-schräge-asymptote">8.3 schräge Asymptote</h2>
+
+<p>Die schräge Asymptote entsteht dann, wenn der ZG größer als der NG wird. Falls man die schräge Asymptote berechnen möchte, kann man dies Tun, in dem man den Zähler durch den Nenner mit Polynomdivision Teilt. Die ganzrationale Funktion, welche rauskommt (vor dem Rest) ist dann die schräge Asymptote.</p>
+
+<hr />
+
+<h1 id="9-ableitungen">9. Ableitungen</h1>
+
+<p>Um die nächsten Punkte zu verstehen und anwenden zu können, braucht man die sogenannte Ableitung. Hierfür gibt es einige Regeln, die man können sollte.</p>
+
+<h2 id="91-potenzregel">9.1 Potenzregel</h2>
+
+<p>Die Allgemeine Ableitung, die man bei z.B. ganzrationalen Funktionen machen muss, geht folgendermaßen:</p>
+
+<p>$x^n \rightarrow nx^{n-1}$
+Ein Beispiel dazu wäre folgendes:</p>
+
+<p>$x^3 \rightarrow 3x^2 \rightarrow 6x \rightarrow 6 \rightarrow 0$</p>
+
+<h2 id="92-summenregel">9.2 Summenregel</h2>
+
+<p>Die Summenregel sagt, dass man bei einer Summe/Differenz von jedem einzelnen Summanden die Ableitung bilden muss:</p>
+
+<p>$v(x) + u(x) \rightarrow v’(x) + u’(x)​$</p>
+
+<p>Noch ein Beispiel:</p>
+
+<p>$x^3 + 2x^2 \rightarrow 3x^2 + 4x \rightarrow 6x+4 \rightarrow 6 \rightarrow 0$</p>
+
+<h2 id="93-produktregel">9.3 Produktregel</h2>
+
+<p>Die Produktregel geht folgendermaßen ($v$ und $u$ sind dabei Teilfunktionen. Sieht man nachher auch am Beispiel) :</p>
+
+<p>$u*v \rightarrow u’v+uv’$</p>
+
+<p>Ein Beispiel:</p>
+
+<p>$x²*7x³ \rightarrow 2x(7x³)+x²(21x²) =&gt; 14x^4+21x^4 =&gt; 35x^4$</p>
+
+<p>Man hätte in diesem Beispiel jetzt natürlich auch einfach die beiden Produkte zusammenmultiplizieren können und dann die Ableitung bilden können. Aber ich wollte dir mal damit ein sehr simples Beispiel geben.</p>
+
+<h2 id="94-kettenregel-nur-lk">9.4 Kettenregel (Nur LK)</h2>
+
+<p>Bei der Kettenregel kommt zu dem ganzen Ableiten noch bspw. eine Klammer hinzu. Und dann würde es allgemein so etwas ergeben:</p>
+
+<p>$u[v(x)] \rightarrow u’[v(x)]*v’$</p>
+
+<p>Ein geeignetes Beispiel wäre das hier:</p>
+
+<p>$(3x+4)^3 \rightarrow 3(3x+4)^2 * 3 =&gt; 9(3x+4)^2$</p>
+
+<h2 id="95-quotientenregel-optional">9.5 Quotientenregel (optional)</h2>
+
+<p>Wenn ihr eine Funktion habt, wo zwei “Teilfunktionen” in einem Bruch darstehen, kann man neben der Produktregel (Umformungen) auch die Quotientenregel verwenden. Die sieht allgemein so aus:</p>
+
+<p>$\dfrac{u}{v} \rightarrow \dfrac{u’v-uv’}{v^2}$</p>
+
+<p>Ein kleines Beispiel dazu wäre:</p>
+
+<p>$\dfrac{x^2+2}{2x+1}$</p>
+
+<p>$\rightarrow \dfrac{2x(2x+1) - (x^2+2)2}{(2x+1)^2}​$</p>
+
+<p>$\rightarrow \dfrac{4x^2+2x-(2x^2+4)}{(2x+1)^2}$</p>
+
+<p>$\rightarrow \dfrac{4x^2+2x-2x^2-4}{(2x+1)^2} \rightarrow \dfrac{2x^2+2x-4}{(2x+1)^2}$</p>
+
+<h2 id="96-die-ableitung-spezieller-funktionen">9.6 Die Ableitung spezieller Funktionen</h2>
+
+<p>$e^x \rightarrow e^x$</p>
+
+<p>$ln(x) \rightarrow \dfrac{1}{x}$</p>
+
+<p>$sin(x) \rightarrow cos(x)​$</p>
+
+<p>$cos(x) -&gt; -sin(x)$</p>
+
+<hr />
+
+<h1 id="10-extrempunkte-berechnen">10. Extrempunkte berechnen</h1>
+
+<p>Für die Extrempunktberechnung braucht man die erste aber auch die zweite Ableitung der Funktion.</p>
+
+<p>Die Bedingung, damit es ein Extrempunkt (Hoch- oder Tiefpunkt) ist lautet so:</p>
+
+<p>$f’(x) = 0$</p>
+
+<p>und</p>
+
+<p>$f’‘(x) &gt; 0 $ –&gt; Tiefpunkt</p>
+
+<p>$f’‘(x) &lt; 0$ –&gt; Hochpunkt</p>
+
+<p>Falls die zweite Ableitung 0 sein sollte, muss man in der ersten Ableitung überprüfen, ob an dieser Stelle ein Vorzeichenwechsel vorliegt. Wenn ja ist es ein Extrempunkt. Wenn allerdings nicht, könnte es auf etwas anderes hinweisen.</p>
+
+<p>Und nachdem man die x-Werte raushat, diese in die Ursprungsfunktion einsetzen, um den y-Wert rauszubekommen</p>
+
+<hr />
+
+<h1 id="11-wendepunkte-berechnen">11. Wendepunkte berechnen</h1>
+
+<p>Wendepunkte berechnet man mit der zweiten und dritten Ableitung. Man kann auch sagen, dass Wendestellen die Extremstellen der ersten Ableitung sind. Daraus kann man folgendes schließen:</p>
+
+<p>$f’‘(x) = 0$</p>
+
+<p>und</p>
+
+<p>$f’’‘(x) \ne 0$</p>
+
+<p>Auch hier wieder: Wenn bei der 3. Ableitung 0 rauskommt, dann überprüfen, ob bei der 2. Ableitung an dieser Stelle ein Vorzeichenwechsel vorliegt. Wenn ja dann ist es ein Wendepunkt. Wenn nicht dann nicht.</p>
+
+<p>Es gibt aber zudem auch besondere Wendepunkte. Diese haben eine waagerechte Tangente und somit den Anstieg 0. Diese nennt man <strong>Sattelpunkte</strong></p>
+
+<p>Um ein Sattelpunkt vorliegen zu haben muss folgendes erfüllt sein:</p>
+
+<p>$f’(x) = 0$</p>
+
+<p>$f’‘(x) = 0$</p>
+
+<p>und</p>
+
+<p>$f’’‘(x) \ne 0$</p>
+
+<hr />
+
+<h1 id="12-krümmungsänderung-an-wendepunkten-bestimmen">12. Krümmungsänderung an Wendepunkten bestimmen</h1>
+
+<p>Mit der Krümmungsänderung an Wendepunkten gibt man an, ob es ein Rechts-Links- (RL-WP) oder ein Links-Rechts-Wendepunkt (LR-WP) ist.</p>
+
+<p>Man hat bei folgenden Werten den entsprechenden Wendepunkt vorliegen:</p>
+
+<p>$f’’‘(x) &lt; 0$ –&gt; LR-WP</p>
+
+<p>$f’’‘(x) &gt; 0$ –&gt; RL-WP</p>
+
+
+        
+      </section>
+
+      <footer class="page__meta">
+        
+        
+
+
+  
+
+        
+          <p class="page__date"><strong><i class="fas fa-fw fa-calendar-alt" aria-hidden="true"></i> Aktualisiert:</strong> <time datetime="2019-12-04T00:00:00+01:00">December 04, 2019</time></p>
+        
+      </footer>
+
+      
+
+      
+  <nav class="pagination">
+    
+      <a href="/klasse11/physik/mechanik11/" class="pagination--pager" title="Mechanik Klasse 11
+">Vorherige</a>
+    
+    
+      <a href="#" class="pagination--pager disabled">Nächste</a>
+    
+  </nav>
+
+    </div>
+
+    
+  </article>
+
+  
+  
+    <div class="page__related">
+      <h4 class="page__related-title">Ihnen gefällt vielleicht auch</h4>
+      <div class="grid__wrapper">
+        
+          
+
+
+
+<div class="grid__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+    <h2 class="archive__item-title" itemprop="headline">
+      
+        <a href="/klasse11/physik/mechanik11/" rel="permalink">Mechanik Klasse 11
+</a>
+      
+    </h2>
+    
+      <p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> 
+
+
+
+
+  2 Minuten zum lesen
+
+</p>
+    
+    <p class="archive__item-excerpt" itemprop="description">1. Kräfte in einer geneigten Ebene
+</p>
+  </article>
+</div>
+
+        
+          
+
+
+
+<div class="grid__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+    <h2 class="archive__item-title" itemprop="headline">
+      
+        <a href="/klasse10/mathe/trigonometrische-funktionen/" rel="permalink">Trigonometrische Funktionen
+</a>
+      
+    </h2>
+    
+      <p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> 
+
+
+
+
+  3 Minuten zum lesen
+
+</p>
+    
+    <p class="archive__item-excerpt" itemprop="description">Ich habe jetzt als Winkel den griechischen Buchstaben Lambda ($\lambda$) genommen. Es geht natürlich auch jeder andere Buchstabe.
+</p>
+  </article>
+</div>
+
+        
+          
+
+
+
+<div class="grid__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+    <h2 class="archive__item-title" itemprop="headline">
+      
+        <a href="/klasse10/mathe/trigonometrie/" rel="permalink">Trigonometrie
+</a>
+      
+    </h2>
+    
+      <p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> 
+
+
+
+
+  2 Minuten zum lesen
+
+</p>
+    
+    <p class="archive__item-excerpt" itemprop="description">Alle Formeln, die ich hier schreibe, stehen auch nochmal im Tafelwerk auf Seite 19 (Pythagoras) und 26-27
+</p>
+  </article>
+</div>
+
+        
+          
+
+
+
+<div class="grid__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+    <h2 class="archive__item-title" itemprop="headline">
+      
+        <a href="/klasse10/chemie/alkohole/" rel="permalink">Alkohole
+</a>
+      
+    </h2>
+    
+      <p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> 
+
+
+
+
+  2 Minuten zum lesen
+
+</p>
+    
+    <p class="archive__item-excerpt" itemprop="description">Trinkalkohol als wichtiger Vertreter - Eigenschaften &amp; Molekülbau
+</p>
+  </article>
+</div>
+
+        
+      </div>
+    </div>
+  
+  
+</div>
+
+    </div>
+
+    
+
+    <div id="footer" class="page__footer">
+      <footer>
+        <!-- start custom footer snippets -->
+
+<!-- end custom footer snippets -->
+        <div class="page__footer-follow">
+  <ul class="social-icons">
+    
+      <li><strong>Folgen:</strong></li>
+    
+
+    
+      
+        
+          <li><a href="https://twitter.com/monkischwonki02" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-twitter-square" aria-hidden="true"></i> Twitter</a></li>
+        
+      
+        
+      
+        
+          <li><a href="https://github.com/adrianspieltHD" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-github" aria-hidden="true"></i> GitHub</a></li>
+        
+      
+        
+      
+        
+      
+        
+          <li><a href="https://instagram.com/adrianh0802" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-instagram" aria-hidden="true"></i> Instagram</a></li>
+        
+      
+    
+
+    <li><a href="/feed.xml"><i class="fas fa-fw fa-rss-square" aria-hidden="true"></i> Feed</a></li>
+  </ul>
+</div>
+
+<div class="page__footer-copyright">&copy; 2019 Adrian H.. Möglich durch <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
+
+      </footer>
+    </div>
+
+    
+  <script src="/assets/js/main.min.js"></script>
+  <script src="https://kit.fontawesome.com/4eee35f757.js"></script>
+
+
+
+
+
+
+
+
+
+
+  </body>
+</html>

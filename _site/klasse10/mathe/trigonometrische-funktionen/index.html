@@ -1,0 +1,747 @@
+<!doctype html>
+<!--
+  Minimal Mistakes Jekyll Theme 4.17.1 by Michael Rose
+  Copyright 2013-2019 Michael Rose - mademistakes.com | @mmistakes
+  Free for personal and commercial use under the MIT license
+  https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE
+-->
+<html lang="de" class="no-js">
+  <head>
+    <meta charset="utf-8">
+
+<!-- begin _includes/seo.html --><title>Trigonometrische Funktionen - Der Streber Blog</title>
+<meta name="description" content="Ich habe jetzt als Winkel den griechischen Buchstaben Lambda ($\lambda$) genommen. Es geht natürlich auch jeder andere Buchstabe.">
+
+
+  <meta name="author" content="Adrian">
+
+
+<meta property="og:type" content="article">
+<meta property="og:locale" content="de_DE">
+<meta property="og:site_name" content="Der Streber Blog">
+<meta property="og:title" content="Trigonometrische Funktionen">
+<meta property="og:url" content="/klasse10/mathe/trigonometrische-funktionen/">
+
+
+  <meta property="og:description" content="Ich habe jetzt als Winkel den griechischen Buchstaben Lambda ($\lambda$) genommen. Es geht natürlich auch jeder andere Buchstabe.">
+
+
+
+
+
+  <meta name="twitter:site" content="@monkischonki02">
+  <meta name="twitter:title" content="Trigonometrische Funktionen">
+  <meta name="twitter:description" content="Ich habe jetzt als Winkel den griechischen Buchstaben Lambda ($\lambda$) genommen. Es geht natürlich auch jeder andere Buchstabe.">
+  <meta name="twitter:url" content="/klasse10/mathe/trigonometrische-funktionen/">
+
+  
+    <meta name="twitter:card" content="summary">
+    
+  
+
+  
+
+
+
+  <meta property="article:published_time" content="2019-05-15T00:00:00+02:00">
+
+
+
+
+
+  
+
+  
+
+
+<link rel="canonical" href="/klasse10/mathe/trigonometrische-funktionen/">
+
+
+
+
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    
+      "@type": "Person",
+      "name": "Adrian H.",
+      "url": "/"
+    
+  }
+</script>
+
+
+
+
+
+
+<!-- end _includes/seo.html -->
+
+
+<link href="/feed.xml" type="application/atom+xml" rel="alternate" title="Der Streber Blog Feed">
+
+<!-- https://t.co/dKP3o1e -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<script>
+  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+</script>
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="/assets/css/main.css">
+
+<!--[if IE]>
+  <style>
+    /* old IE unsupported flexbox fixes */
+    .greedy-nav .site-title {
+      padding-right: 3em;
+    }
+    .greedy-nav button {
+      position: absolute;
+      top: 0;
+      right: 0;
+      height: 100%;
+    }
+  </style>
+<![endif]-->
+
+
+
+    <!-- start custom head snippets -->
+
+<!-- insert favicons. use https://realfavicongenerator.net/ -->
+
+<!-- end custom head snippets -->
+
+  </head>
+
+  <body class="layout--single">
+    <nav class="skip-links">
+  <h2 class="screen-reader-text">Skip links</h2>
+  <ul>
+    <li><a href="#site-nav" class="screen-reader-shortcut">Skip to primary navigation</a></li>
+    <li><a href="#main" class="screen-reader-shortcut">Skip to content</a></li>
+    <li><a href="#footer" class="screen-reader-shortcut">Skip to footer</a></li>
+  </ul>
+</nav>
+
+    <!--[if lt IE 9]>
+<div class="notice--danger align-center" style="margin: 0;">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience.</div>
+<![endif]-->
+
+    
+
+<div class="masthead">
+  <div class="masthead__inner-wrap">
+    <div class="masthead__menu">
+      <nav id="site-nav" class="greedy-nav">
+        
+        <a class="site-title" href="/">
+          Der Streber Blog
+          
+        </a>
+        <ul class="visible-links"><li class="masthead__menu-item">
+              <a href="/klasse10/" >Klasse 10</a>
+            </li><li class="masthead__menu-item">
+              <a href="/klasse11/" >Klasse 11</a>
+            </li></ul>
+        
+        <button class="greedy-nav__toggle hidden" type="button">
+          <span class="visually-hidden">Menü ein-/ausschalten</span>
+          <div class="navicon"></div>
+        </button>
+        <ul class="hidden-links hidden"></ul>
+      </nav>
+    </div>
+  </div>
+</div>
+
+
+    <div class="initial-content">
+      
+
+
+
+<script src='https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_CHTML' async></script>
+        <script type="text/x-mathjax-config">
+        MathJax.Hub.Config({tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}});
+        </script>
+
+<div id="main" role="main">
+  
+  <div class="sidebar sticky">
+  
+
+
+<div itemscope itemtype="https://schema.org/Person">
+
+  
+
+  <div class="author__content">
+    
+      <h3 class="author__name" itemprop="name">Adrian</h3>
+    
+    
+      <div class="author__bio" itemprop="description">
+        <p>Schüler am RCL welcher versucht, Zusammenfassungen in den Fächern Mathe, Physik und Chemie in seiner Freizeit zu schreiben</p>
+
+      </div>
+    
+  </div>
+
+  <div class="author__urls-wrapper">
+    <button class="btn btn--inverse">Folgen</button>
+    <ul class="author__urls social-icons">
+      
+        <li itemprop="homeLocation" itemscope itemtype="https://schema.org/Place">
+          <i class="fas fa-fw fa-map-marker-alt" aria-hidden="true"></i> <span itemprop="name">Deutschland</span>
+        </li>
+      
+
+      
+        
+          
+        
+          
+        
+          
+            <li><a href="https://twitter.com/monkischwonki02" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-twitter-square" aria-hidden="true"></i> Twitter</a></li>
+          
+        
+          
+        
+          
+            <li><a href="https://github.com/adrianspieltHD" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-github" aria-hidden="true"></i> GitHub</a></li>
+          
+        
+          
+            <li><a href="https://instagram.com/adrianh0802" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-instagram" aria-hidden="true"></i> Instagram</a></li>
+          
+        
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      <!--
+  <li>
+    <a href="http://link-to-whatever-social-network.com/user/" itemprop="sameAs" rel="nofollow noopener noreferrer">
+      <i class="fas fa-fw" aria-hidden="true"></i> Custom Social Profile Link
+    </a>
+  </li>
+-->
+    </ul>
+  </div>
+</div>
+
+  
+  </div>
+
+
+  <article class="page" itemscope itemtype="https://schema.org/CreativeWork">
+    <meta itemprop="headline" content="Trigonometrische Funktionen">
+    <meta itemprop="description" content="Ich habe jetzt als Winkel den griechischen Buchstaben Lambda ($\lambda$) genommen. Es geht natürlich auch jeder andere Buchstabe.">
+    <meta itemprop="datePublished" content="May 15, 2019">
+    
+
+    <div class="page__inner-wrap">
+      
+        <header>
+          <h1 id="page-title" class="page__title" itemprop="headline">Trigonometrische Funktionen
+</h1>
+          
+            <p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> 
+
+
+
+
+  3 Minuten zum lesen
+
+</p>
+          
+        </header>
+      
+
+      <section class="page__content" itemprop="text">
+        
+          <aside class="sidebar__right sticky">
+            <nav class="toc">
+              <header><h4 class="nav__title"><i class="fas fa-file-alt"></i> Inhalt</h4></header>
+              <ul class="toc__menu">
+  <li><a href="#das-bogenmaß">Das Bogenmaß</a></li>
+  <li><a href="#umrechnungen-von-gradmaß-in-bogenmaß-und-umgekehrt">Umrechnungen von Gradmaß in Bogenmaß und umgekehrt</a>
+    <ul>
+      <li><a href="#vom-gradmaß-ins-bogenmaß">Vom Gradmaß ins Bogenmaß</a></li>
+      <li><a href="#vom-bogenmaß">Vom Bogenmaß</a></li>
+    </ul>
+  </li>
+  <li><a href="#die-sinusfunktion">Die Sinusfunktion</a>
+    <ul>
+      <li><a href="#eigenschaften-der-sinusfunktion">Eigenschaften der Sinusfunktion</a></li>
+      <li><a href="#die-bedeutung-der-parameter-der-sinusfunktion">Die Bedeutung der Parameter der Sinusfunktion</a></li>
+    </ul>
+  </li>
+  <li><a href="#kosinus-und-tangensfunktion">Kosinus und Tangensfunktion</a>
+    <ul>
+      <li><a href="#eigenschaften-der-kosinusfunktion">Eigenschaften der Kosinusfunktion</a></li>
+      <li><a href="#eigenschaften-tangensfunktion">Eigenschaften Tangensfunktion</a></li>
+    </ul>
+  </li>
+</ul>
+            </nav>
+          </aside>
+        
+        <p>Ich habe jetzt als Winkel den griechischen Buchstaben <strong>Lambda</strong> ($\lambda$) genommen. Es geht natürlich auch jeder andere Buchstabe.</p>
+
+<h2 id="das-bogenmaß">Das Bogenmaß</h2>
+
+<p><strong>Das Bogenmaß</strong> ist neben dem sogenannten Gradmaß ein weiteres <strong>Winkelmaß</strong>. Die Maßzahl entspricht der Bogenlänge auf dem Einheitskreis ($r = 1$)</p>
+
+<p>Das Bogenmaß des Winkels $\lambda$ wird mit $arc(\lambda)$ bezeichnet.</p>
+
+<p><strong>Gleichung:</strong><br />
+$arc(\lambda) = \dfrac{\pi*\lambda}{180°}$</p>
+
+<hr />
+
+<h2 id="umrechnungen-von-gradmaß-in-bogenmaß-und-umgekehrt">Umrechnungen von Gradmaß in Bogenmaß und umgekehrt</h2>
+
+<h3 id="vom-gradmaß-ins-bogenmaß">Vom Gradmaß ins Bogenmaß</h3>
+
+<p>Die Formel, um vom Gradmaß ins Bogenmaß zu rechnen, ist wie folgt:</p>
+
+<p>$arc(\lambda) = \dfrac{\pi*\lambda}{180°}$</p>
+
+<h3 id="vom-bogenmaß">Vom Bogenmaß</h3>
+
+<p>Die Formel, um vom Gradmaß ins Bogenmaß umzurechnen, ist die vorherige Funktion, nur ein bisschen umgestellt:</p>
+
+<p>$\lambda = \dfrac{arc(\lambda)*180}{\pi}$</p>
+
+<hr />
+
+<h2 id="die-sinusfunktion">Die Sinusfunktion</h2>
+
+<p>Um sich irgendwie das Bild von der Sinusfunktion machen zu können brauchen wir einen Kreis mit dem Radius von 1. Außerdem haben wir neben dem Einheitskreis einen Punkt P, der sich auf der Kreislinie des Einheitskreises bewegt. Wenn wir jetzt jeder Winkelgröße $\lambda$ den Y-Wert de Punktes P zuordnet, so erhält man eine Periodische Funktion, welche auch die Sinusfunktion genannt wird. Der Graph dieser Funktion, nennt man auch Sinuskurve.</p>
+
+<p>Hier mal eine grafische Sinusfunktion (mit <a href="https://geogebra.org">GeoGebra</a> erstellt):</p>
+
+<p><img src="https://adrian.mvbuddies.de/bilder/mathe10/trifunk/sinus1.PNG" alt="sinus" class="img-responsive" /></p>
+
+<h3 id="eigenschaften-der-sinusfunktion">Eigenschaften der Sinusfunktion</h3>
+
+<p>Natürlich gehört auch zu jeder Funktion eine Reihe an Eigenschaften, die man abarbeiten muss:</p>
+
+<ul>
+  <li><strong>Definitionsbereich:</strong> $x\in\mathbb{R}$</li>
+  <li><strong>Wertebereich:</strong> $[-1;1]$</li>
+  <li>
+    <p><strong>Monotonie:</strong></p>
+  </li>
+  <li>
+    <p>steigend: $-\dfrac{\pi}{2}+2k\pi \leq x \leq \dfrac{\pi}{2}+2k\pi \wedge k \in \mathbb{Z}$</p>
+  </li>
+  <li>
+    <p>fallend: $\dfrac{\pi}{2} + 2k\pi \leq x \leq \dfrac{\pi}{2} + (2k + 1)\pi \wedge k \in \mathbb{Z}$</p>
+  </li>
+  <li><strong>Länge der Periode:</strong> $2\pi$</li>
+  <li><strong>Nullstellen:</strong> $k\pi \wedge k \in \mathbb{Z}$</li>
+</ul>
+
+<p>Wegen der Symmetrie und Periodezität gelten:</p>
+
+<table class="table table-hover">
+    <thead>
+                    <th>Bogenmaß ($k \in \mathbb{Z}$)</th>
+                    <th>Gradmaß ($k \in \mathbb{Z}$)</th>
+    </thead>
+                <tr>
+                    <td>$sin(x+k*2\pi) = sin(x)$</td>
+                    <td>$sin(x+k*360°) = sin(x)$</td>
+                </tr>
+                <tr>
+                    <td>$sin(\pi-x) = sin(x)$</td>
+                    <td>$sin(180°-x) = sin(x)$</td>
+                </tr>
+                <tr>
+                    <td>$sin(-\pi-x) = sin(x)$</td>
+                    <td>$sin(-180°-x) = sin(x)$</td>
+                </tr>
+                <tr>
+                    <td>$sin(\pi+x) = -sin(x)$</td>
+                    <td>$sin(180°+x) = -sin(x)$</td>
+                </tr>
+                <tr>
+                    <td>$sin(-x) = -sin(x)$</td>
+                    <td>$sin(-x) = -sin(x)$</td>
+                </tr>
+            </table>
+
+<p><strong>Beispielaufgaben: $[0 ; 2\pi]$</strong></p>
+
+<p>$sin(x) = 0,9 \quad | arcsin()$</p>
+
+<p>$x_1 \approx 1,1$</p>
+
+<p>$x_2 = \pi - x_1 = \pi - 1,1 = 2,04$</p>
+
+<p><strong>Problem 1:</strong> Es kann aber auch mal sein, dass der erste Wert, den man rausbekommt, nicht im Vorgegebenden Intervall liegt dann muss man folgendes machen:</p>
+
+<p>$sin(x) = -0,8 \quad | arcsin()$</p>
+
+<p>$x = -0,9 \rightarrow entfällt$</p>
+
+<p>$2\pi + x = 2\pi-0,9 = 5,4 = x_1$</p>
+
+<p>$x_2 = \pi - x = \pi + 0,9 = 4,04 $</p>
+
+<p><strong>Erklärung:</strong></p>
+
+<p>Man hat als erstes Ergebnis jetzt den wert $x = -0,9$ rausbekommen. Da dieser nicht im Intervall von $0$ und $2\pi$ liegt, dreht man einfach mit diesem Wert nochmal einen Ganzen Kreis und somit $2\pi$. Somit rechnest du ja einfach zu diesen $0,9$ den Vollwinkel $2\pi$ drauf. Damit kommst du auf ein Ergebnis von ca. $5,4$ was dein erstes Ergebnis ist. Und damit du jetzt noch das zweite Ergebnis ausrechnen kannst, musst du dieses ergebnis jetzt nur noch auf $\pi$ raufrechnen um den für den $x_1$ gegenüberliegenden Winkel rauszufinden.</p>
+
+<p><strong>Problem 2:</strong> Es kann aber auch mal sein, dass es eine Aufgabe wie z.B. $sin(x) = 2$ gibt. Dort musst du denn einfach nur hinschreiben, dass diese Funktion nicht definiert ist</p>
+
+<p><strong>Problem 3:</strong> Natürlich kann es auch sein dass du die Aufgabe $sin(x) = -0,3$ hast und das Intervall wie folgt aussieht: $[0;\pi]$. Wenn dann das erste Ergebnis negativ ist, kannst du ruhig aufhören zu rechnen, da die Sinuskurve niemals in den negativen Bereich gehen wird.</p>
+
+<h3 id="die-bedeutung-der-parameter-der-sinusfunktion">Die Bedeutung der Parameter der Sinusfunktion</h3>
+
+<p><strong>Allgemeine Sinusfunkion:</strong> $f(x) = a*sin(b*(x+c))+d$</p>
+
+<table class="table table-hover">
+                <thead>
+                    <th>Gleichung</th>
+                    <th>Einfluss auf den Graphen</th>
+                </thead>
+                <tr>
+                    <td>$f(x) = a*sin(x)$</td>
+                    <td>$a=]1;\infty]$ : gestreckt in y-Richtung<br />
+                        $a=]0;1[$ : gestaucht in y-Richtung <br />
+                        $a=[-\infty;0[$ : zusätzlich an der x-Achse gespiegelt
+                    </td>
+                </tr>
+                <tr>
+                    <td>$f(x) = sin(bx)$</td>
+                    <td>$b=]0;1[$ : gestreckt in x-Richtung <br />
+                        $b=]1;\infty]$ : gestaucht in x-Richtung</td>
+                </tr>
+                <tr>
+                    <td>$f(x) = sin(x+c)$</td>
+                    <td>$c=[-\infty;0[$ : Verschiebung nach rechts entlang der x-Achse <br />
+                        $c=]0;\infty]$ : Verschiebung nach links entlang der x-Achse</td>
+                </tr>
+                <tr>
+                    <td>$f(x) = sin(x)+d$</td>
+                    <td>$d=]0;\infty]$ : Verschiebung nach oben entlang der y-Achse <br />
+                        $d=[-\infty;0[$ : Verschiebung nach unten entlang der y-Achse</td>
+                </tr>
+            </table>
+
+<p>Da wir jetzt die allgemeine Form kennengelernt haben gelten natürlich auch ein paar andere Eigenschaften um etwas zu berechnen etc. (gilt nur für $f(x) = asin(b(x+c))$)</p>
+
+<ul>
+  <li><strong>Definitionsbereich :</strong> $x \in \mathbb{R}$</li>
+  <li><strong>Wertebereich</strong> : $[-a;a]$</li>
+  <li><strong>Nullstellen</strong> : $x_k = \dfrac{k\pi - c}{b} \wedge k \in \mathbb{Z}$</li>
+  <li><strong>Periode</strong> : $\dfrac{2\pi}{|b|}$</li>
+</ul>
+
+<p>Bei der Funktion mit dem Parameter $d$ muss man ist der <strong>Wertebereich</strong> $[-a+d;a+d]$ und die <strong>Nullstellen</strong> lassen sich wie gewohnt ausrechnen, indem man $f(x) = 0$ setzt.</p>
+
+<hr />
+
+<h2 id="kosinus-und-tangensfunktion">Kosinus und Tangensfunktion</h2>
+
+<h3 id="eigenschaften-der-kosinusfunktion">Eigenschaften der Kosinusfunktion</h3>
+
+<ul>
+  <li><strong>Definitionsbereich</strong> : $x\in\mathbb{R}$</li>
+  <li><strong>Wertebereich</strong> : $[-1;1]$</li>
+  <li><strong>Nullstellen</strong> : $(2k+1)\dfrac{\pi}{2} \wedge k \in \mathbb{Z}$</li>
+  <li><strong>Periode</strong> : $2\pi$</li>
+</ul>
+
+<p>Hier mal eine grafische Kosinusfunktion (mit <a href="https://geogebra.org">GeoGebra</a> erstellt):</p>
+
+<p><img src="https://adrian.mvbuddies.de/bilder/mathe10/trifunk/kosinus.PNG" alt="Kosinus" class="img-responsive" /></p>
+
+<h3 id="eigenschaften-tangensfunktion">Eigenschaften Tangensfunktion</h3>
+
+<ul>
+  <li><strong>Definitionsbereich</strong> : $x \in \mathbb{R} \quad\wedge\quad x \neq (2k + 1)\dfrac{\pi}{2} \wedge$ $k \in \mathbb{Z}$</li>
+  <li><strong>Wertebereich</strong> : $y \in \mathbb{R}$</li>
+  <li><strong>Nullstellen</strong> : $k\pi \wedge k \in \mathbb{Z}$</li>
+  <li><strong>Periode</strong> : $\pi$</li>
+</ul>
+
+<p>Hier mal eine grafische Tangensfunktion (mit <a href="https://geogebra.org">GeoGebra</a> erstellt):</p>
+
+<p><img src="https://adrian.mvbuddies.de/bilder/mathe10/trifunk/tangens.PNG" alt="Tangens" class="img-responsive" /></p>
+
+        
+      </section>
+
+      <footer class="page__meta">
+        
+        
+
+
+  
+
+        
+          <p class="page__date"><strong><i class="fas fa-fw fa-calendar-alt" aria-hidden="true"></i> Aktualisiert:</strong> <time datetime="2019-05-15T00:00:00+02:00">May 15, 2019</time></p>
+        
+      </footer>
+
+      
+
+      
+  <nav class="pagination">
+    
+      <a href="/klasse10/mathe/trigonometrie/" class="pagination--pager" title="Trigonometrie
+">Vorherige</a>
+    
+    
+      <a href="/klasse11/physik/mechanik11/" class="pagination--pager" title="Mechanik Klasse 11
+">Nächste</a>
+    
+  </nav>
+
+    </div>
+
+    
+  </article>
+
+  
+  
+    <div class="page__related">
+      <h4 class="page__related-title">Ihnen gefällt vielleicht auch</h4>
+      <div class="grid__wrapper">
+        
+          
+
+
+
+<div class="grid__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+    <h2 class="archive__item-title" itemprop="headline">
+      
+        <a href="/klasse11/mathematik/kurvendiskussion/" rel="permalink">Kurvendiskussion
+</a>
+      
+    </h2>
+    
+      <p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> 
+
+
+
+
+  7 Minuten zum lesen
+
+</p>
+    
+    <p class="archive__item-excerpt" itemprop="description">1. Der Definitionsbereich
+</p>
+  </article>
+</div>
+
+        
+          
+
+
+
+<div class="grid__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+    <h2 class="archive__item-title" itemprop="headline">
+      
+        <a href="/klasse11/physik/mechanik11/" rel="permalink">Mechanik Klasse 11
+</a>
+      
+    </h2>
+    
+      <p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> 
+
+
+
+
+  2 Minuten zum lesen
+
+</p>
+    
+    <p class="archive__item-excerpt" itemprop="description">1. Kräfte in einer geneigten Ebene
+</p>
+  </article>
+</div>
+
+        
+          
+
+
+
+<div class="grid__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+    <h2 class="archive__item-title" itemprop="headline">
+      
+        <a href="/klasse10/mathe/trigonometrie/" rel="permalink">Trigonometrie
+</a>
+      
+    </h2>
+    
+      <p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> 
+
+
+
+
+  2 Minuten zum lesen
+
+</p>
+    
+    <p class="archive__item-excerpt" itemprop="description">Alle Formeln, die ich hier schreibe, stehen auch nochmal im Tafelwerk auf Seite 19 (Pythagoras) und 26-27
+</p>
+  </article>
+</div>
+
+        
+          
+
+
+
+<div class="grid__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+    <h2 class="archive__item-title" itemprop="headline">
+      
+        <a href="/klasse10/chemie/alkohole/" rel="permalink">Alkohole
+</a>
+      
+    </h2>
+    
+      <p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> 
+
+
+
+
+  2 Minuten zum lesen
+
+</p>
+    
+    <p class="archive__item-excerpt" itemprop="description">Trinkalkohol als wichtiger Vertreter - Eigenschaften &amp; Molekülbau
+</p>
+  </article>
+</div>
+
+        
+      </div>
+    </div>
+  
+  
+</div>
+
+    </div>
+
+    
+
+    <div id="footer" class="page__footer">
+      <footer>
+        <!-- start custom footer snippets -->
+
+<!-- end custom footer snippets -->
+        <div class="page__footer-follow">
+  <ul class="social-icons">
+    
+      <li><strong>Folgen:</strong></li>
+    
+
+    
+      
+        
+          <li><a href="https://twitter.com/monkischwonki02" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-twitter-square" aria-hidden="true"></i> Twitter</a></li>
+        
+      
+        
+      
+        
+          <li><a href="https://github.com/adrianspieltHD" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-github" aria-hidden="true"></i> GitHub</a></li>
+        
+      
+        
+      
+        
+      
+        
+          <li><a href="https://instagram.com/adrianh0802" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-instagram" aria-hidden="true"></i> Instagram</a></li>
+        
+      
+    
+
+    <li><a href="/feed.xml"><i class="fas fa-fw fa-rss-square" aria-hidden="true"></i> Feed</a></li>
+  </ul>
+</div>
+
+<div class="page__footer-copyright">&copy; 2019 Adrian H.. Möglich durch <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
+
+      </footer>
+    </div>
+
+    
+  <script src="/assets/js/main.min.js"></script>
+  <script src="https://kit.fontawesome.com/4eee35f757.js"></script>
+
+
+
+
+
+
+
+
+
+
+  </body>
+</html>

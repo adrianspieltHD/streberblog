@@ -1,0 +1,770 @@
+<!doctype html>
+<!--
+  Minimal Mistakes Jekyll Theme 4.17.1 by Michael Rose
+  Copyright 2013-2019 Michael Rose - mademistakes.com | @mmistakes
+  Free for personal and commercial use under the MIT license
+  https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE
+-->
+<html lang="de" class="no-js">
+  <head>
+    <meta charset="utf-8">
+
+<!-- begin _includes/seo.html --><title>Mechanik Klasse 11 - Der Streber Blog</title>
+<meta name="description" content="1. Kräfte in einer geneigten Ebene">
+
+
+  <meta name="author" content="Adrian">
+
+
+<meta property="og:type" content="article">
+<meta property="og:locale" content="de_DE">
+<meta property="og:site_name" content="Der Streber Blog">
+<meta property="og:title" content="Mechanik Klasse 11">
+<meta property="og:url" content="/klasse11/physik/mechanik11/">
+
+
+  <meta property="og:description" content="1. Kräfte in einer geneigten Ebene">
+
+
+
+
+
+  <meta name="twitter:site" content="@monkischonki02">
+  <meta name="twitter:title" content="Mechanik Klasse 11">
+  <meta name="twitter:description" content="1. Kräfte in einer geneigten Ebene">
+  <meta name="twitter:url" content="/klasse11/physik/mechanik11/">
+
+  
+    <meta name="twitter:card" content="summary">
+    
+  
+
+  
+
+
+
+  <meta property="article:published_time" content="2019-11-27T00:00:00+01:00">
+
+
+
+
+
+  
+
+  
+
+
+<link rel="canonical" href="/klasse11/physik/mechanik11/">
+
+
+
+
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    
+      "@type": "Person",
+      "name": "Adrian H.",
+      "url": "/"
+    
+  }
+</script>
+
+
+
+
+
+
+<!-- end _includes/seo.html -->
+
+
+<link href="/feed.xml" type="application/atom+xml" rel="alternate" title="Der Streber Blog Feed">
+
+<!-- https://t.co/dKP3o1e -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<script>
+  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+</script>
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="/assets/css/main.css">
+
+<!--[if IE]>
+  <style>
+    /* old IE unsupported flexbox fixes */
+    .greedy-nav .site-title {
+      padding-right: 3em;
+    }
+    .greedy-nav button {
+      position: absolute;
+      top: 0;
+      right: 0;
+      height: 100%;
+    }
+  </style>
+<![endif]-->
+
+
+
+    <!-- start custom head snippets -->
+
+<!-- insert favicons. use https://realfavicongenerator.net/ -->
+
+<!-- end custom head snippets -->
+
+  </head>
+
+  <body class="layout--single">
+    <nav class="skip-links">
+  <h2 class="screen-reader-text">Skip links</h2>
+  <ul>
+    <li><a href="#site-nav" class="screen-reader-shortcut">Skip to primary navigation</a></li>
+    <li><a href="#main" class="screen-reader-shortcut">Skip to content</a></li>
+    <li><a href="#footer" class="screen-reader-shortcut">Skip to footer</a></li>
+  </ul>
+</nav>
+
+    <!--[if lt IE 9]>
+<div class="notice--danger align-center" style="margin: 0;">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience.</div>
+<![endif]-->
+
+    
+
+<div class="masthead">
+  <div class="masthead__inner-wrap">
+    <div class="masthead__menu">
+      <nav id="site-nav" class="greedy-nav">
+        
+        <a class="site-title" href="/">
+          Der Streber Blog
+          
+        </a>
+        <ul class="visible-links"><li class="masthead__menu-item">
+              <a href="/klasse10/" >Klasse 10</a>
+            </li><li class="masthead__menu-item">
+              <a href="/klasse11/" >Klasse 11</a>
+            </li></ul>
+        
+        <button class="greedy-nav__toggle hidden" type="button">
+          <span class="visually-hidden">Menü ein-/ausschalten</span>
+          <div class="navicon"></div>
+        </button>
+        <ul class="hidden-links hidden"></ul>
+      </nav>
+    </div>
+  </div>
+</div>
+
+
+    <div class="initial-content">
+      
+
+
+
+<script src='https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_CHTML' async></script>
+        <script type="text/x-mathjax-config">
+        MathJax.Hub.Config({tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}});
+        </script>
+
+<div id="main" role="main">
+  
+  <div class="sidebar sticky">
+  
+
+
+<div itemscope itemtype="https://schema.org/Person">
+
+  
+
+  <div class="author__content">
+    
+      <h3 class="author__name" itemprop="name">Adrian</h3>
+    
+    
+      <div class="author__bio" itemprop="description">
+        <p>Schüler am RCL welcher versucht, Zusammenfassungen in den Fächern Mathe, Physik und Chemie in seiner Freizeit zu schreiben</p>
+
+      </div>
+    
+  </div>
+
+  <div class="author__urls-wrapper">
+    <button class="btn btn--inverse">Folgen</button>
+    <ul class="author__urls social-icons">
+      
+        <li itemprop="homeLocation" itemscope itemtype="https://schema.org/Place">
+          <i class="fas fa-fw fa-map-marker-alt" aria-hidden="true"></i> <span itemprop="name">Deutschland</span>
+        </li>
+      
+
+      
+        
+          
+        
+          
+        
+          
+            <li><a href="https://twitter.com/monkischwonki02" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-twitter-square" aria-hidden="true"></i> Twitter</a></li>
+          
+        
+          
+        
+          
+            <li><a href="https://github.com/adrianspieltHD" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-github" aria-hidden="true"></i> GitHub</a></li>
+          
+        
+          
+            <li><a href="https://instagram.com/adrianh0802" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-instagram" aria-hidden="true"></i> Instagram</a></li>
+          
+        
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      <!--
+  <li>
+    <a href="http://link-to-whatever-social-network.com/user/" itemprop="sameAs" rel="nofollow noopener noreferrer">
+      <i class="fas fa-fw" aria-hidden="true"></i> Custom Social Profile Link
+    </a>
+  </li>
+-->
+    </ul>
+  </div>
+</div>
+
+  
+  </div>
+
+
+  <article class="page" itemscope itemtype="https://schema.org/CreativeWork">
+    <meta itemprop="headline" content="Mechanik Klasse 11">
+    <meta itemprop="description" content="1. Kräfte in einer geneigten Ebene">
+    <meta itemprop="datePublished" content="November 27, 2019">
+    
+
+    <div class="page__inner-wrap">
+      
+        <header>
+          <h1 id="page-title" class="page__title" itemprop="headline">Mechanik Klasse 11
+</h1>
+          
+            <p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> 
+
+
+
+
+  2 Minuten zum lesen
+
+</p>
+          
+        </header>
+      
+
+      <section class="page__content" itemprop="text">
+        
+          <aside class="sidebar__right sticky">
+            <nav class="toc">
+              <header><h4 class="nav__title"><i class="fas fa-file-alt"></i> Inhalt</h4></header>
+              <ul class="toc__menu">
+  <li><a href="#1-kräfte-in-einer-geneigten-ebene">1. Kräfte in einer geneigten Ebene</a></li>
+  <li><a href="#2-mechanische-arbeit-und-energie">2. mechanische Arbeit und Energie</a>
+    <ul>
+      <li><a href="#21-gleichungen-zum-berechnen-der-größen">2.1 Gleichungen zum Berechnen der Größen</a></li>
+    </ul>
+  </li>
+  <li><a href="#3-die-leistung">3. Die Leistung</a></li>
+  <li><a href="#4-der-impuls">4. Der Impuls</a>
+    <ul>
+      <li><a href="#41-der-impulserhaltungssatz">4.1 Der Impulserhaltungssatz</a></li>
+    </ul>
+  </li>
+  <li><a href="#5-der-kraftstoß">5. Der Kraftstoß</a></li>
+  <li><a href="#6-gerade-zentrale-stöße">6. gerade zentrale Stöße</a>
+    <ul>
+      <li><a href="#61-unelastischer-stoß">6.1 unelastischer Stoß</a></li>
+      <li><a href="#62-elastischer-stoß">6.2 elastischer Stoß</a></li>
+    </ul>
+  </li>
+  <li><a href="#7-ermittlung-der-geschossgeschwindigkeit-ballistisches-pendel">7. Ermittlung der Geschossgeschwindigkeit (ballistisches Pendel)</a></li>
+  <li><a href="#8-thermodynamik">8. Thermodynamik</a>
+    <ul>
+      <li><a href="#81-phy-größe-temperatur">8.1 phy. Größe: Temperatur</a></li>
+      <li><a href="#82-phy-größe-innere-energie">8.2 phy. Größe: innere Energie</a></li>
+      <li><a href="#83-phy-größe-wärme">8.3 phy. Größe: Wärme</a></li>
+    </ul>
+  </li>
+</ul>
+            </nav>
+          </aside>
+        
+        <h1 id="1-kräfte-in-einer-geneigten-ebene">1. Kräfte in einer geneigten Ebene</h1>
+
+<p><strong>Beispiel:</strong>   Neigung/Gefälle von 8% -&gt; auf eine waagerechte Entfernung von 100m kommt ein Höhenunterschied von 8m
+                -&gt; $tan(\alpha) = \dfrac{8}{100} = 0,08$
+                -&gt; $\alpha = arctan(0,08)$</p>
+
+<p><img src="https://adrian.mvbuddies.de/bilder/physik11/mechanik/ebene.jpg" alt="gen_ebene" /></p>
+
+<p>$tan(\alpha) = \dfrac{h}{b}$</p>
+
+<p>$sin(\alpha) = \dfrac{h}{l}$</p>
+
+<p>$\cos(\alpha) = \dfrac{b}{l}$</p>
+
+<ul>
+  <li>$F_G$ <strong>Gewichtskraft:</strong> senkrecht nach unten gerichtet</li>
+  <li>$F_H$ <strong>Hangabtriebskraft:</strong> parallel zur geneigten Ebene</li>
+  <li>$F_N$ <strong>Normalkraft:</strong> senkrecht zur Auflage</li>
+</ul>
+
+<p>–&gt; $F_G$ ist die resultierende aus $F_H$ und $F_N$</p>
+
+<p>Und die Hangabriebskraft und die Normalkraft kann man jetzt berechnen:</p>
+
+<p>$F_N = cos(\alpha)*F_G$</p>
+
+<p>$F_H = sin(\alpha)*F_G$</p>
+
+<p>Und man kann jetzt auch Beziehungen zwischen dem Kräfteparallelogramm und dem großen Dreieck herrstellen.</p>
+
+<ul>
+  <li>$\dfrac{F_H}{F_N} = \dfrac{h}{b}$</li>
+  <li>$\dfrac{F_H}{F_G} = \dfrac{h}{l}$</li>
+  <li>$\dfrac{F_G}{F_N} = \dfrac{l}{b}$</li>
+</ul>
+
+<hr />
+
+<h1 id="2-mechanische-arbeit-und-energie">2. mechanische Arbeit und Energie</h1>
+
+<p><strong>Energie</strong> ist die Fähigkeit eines Körpers, Arbeit zu verrichten, Wärme abzugeben oder Strahlung abzugeben</p>
+
+<ul>
+  <li>Formelzeichen: $E$</li>
+  <li>Einheit: $1J$</li>
+</ul>
+
+<p><strong>Arbeit</strong> wird verrichtet, wenn ein Körper durch eine Kraft verformt oder Bewegt wird</p>
+
+<ul>
+  <li>Formelzeichen: $W$</li>
+  <li>Einheit: $1Nm$</li>
+</ul>
+
+<p><strong>Der Betrag der verrichteten Arbeit entspricht dem Betrag der Energieänderung ($W = \Delta E)$</strong></p>
+
+<p>–&gt; $1J = 1Nm$</p>
+
+<h2 id="21-gleichungen-zum-berechnen-der-größen">2.1 Gleichungen zum Berechnen der Größen</h2>
+
+<p><strong>Energie:</strong></p>
+<ul>
+  <li>Potenzielle Energie: $E_{pot} = mgh$</li>
+  <li>kinetische Energie: $E_{kin} = \dfrac{1}{2}mv^2$</li>
+</ul>
+
+<p><strong>Arbeit:</strong></p>
+<ul>
+  <li>Hubarbeit: $W_{hub} = mg(h_1-h_2)$</li>
+  <li>Beschleunigungsarbeit: $W_{bes} = \dfrac{1}{2}m(v_1^2-v_2^2)$</li>
+  <li>Federspannarbeit: $W_{fsp} = \dfrac{1}{2}D*s^2$</li>
+</ul>
+
+<p>Im Allgemeinen kann man zur Arbeit sagen:</p>
+
+<p>$W = F*s$</p>
+
+<hr />
+<h1 id="3-die-leistung">3. Die Leistung</h1>
+
+<ul>
+  <li>Formelzeichen: $P$</li>
+  <li>Einheit: $1W$</li>
+  <li>Gleichung: $P = \dfrac{W}{t} = \dfrac{F*s}{t} = Fv$</li>
+</ul>
+
+<hr />
+<h1 id="4-der-impuls">4. Der Impuls</h1>
+
+<ul>
+  <li>Bedeutung: Beschreibung des Bewegungszustandes eines Körpers mit einer Masse $m$ und einer Geschwindigkeit $v$</li>
+  <li>Formelzeichen: $p$</li>
+  <li>Einheit: $\dfrac{kg*m}{s}$</li>
+  <li>Gleichung: $p = m*v$</li>
+</ul>
+
+<h2 id="41-der-impulserhaltungssatz">4.1 Der Impulserhaltungssatz</h2>
+
+<p>In einem (auf Kräfte bezogen) abgeschlossenen System bleibt der Gesamtimpuls immer erhalten</p>
+
+<p>$p_1 = p_2$ –&gt; $m_1v_1 = m_2v_2$</p>
+
+<hr />
+<h1 id="5-der-kraftstoß">5. Der Kraftstoß</h1>
+
+<p>Einwirkung einer konstanten Kraft auf einen Körper über einen sehr kleinen Zeitraum</p>
+
+<ul>
+  <li>Formelzeichen: $I$</li>
+  <li>Gleichung: $I = F*\Delta t$</li>
+  <li>Einheit: $1 Ns$</li>
+</ul>
+
+<p>Zusammenhang zwischen Kraftstoß und Impuls:</p>
+
+<p>$F\Delta t = m*a\Delta t = m\dfrac{\Delta v}{\Delta t}\Delta t$</p>
+
+<p>$F\Delta t = m*\Delta v$</p>
+
+<p>$F\Delta t = \Delta p$</p>
+
+<hr />
+<h1 id="6-gerade-zentrale-stöße">6. gerade zentrale Stöße</h1>
+
+<h2 id="61-unelastischer-stoß">6.1 unelastischer Stoß</h2>
+<ul>
+  <li>beide Körper bewegen sich nach dem Stoß gemeinsam weiter</li>
+</ul>
+
+<p>–&gt; Energieerhaltungssatz der Mechanik gilt nicht (ein Teil der kinetischen Energie wird in Wärme umgewandelt)</p>
+
+<ul>
+  <li>Geschwindigkeit nach dem Stoß: $u = \dfrac{m_1v_1+m_2v_2}{m_1+m_2}$</li>
+</ul>
+
+<h2 id="62-elastischer-stoß">6.2 elastischer Stoß</h2>
+<ul>
+  <li>jeder der beiden Körper bewegt sich nach dem Stoß mit seiner eigenen Geschwindigkeit weiter</li>
+</ul>
+
+<p>–&gt; Energieerhaltungssatz der Mechanik gilt</p>
+
+<ul>
+  <li>Geschwindigkeit nach dem Stoß 1: $u_1 = \dfrac{(m_1-m_2)v_1+2m_2v_2}{m_1+m_2}$</li>
+  <li>
+    <p>Geschwindigkeit nach dem Stoß 2: $u_2 = \dfrac{(m_2-m_1)v_2+2m_1v_1}{m_1+m_2}$</p>
+  </li>
+  <li>Zudem gilt auch: $v_1+u_1 = v_2+u_2$</li>
+</ul>
+
+<hr />
+<h1 id="7-ermittlung-der-geschossgeschwindigkeit-ballistisches-pendel">7. Ermittlung der Geschossgeschwindigkeit (ballistisches Pendel)</h1>
+
+<p><img src="https://adrian.mvbuddies.de/bilder/physik11/mechanik/ball_pendel.jpg" alt="bild_pendel" /></p>
+
+<p><strong>Impulserhaltungssatz</strong></p>
+
+<p>$m_Gv_G = m_{K+G}v_{K+G}$</p>
+
+<p>$v_G = \dfrac{m_{K+G}v_{K+G}}{m_G}$</p>
+
+<p><strong>Energieerhaltungssatz</strong></p>
+
+<p>$\dfrac{1}{2}m_{K+G}*v_{K+G}^2 = m_{K+G}gh$</p>
+
+<p>$v_{K+G} = \sqrt{2gh}$</p>
+
+<p>-&gt; Einsetzen: $v_G = \dfrac{m_{K+G}}{m_G}*\sqrt{2gh}$</p>
+
+<hr />
+<h1 id="8-thermodynamik">8. Thermodynamik</h1>
+
+<h2 id="81-phy-größe-temperatur">8.1 phy. Größe: Temperatur</h2>
+<ul>
+  <li>Bedeutung: gibt an, wie warm oder kalt ein Körper ist (Temperatur)</li>
+  <li>Formelzeichen: $ϑ$ oder $T$</li>
+  <li>Einheit: $1°C$ oder $1K$</li>
+</ul>
+
+<h2 id="82-phy-größe-innere-energie">8.2 phy. Größe: innere Energie</h2>
+<ul>
+  <li>Bedeutung: gibt die in einem System gespeicherte Energie an</li>
+  <li>Formelzeichen: u</li>
+</ul>
+
+<h2 id="83-phy-größe-wärme">8.3 phy. Größe: Wärme</h2>
+<ul>
+  <li>Bedeutung: gibt an, wie viel thermische Energie von einem System auf ein anderes übertragen wird</li>
+  <li>Formelzeichen: $Q$</li>
+  <li>Einheit: $1J$</li>
+  <li>Gleichung: $Q = mc\Delta T$ oder $Q = mc\Delta ϑ$</li>
+</ul>
+
+<p><strong>Betrachtung und Umrechung von Einheiten</strong></p>
+<ul>
+  <li>$1J = 1Ws$</li>
+  <li>$100Ws = 1kWs$</li>
+  <li>$3600kWs = 1kWh$</li>
+</ul>
+
+
+        
+      </section>
+
+      <footer class="page__meta">
+        
+        
+
+
+  
+
+        
+          <p class="page__date"><strong><i class="fas fa-fw fa-calendar-alt" aria-hidden="true"></i> Aktualisiert:</strong> <time datetime="2019-11-27T00:00:00+01:00">November 27, 2019</time></p>
+        
+      </footer>
+
+      
+
+      
+  <nav class="pagination">
+    
+      <a href="/klasse10/mathe/trigonometrische-funktionen/" class="pagination--pager" title="Trigonometrische Funktionen
+">Vorherige</a>
+    
+    
+      <a href="/klasse11/mathematik/kurvendiskussion/" class="pagination--pager" title="Kurvendiskussion
+">Nächste</a>
+    
+  </nav>
+
+    </div>
+
+    
+  </article>
+
+  
+  
+    <div class="page__related">
+      <h4 class="page__related-title">Ihnen gefällt vielleicht auch</h4>
+      <div class="grid__wrapper">
+        
+          
+
+
+
+<div class="grid__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+    <h2 class="archive__item-title" itemprop="headline">
+      
+        <a href="/klasse11/mathematik/kurvendiskussion/" rel="permalink">Kurvendiskussion
+</a>
+      
+    </h2>
+    
+      <p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> 
+
+
+
+
+  7 Minuten zum lesen
+
+</p>
+    
+    <p class="archive__item-excerpt" itemprop="description">1. Der Definitionsbereich
+</p>
+  </article>
+</div>
+
+        
+          
+
+
+
+<div class="grid__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+    <h2 class="archive__item-title" itemprop="headline">
+      
+        <a href="/klasse10/mathe/trigonometrische-funktionen/" rel="permalink">Trigonometrische Funktionen
+</a>
+      
+    </h2>
+    
+      <p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> 
+
+
+
+
+  3 Minuten zum lesen
+
+</p>
+    
+    <p class="archive__item-excerpt" itemprop="description">Ich habe jetzt als Winkel den griechischen Buchstaben Lambda ($\lambda$) genommen. Es geht natürlich auch jeder andere Buchstabe.
+</p>
+  </article>
+</div>
+
+        
+          
+
+
+
+<div class="grid__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+    <h2 class="archive__item-title" itemprop="headline">
+      
+        <a href="/klasse10/mathe/trigonometrie/" rel="permalink">Trigonometrie
+</a>
+      
+    </h2>
+    
+      <p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> 
+
+
+
+
+  2 Minuten zum lesen
+
+</p>
+    
+    <p class="archive__item-excerpt" itemprop="description">Alle Formeln, die ich hier schreibe, stehen auch nochmal im Tafelwerk auf Seite 19 (Pythagoras) und 26-27
+</p>
+  </article>
+</div>
+
+        
+          
+
+
+
+<div class="grid__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+    <h2 class="archive__item-title" itemprop="headline">
+      
+        <a href="/klasse10/chemie/alkohole/" rel="permalink">Alkohole
+</a>
+      
+    </h2>
+    
+      <p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> 
+
+
+
+
+  2 Minuten zum lesen
+
+</p>
+    
+    <p class="archive__item-excerpt" itemprop="description">Trinkalkohol als wichtiger Vertreter - Eigenschaften &amp; Molekülbau
+</p>
+  </article>
+</div>
+
+        
+      </div>
+    </div>
+  
+  
+</div>
+
+    </div>
+
+    
+
+    <div id="footer" class="page__footer">
+      <footer>
+        <!-- start custom footer snippets -->
+
+<!-- end custom footer snippets -->
+        <div class="page__footer-follow">
+  <ul class="social-icons">
+    
+      <li><strong>Folgen:</strong></li>
+    
+
+    
+      
+        
+          <li><a href="https://twitter.com/monkischwonki02" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-twitter-square" aria-hidden="true"></i> Twitter</a></li>
+        
+      
+        
+      
+        
+          <li><a href="https://github.com/adrianspieltHD" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-github" aria-hidden="true"></i> GitHub</a></li>
+        
+      
+        
+      
+        
+      
+        
+          <li><a href="https://instagram.com/adrianh0802" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-instagram" aria-hidden="true"></i> Instagram</a></li>
+        
+      
+    
+
+    <li><a href="/feed.xml"><i class="fas fa-fw fa-rss-square" aria-hidden="true"></i> Feed</a></li>
+  </ul>
+</div>
+
+<div class="page__footer-copyright">&copy; 2019 Adrian H.. Möglich durch <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
+
+      </footer>
+    </div>
+
+    
+  <script src="/assets/js/main.min.js"></script>
+  <script src="https://kit.fontawesome.com/4eee35f757.js"></script>
+
+
+
+
+
+
+
+
+
+
+  </body>
+</html>

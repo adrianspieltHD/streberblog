@@ -1,0 +1,1495 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2019-12-05T19:15:41+01:00</updated><id>/feed.xml</id><title type="html">Der Streber Blog</title><subtitle>Schulzusammenfassungen in Mathe, Physik, Chemie am RCL</subtitle><author><name>Adrian</name></author><entry><title type="html">Kurvendiskussion</title><link href="/klasse11/mathematik/kurvendiskussion/" rel="alternate" type="text/html" title="Kurvendiskussion" /><published>2019-12-04T00:00:00+01:00</published><updated>2019-12-04T00:00:00+01:00</updated><id>/klasse11/mathematik/kurvendiskussion</id><content type="html" xml:base="/klasse11/mathematik/kurvendiskussion/">&lt;h1 id=&quot;1-der-definitionsbereich&quot;&gt;1. Der Definitionsbereich&lt;/h1&gt;
+
+&lt;p&gt;Der Definitionsbereich einer Funktion gibt an, welche x-Werte einer Menge auf eine Zielmenge abgebildet werden können. (Ich weiß nicht, ob man das so richtig formulieren kann)&lt;/p&gt;
+
+&lt;p&gt;Bei &lt;strong&gt;ganzrationalen Funktionen&lt;/strong&gt; ist dies immer $x \in \mathbb{R}$&lt;/p&gt;
+
+&lt;p&gt;Bei Funktionen mit einem Bruch wie zum Beispiel $f(x) = \dfrac{x^2+4}{x-2}$ ist es allerdings nicht gleich $x \in \mathbb{R}$ da bei der 2 im Nenner des Bruches eine 0 stehen würde und durch 0 darf man ja nicht teilen, wenn man ein bisschen in der Schule aufpasst.&lt;/p&gt;
+
+&lt;p&gt;Deswegen sieht das ganze jetzt für den Definitionsbereich so aus: $x \in \mathbb{R},x≠2$&lt;/p&gt;
+
+&lt;hr /&gt;
+&lt;h1 id=&quot;2-der-wertebereich&quot;&gt;2. Der Wertebereich&lt;/h1&gt;
+
+&lt;p&gt;Der Wertebereich einer Funktion gibt an, welche y-Werte die Funktion annehmen kann.&lt;/p&gt;
+
+&lt;p&gt;Bei $f(x) = x^3$ ist es zum Beispiel $y \in \mathbb{R}$&lt;/p&gt;
+
+&lt;p&gt;Bei $f(x) = x^2$ ist es aber $y \in \mathbb{R}, y \geq 0$&lt;/p&gt;
+
+&lt;hr /&gt;
+&lt;h1 id=&quot;3-die-symmetrie&quot;&gt;3. Die Symmetrie&lt;/h1&gt;
+
+&lt;p&gt;Es gibt zwei Arten von Symmetrien zu untersuchen:&lt;/p&gt;
+
+&lt;h2 id=&quot;31-achsensymmetrie&quot;&gt;3.1 Achsensymmetrie&lt;/h2&gt;
+
+&lt;p&gt;Wenn man von der Funktion $f(x)$ jetzt $f(-x)$ bildet und dort dann wieder die Ursprungsfunktion $f(x)$ rauskommt, dann haben wir eine Achsensymmetrie an der Stellen $x=0$ (y-Achse) vorliegen.&lt;/p&gt;
+
+&lt;h2 id=&quot;32-punktsymmetrie&quot;&gt;3.2 Punktsymmetrie&lt;/h2&gt;
+
+&lt;p&gt;Wenn man von der Funktion $f(x)$ jetzt $f(-x)$ und dort jetzt die Ursprungsfunktion nur mit dem jeweils anderen Vorzeichen $-f(x)$ rauskommt, dann ist es eine Punktsymmetrie am Punkt $O(0/0)$&lt;/p&gt;
+
+&lt;hr /&gt;
+&lt;h1 id=&quot;4-nullstellen-und-schnittpunkt-mit-der-x-achse&quot;&gt;4. Nullstellen und Schnittpunkt mit der X-Achse&lt;/h1&gt;
+
+&lt;p&gt;Nullstellen berechnet man, indem man immer als erstes die Funktion gleich 0 setzt ($f(x) = 0$). Danach gibt es verschiedene Lösungsverfahren und Arten von Funktionen, welche man nehmen oder vorfinden kann.&lt;/p&gt;
+
+&lt;h2 id=&quot;41-ganzrationale-funktion&quot;&gt;4.1 ganzrationale Funktion&lt;/h2&gt;
+
+&lt;p&gt;Bei einer Ganzrationalen Funktion können wir verschiedene Wege gehen, um auf ein Ergebniss zu kommen.&lt;/p&gt;
+
+&lt;p&gt;zum einen wäre dort:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Polynomdivision&lt;/li&gt;
+  &lt;li&gt;Ausklammern eines/mehrerer x (wenn kein absolutes Glied vorhanden ist)&lt;/li&gt;
+  &lt;li&gt;Substitution (biquadratische Funktionen ($f(x) = ax^4+bx^2+c$))&lt;/li&gt;
+  &lt;li&gt;Bei quadr. Funktionen: abc- oder pq-Formel&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id=&quot;42-wurzelfunktionen-potenzfunktion-mit-gebrochenem-exponenten&quot;&gt;4.2 Wurzelfunktionen (Potenzfunktion mit gebrochenem Exponenten)&lt;/h2&gt;
+
+&lt;p&gt;Was man sich bei den Wurzelfunktionen eigentlich nur merken muss ist, dass die Umkehrung von einer $\sqrt{a}$ das $a²$ (a -&amp;gt; irgendeine Zahl) ist.&lt;/p&gt;
+
+&lt;p&gt;Mit dem Quadrieren wird die Wurzel in dem Term aufgehoben.&lt;/p&gt;
+
+&lt;p&gt;Aber Achtung!:&lt;/p&gt;
+
+&lt;p&gt;Es könnten die binomischen Formeln vertreten. Deswegen schön auswendig lernen oder diese im Tafelwerk nachschlagen.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Die Ergebnisse nach dem Ausrechnen nochmal zu einer Probe in die Ausgangsgleichung einsetzen, wenn 0 rauskommt -&amp;gt; Nullstelle&lt;/strong&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;43-exponentialfunktionen&quot;&gt;4.3 Exponentialfunktionen&lt;/h2&gt;
+
+&lt;p&gt;Um eine Exponentialfunktion aufzuheben benötigen wir den sogenannten Logarithmus. Der Logarithmus, welcher verwendet werden muss, sagt uns die Basis, welcher das x im Exponenten hat. Hier mal ein Beispiel: (Das X ist nur ein Platzhalter)&lt;/p&gt;
+
+&lt;p&gt;$10^x -&amp;gt; log_{10}(x)$&lt;/p&gt;
+
+&lt;p&gt;Also um die Basis 10 bei der Exponentialfunktion loszuwerden, musst du den Logarithmus zur Basis 10 nehmen, damit das x dann alleine steht.&lt;/p&gt;
+
+&lt;p&gt;Eine kleine Sache noch:&lt;/p&gt;
+
+&lt;p&gt;$a^x \quad a \in \mathbb{R}, a≠0 ​$ –&amp;gt; es gibt keine Nullstellen&lt;/p&gt;
+
+&lt;h2 id=&quot;44-logarithmusfunktionen&quot;&gt;4.4 Logarithmusfunktionen&lt;/h2&gt;
+
+&lt;p&gt;Wenn wir gerade schon von Logarithmus geredet haben, kommen wir jetzt dazu. Um den Logarithmus aufzuheben, müssen wir eine den Logarithmus als Exponent zur Basis nehmen, welcher der Logarithmus hat. Hier ein Beispiel: (Das X ist nur ein Platzhalter)&lt;/p&gt;
+
+&lt;p&gt;$log_{10}(x) –&amp;gt; 10^x$&lt;/p&gt;
+
+&lt;p&gt;Zudem gilt:&lt;/p&gt;
+
+&lt;p&gt;$log_a(x) \quad a \in \mathbb{R}, a &amp;gt; 0$ –&amp;gt; Nullstelle bei $x = 1$&lt;/p&gt;
+
+&lt;h2 id=&quot;45-trigonometrische-funktionen&quot;&gt;4.5 Trigonometrische Funktionen&lt;/h2&gt;
+
+&lt;p&gt;Zu den Trigonometrischen Funktionen habe ich schon mal eine kleine (Zusammenfassung)[] erstellt. Hier geht es jetzt nur darum, wie man die Substitution bei einer Aufgabe macht.&lt;/p&gt;
+
+&lt;p&gt;Beispiel $[-\pi;2\pi]$:&lt;/p&gt;
+
+&lt;p&gt;$f(x) = 3sin(x+1)+2$&lt;/p&gt;
+
+&lt;p&gt;–&amp;gt; bis $sin(x+1)$ umstellen&lt;/p&gt;
+
+&lt;p&gt;$-\dfrac{1}{3} = sin(x+1)$&lt;/p&gt;
+
+&lt;p&gt;-&amp;gt; x+1 durch z.B. z ersetzen&lt;/p&gt;
+
+&lt;p&gt;$-\dfrac{1}{3} = sin(z)$&lt;/p&gt;
+
+&lt;p&gt;alle z-Werte für das Intervall ausrechnen&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;$z_1 = -0.34$&lt;/li&gt;
+  &lt;li&gt;$z_2 = -2.8$&lt;/li&gt;
+  &lt;li&gt;$z_3 = 3.48$&lt;/li&gt;
+  &lt;li&gt;$z_4 = 5.94$&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Rücksubstitution von z:&lt;/p&gt;
+
+&lt;p&gt;$z_n = x_n + 1$&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;$x_1 = -0.34 - 1 = -1.34$&lt;/li&gt;
+  &lt;li&gt;$x_2 = -2.8 - 1 = -3.8$ –&amp;gt; entfällt, da außerhalb des Bereiches&lt;/li&gt;
+  &lt;li&gt;$x_3 = 3.48 - 1 = 2.48$&lt;/li&gt;
+  &lt;li&gt;$x_4 = 5.94 - 1 = 4.94$&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;46-schnittpunkt-angeben&quot;&gt;4.6 Schnittpunkt angeben&lt;/h2&gt;
+
+&lt;p&gt;Den Schnittpunkt mit der X-Achse gibt man wie folgt an –&amp;gt; $S_{x_n}(x_n / 0)$&lt;/p&gt;
+
+&lt;hr /&gt;
+&lt;h1 id=&quot;5-schnittpunkt-mit-der-y-achse&quot;&gt;5. Schnittpunkt mit der y-Achse&lt;/h1&gt;
+
+&lt;p&gt;Dort braucht man einfach nur für die x-Werte die Zahl 0 einsetzen und dann kommt man auf folgenden Schnittpunkt: $S_y(0/f(0))$&lt;/p&gt;
+
+&lt;hr /&gt;
+&lt;h1 id=&quot;6-das-verhalten-von-funktionen-im-unendlichen&quot;&gt;6. Das Verhalten von Funktionen im Unendlichen&lt;/h1&gt;
+
+&lt;p&gt;Um das Verhalten im Unendlichen zu überprüfen, brauchen wir den Limes. Bei ganzrationalen Funktionen muss man immer nach der höchsten Potenz gucken, da diese am schnellsten im Unendlichen ansteigt.&lt;/p&gt;
+
+&lt;p&gt;Bei Brüchen ist das ein bisschen anders.&lt;/p&gt;
+
+&lt;p&gt;Dort muss man die &lt;strong&gt;höchste Potenz im Nenner ausklammern&lt;/strong&gt;, um so viele Nullfolgen (Funktionen, die im Unendlichen gegen 0 gehen) zu kriegen. Ein Beispiel:&lt;/p&gt;
+
+&lt;p&gt;$f(x) = \dfrac{x^2+4x+5}{x^3+4}$&lt;/p&gt;
+
+&lt;p&gt;$\lim\limits_{x \rightarrow \pm\infty} (\dfrac{x^3+4x+5}{x^2+4})$&lt;/p&gt;
+
+&lt;p&gt;$ \lim\limits_{x \rightarrow \pm\infty} (\dfrac{x^3(\dfrac{1}{x}+\dfrac{4}{x^2}+\dfrac{5}{x^3})}{x^3(1+\dfrac{4}{x})}) = \dfrac{0}{1} = 0$&lt;/p&gt;
+
+&lt;p&gt;Und natürlich kann man auch eine Exponentialfunktion ausklammern, falls diese vorhanden sein sollte und dies die größe “Potenz” im Nenner ist.&lt;/p&gt;
+
+&lt;hr /&gt;
+&lt;h1 id=&quot;7-funktion-auf-polstelle-untersuchen&quot;&gt;7. Funktion auf Polstelle untersuchen&lt;/h1&gt;
+
+&lt;p&gt;Eine Polstelle ist dann vorhanden, wenn bei $\dfrac{u(x)}{v(x)}$ –&amp;gt; $u(x) ≠ 0$ und $v(x) = 0$. Wenn dies erfüllt ist, ist bei $x_0$ eine Polstelle. ($x_p$)&lt;/p&gt;
+
+&lt;hr /&gt;
+&lt;h1 id=&quot;8-asymptoten&quot;&gt;8. Asymptoten&lt;/h1&gt;
+
+&lt;p&gt;Es gibt 3 verschiedene Asymptoten:&lt;/p&gt;
+
+&lt;h2 id=&quot;81-waagerechte-asymptote&quot;&gt;8.1 waagerechte Asymptote&lt;/h2&gt;
+
+&lt;p&gt;Diese kann man schon aus der davor gemachten Grenzwertbetrachtung ablesen. Eine waagerechte Asymptote ist auch dann vorhanden, wenn der Zählergrad (ZG) kleiner oder gleich dem Nennergrad (NG) ist&lt;/p&gt;
+
+&lt;h2 id=&quot;82-senkrechte-asymptote&quot;&gt;8.2 senkrechte Asymptote&lt;/h2&gt;
+
+&lt;p&gt;Eine senkrechte Asymptote bekommt man nur, wenn man eine Polstelle zu der jeweiligen Funktion gefunden hat.&lt;/p&gt;
+
+&lt;h2 id=&quot;83-schräge-asymptote&quot;&gt;8.3 schräge Asymptote&lt;/h2&gt;
+
+&lt;p&gt;Die schräge Asymptote entsteht dann, wenn der ZG größer als der NG wird. Falls man die schräge Asymptote berechnen möchte, kann man dies Tun, in dem man den Zähler durch den Nenner mit Polynomdivision Teilt. Die ganzrationale Funktion, welche rauskommt (vor dem Rest) ist dann die schräge Asymptote.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h1 id=&quot;9-ableitungen&quot;&gt;9. Ableitungen&lt;/h1&gt;
+
+&lt;p&gt;Um die nächsten Punkte zu verstehen und anwenden zu können, braucht man die sogenannte Ableitung. Hierfür gibt es einige Regeln, die man können sollte.&lt;/p&gt;
+
+&lt;h2 id=&quot;91-potenzregel&quot;&gt;9.1 Potenzregel&lt;/h2&gt;
+
+&lt;p&gt;Die Allgemeine Ableitung, die man bei z.B. ganzrationalen Funktionen machen muss, geht folgendermaßen:&lt;/p&gt;
+
+&lt;p&gt;$x^n \rightarrow nx^{n-1}$
+Ein Beispiel dazu wäre folgendes:&lt;/p&gt;
+
+&lt;p&gt;$x^3 \rightarrow 3x^2 \rightarrow 6x \rightarrow 6 \rightarrow 0$&lt;/p&gt;
+
+&lt;h2 id=&quot;92-summenregel&quot;&gt;9.2 Summenregel&lt;/h2&gt;
+
+&lt;p&gt;Die Summenregel sagt, dass man bei einer Summe/Differenz von jedem einzelnen Summanden die Ableitung bilden muss:&lt;/p&gt;
+
+&lt;p&gt;$v(x) + u(x) \rightarrow v’(x) + u’(x)​$&lt;/p&gt;
+
+&lt;p&gt;Noch ein Beispiel:&lt;/p&gt;
+
+&lt;p&gt;$x^3 + 2x^2 \rightarrow 3x^2 + 4x \rightarrow 6x+4 \rightarrow 6 \rightarrow 0$&lt;/p&gt;
+
+&lt;h2 id=&quot;93-produktregel&quot;&gt;9.3 Produktregel&lt;/h2&gt;
+
+&lt;p&gt;Die Produktregel geht folgendermaßen ($v$ und $u$ sind dabei Teilfunktionen. Sieht man nachher auch am Beispiel) :&lt;/p&gt;
+
+&lt;p&gt;$u*v \rightarrow u’v+uv’$&lt;/p&gt;
+
+&lt;p&gt;Ein Beispiel:&lt;/p&gt;
+
+&lt;p&gt;$x²*7x³ \rightarrow 2x(7x³)+x²(21x²) =&amp;gt; 14x^4+21x^4 =&amp;gt; 35x^4$&lt;/p&gt;
+
+&lt;p&gt;Man hätte in diesem Beispiel jetzt natürlich auch einfach die beiden Produkte zusammenmultiplizieren können und dann die Ableitung bilden können. Aber ich wollte dir mal damit ein sehr simples Beispiel geben.&lt;/p&gt;
+
+&lt;h2 id=&quot;94-kettenregel-nur-lk&quot;&gt;9.4 Kettenregel (Nur LK)&lt;/h2&gt;
+
+&lt;p&gt;Bei der Kettenregel kommt zu dem ganzen Ableiten noch bspw. eine Klammer hinzu. Und dann würde es allgemein so etwas ergeben:&lt;/p&gt;
+
+&lt;p&gt;$u[v(x)] \rightarrow u’[v(x)]*v’$&lt;/p&gt;
+
+&lt;p&gt;Ein geeignetes Beispiel wäre das hier:&lt;/p&gt;
+
+&lt;p&gt;$(3x+4)^3 \rightarrow 3(3x+4)^2 * 3 =&amp;gt; 9(3x+4)^2$&lt;/p&gt;
+
+&lt;h2 id=&quot;95-quotientenregel-optional&quot;&gt;9.5 Quotientenregel (optional)&lt;/h2&gt;
+
+&lt;p&gt;Wenn ihr eine Funktion habt, wo zwei “Teilfunktionen” in einem Bruch darstehen, kann man neben der Produktregel (Umformungen) auch die Quotientenregel verwenden. Die sieht allgemein so aus:&lt;/p&gt;
+
+&lt;p&gt;$\dfrac{u}{v} \rightarrow \dfrac{u’v-uv’}{v^2}$&lt;/p&gt;
+
+&lt;p&gt;Ein kleines Beispiel dazu wäre:&lt;/p&gt;
+
+&lt;p&gt;$\dfrac{x^2+2}{2x+1}$&lt;/p&gt;
+
+&lt;p&gt;$\rightarrow \dfrac{2x(2x+1) - (x^2+2)2}{(2x+1)^2}​$&lt;/p&gt;
+
+&lt;p&gt;$\rightarrow \dfrac{4x^2+2x-(2x^2+4)}{(2x+1)^2}$&lt;/p&gt;
+
+&lt;p&gt;$\rightarrow \dfrac{4x^2+2x-2x^2-4}{(2x+1)^2} \rightarrow \dfrac{2x^2+2x-4}{(2x+1)^2}$&lt;/p&gt;
+
+&lt;h2 id=&quot;96-die-ableitung-spezieller-funktionen&quot;&gt;9.6 Die Ableitung spezieller Funktionen&lt;/h2&gt;
+
+&lt;p&gt;$e^x \rightarrow e^x$&lt;/p&gt;
+
+&lt;p&gt;$ln(x) \rightarrow \dfrac{1}{x}$&lt;/p&gt;
+
+&lt;p&gt;$sin(x) \rightarrow cos(x)​$&lt;/p&gt;
+
+&lt;p&gt;$cos(x) -&amp;gt; -sin(x)$&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h1 id=&quot;10-extrempunkte-berechnen&quot;&gt;10. Extrempunkte berechnen&lt;/h1&gt;
+
+&lt;p&gt;Für die Extrempunktberechnung braucht man die erste aber auch die zweite Ableitung der Funktion.&lt;/p&gt;
+
+&lt;p&gt;Die Bedingung, damit es ein Extrempunkt (Hoch- oder Tiefpunkt) ist lautet so:&lt;/p&gt;
+
+&lt;p&gt;$f’(x) = 0$&lt;/p&gt;
+
+&lt;p&gt;und&lt;/p&gt;
+
+&lt;p&gt;$f’‘(x) &amp;gt; 0 $ –&amp;gt; Tiefpunkt&lt;/p&gt;
+
+&lt;p&gt;$f’‘(x) &amp;lt; 0$ –&amp;gt; Hochpunkt&lt;/p&gt;
+
+&lt;p&gt;Falls die zweite Ableitung 0 sein sollte, muss man in der ersten Ableitung überprüfen, ob an dieser Stelle ein Vorzeichenwechsel vorliegt. Wenn ja ist es ein Extrempunkt. Wenn allerdings nicht, könnte es auf etwas anderes hinweisen.&lt;/p&gt;
+
+&lt;p&gt;Und nachdem man die x-Werte raushat, diese in die Ursprungsfunktion einsetzen, um den y-Wert rauszubekommen&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h1 id=&quot;11-wendepunkte-berechnen&quot;&gt;11. Wendepunkte berechnen&lt;/h1&gt;
+
+&lt;p&gt;Wendepunkte berechnet man mit der zweiten und dritten Ableitung. Man kann auch sagen, dass Wendestellen die Extremstellen der ersten Ableitung sind. Daraus kann man folgendes schließen:&lt;/p&gt;
+
+&lt;p&gt;$f’‘(x) = 0$&lt;/p&gt;
+
+&lt;p&gt;und&lt;/p&gt;
+
+&lt;p&gt;$f’’‘(x) \ne 0$&lt;/p&gt;
+
+&lt;p&gt;Auch hier wieder: Wenn bei der 3. Ableitung 0 rauskommt, dann überprüfen, ob bei der 2. Ableitung an dieser Stelle ein Vorzeichenwechsel vorliegt. Wenn ja dann ist es ein Wendepunkt. Wenn nicht dann nicht.&lt;/p&gt;
+
+&lt;p&gt;Es gibt aber zudem auch besondere Wendepunkte. Diese haben eine waagerechte Tangente und somit den Anstieg 0. Diese nennt man &lt;strong&gt;Sattelpunkte&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Um ein Sattelpunkt vorliegen zu haben muss folgendes erfüllt sein:&lt;/p&gt;
+
+&lt;p&gt;$f’(x) = 0$&lt;/p&gt;
+
+&lt;p&gt;$f’‘(x) = 0$&lt;/p&gt;
+
+&lt;p&gt;und&lt;/p&gt;
+
+&lt;p&gt;$f’’‘(x) \ne 0$&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h1 id=&quot;12-krümmungsänderung-an-wendepunkten-bestimmen&quot;&gt;12. Krümmungsänderung an Wendepunkten bestimmen&lt;/h1&gt;
+
+&lt;p&gt;Mit der Krümmungsänderung an Wendepunkten gibt man an, ob es ein Rechts-Links- (RL-WP) oder ein Links-Rechts-Wendepunkt (LR-WP) ist.&lt;/p&gt;
+
+&lt;p&gt;Man hat bei folgenden Werten den entsprechenden Wendepunkt vorliegen:&lt;/p&gt;
+
+&lt;p&gt;$f’’‘(x) &amp;lt; 0$ –&amp;gt; LR-WP&lt;/p&gt;
+
+&lt;p&gt;$f’’‘(x) &amp;gt; 0$ –&amp;gt; RL-WP&lt;/p&gt;</content><author><name>Adrian</name></author><summary type="html">1. Der Definitionsbereich</summary></entry><entry><title type="html">Mechanik Klasse 11</title><link href="/klasse11/physik/mechanik11/" rel="alternate" type="text/html" title="Mechanik Klasse 11" /><published>2019-11-27T00:00:00+01:00</published><updated>2019-11-27T00:00:00+01:00</updated><id>/klasse11/physik/mechanik11</id><content type="html" xml:base="/klasse11/physik/mechanik11/">&lt;h1 id=&quot;1-kräfte-in-einer-geneigten-ebene&quot;&gt;1. Kräfte in einer geneigten Ebene&lt;/h1&gt;
+
+&lt;p&gt;&lt;strong&gt;Beispiel:&lt;/strong&gt;   Neigung/Gefälle von 8% -&amp;gt; auf eine waagerechte Entfernung von 100m kommt ein Höhenunterschied von 8m
+                -&amp;gt; $tan(\alpha) = \dfrac{8}{100} = 0,08$
+                -&amp;gt; $\alpha = arctan(0,08)$&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://adrian.mvbuddies.de/bilder/physik11/mechanik/ebene.jpg&quot; alt=&quot;gen_ebene&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;$tan(\alpha) = \dfrac{h}{b}$&lt;/p&gt;
+
+&lt;p&gt;$sin(\alpha) = \dfrac{h}{l}$&lt;/p&gt;
+
+&lt;p&gt;$\cos(\alpha) = \dfrac{b}{l}$&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;$F_G$ &lt;strong&gt;Gewichtskraft:&lt;/strong&gt; senkrecht nach unten gerichtet&lt;/li&gt;
+  &lt;li&gt;$F_H$ &lt;strong&gt;Hangabtriebskraft:&lt;/strong&gt; parallel zur geneigten Ebene&lt;/li&gt;
+  &lt;li&gt;$F_N$ &lt;strong&gt;Normalkraft:&lt;/strong&gt; senkrecht zur Auflage&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;–&amp;gt; $F_G$ ist die resultierende aus $F_H$ und $F_N$&lt;/p&gt;
+
+&lt;p&gt;Und die Hangabriebskraft und die Normalkraft kann man jetzt berechnen:&lt;/p&gt;
+
+&lt;p&gt;$F_N = cos(\alpha)*F_G$&lt;/p&gt;
+
+&lt;p&gt;$F_H = sin(\alpha)*F_G$&lt;/p&gt;
+
+&lt;p&gt;Und man kann jetzt auch Beziehungen zwischen dem Kräfteparallelogramm und dem großen Dreieck herrstellen.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;$\dfrac{F_H}{F_N} = \dfrac{h}{b}$&lt;/li&gt;
+  &lt;li&gt;$\dfrac{F_H}{F_G} = \dfrac{h}{l}$&lt;/li&gt;
+  &lt;li&gt;$\dfrac{F_G}{F_N} = \dfrac{l}{b}$&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;h1 id=&quot;2-mechanische-arbeit-und-energie&quot;&gt;2. mechanische Arbeit und Energie&lt;/h1&gt;
+
+&lt;p&gt;&lt;strong&gt;Energie&lt;/strong&gt; ist die Fähigkeit eines Körpers, Arbeit zu verrichten, Wärme abzugeben oder Strahlung abzugeben&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Formelzeichen: $E$&lt;/li&gt;
+  &lt;li&gt;Einheit: $1J$&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Arbeit&lt;/strong&gt; wird verrichtet, wenn ein Körper durch eine Kraft verformt oder Bewegt wird&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Formelzeichen: $W$&lt;/li&gt;
+  &lt;li&gt;Einheit: $1Nm$&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Der Betrag der verrichteten Arbeit entspricht dem Betrag der Energieänderung ($W = \Delta E)$&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;–&amp;gt; $1J = 1Nm$&lt;/p&gt;
+
+&lt;h2 id=&quot;21-gleichungen-zum-berechnen-der-größen&quot;&gt;2.1 Gleichungen zum Berechnen der Größen&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;Energie:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Potenzielle Energie: $E_{pot} = mgh$&lt;/li&gt;
+  &lt;li&gt;kinetische Energie: $E_{kin} = \dfrac{1}{2}mv^2$&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Arbeit:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Hubarbeit: $W_{hub} = mg(h_1-h_2)$&lt;/li&gt;
+  &lt;li&gt;Beschleunigungsarbeit: $W_{bes} = \dfrac{1}{2}m(v_1^2-v_2^2)$&lt;/li&gt;
+  &lt;li&gt;Federspannarbeit: $W_{fsp} = \dfrac{1}{2}D*s^2$&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Im Allgemeinen kann man zur Arbeit sagen:&lt;/p&gt;
+
+&lt;p&gt;$W = F*s$&lt;/p&gt;
+
+&lt;hr /&gt;
+&lt;h1 id=&quot;3-die-leistung&quot;&gt;3. Die Leistung&lt;/h1&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Formelzeichen: $P$&lt;/li&gt;
+  &lt;li&gt;Einheit: $1W$&lt;/li&gt;
+  &lt;li&gt;Gleichung: $P = \dfrac{W}{t} = \dfrac{F*s}{t} = Fv$&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+&lt;h1 id=&quot;4-der-impuls&quot;&gt;4. Der Impuls&lt;/h1&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Bedeutung: Beschreibung des Bewegungszustandes eines Körpers mit einer Masse $m$ und einer Geschwindigkeit $v$&lt;/li&gt;
+  &lt;li&gt;Formelzeichen: $p$&lt;/li&gt;
+  &lt;li&gt;Einheit: $\dfrac{kg*m}{s}$&lt;/li&gt;
+  &lt;li&gt;Gleichung: $p = m*v$&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;41-der-impulserhaltungssatz&quot;&gt;4.1 Der Impulserhaltungssatz&lt;/h2&gt;
+
+&lt;p&gt;In einem (auf Kräfte bezogen) abgeschlossenen System bleibt der Gesamtimpuls immer erhalten&lt;/p&gt;
+
+&lt;p&gt;$p_1 = p_2$ –&amp;gt; $m_1v_1 = m_2v_2$&lt;/p&gt;
+
+&lt;hr /&gt;
+&lt;h1 id=&quot;5-der-kraftstoß&quot;&gt;5. Der Kraftstoß&lt;/h1&gt;
+
+&lt;p&gt;Einwirkung einer konstanten Kraft auf einen Körper über einen sehr kleinen Zeitraum&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Formelzeichen: $I$&lt;/li&gt;
+  &lt;li&gt;Gleichung: $I = F*\Delta t$&lt;/li&gt;
+  &lt;li&gt;Einheit: $1 Ns$&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Zusammenhang zwischen Kraftstoß und Impuls:&lt;/p&gt;
+
+&lt;p&gt;$F\Delta t = m*a\Delta t = m\dfrac{\Delta v}{\Delta t}\Delta t$&lt;/p&gt;
+
+&lt;p&gt;$F\Delta t = m*\Delta v$&lt;/p&gt;
+
+&lt;p&gt;$F\Delta t = \Delta p$&lt;/p&gt;
+
+&lt;hr /&gt;
+&lt;h1 id=&quot;6-gerade-zentrale-stöße&quot;&gt;6. gerade zentrale Stöße&lt;/h1&gt;
+
+&lt;h2 id=&quot;61-unelastischer-stoß&quot;&gt;6.1 unelastischer Stoß&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;beide Körper bewegen sich nach dem Stoß gemeinsam weiter&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;–&amp;gt; Energieerhaltungssatz der Mechanik gilt nicht (ein Teil der kinetischen Energie wird in Wärme umgewandelt)&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Geschwindigkeit nach dem Stoß: $u = \dfrac{m_1v_1+m_2v_2}{m_1+m_2}$&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;62-elastischer-stoß&quot;&gt;6.2 elastischer Stoß&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;jeder der beiden Körper bewegt sich nach dem Stoß mit seiner eigenen Geschwindigkeit weiter&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;–&amp;gt; Energieerhaltungssatz der Mechanik gilt&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Geschwindigkeit nach dem Stoß 1: $u_1 = \dfrac{(m_1-m_2)v_1+2m_2v_2}{m_1+m_2}$&lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Geschwindigkeit nach dem Stoß 2: $u_2 = \dfrac{(m_2-m_1)v_2+2m_1v_1}{m_1+m_2}$&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Zudem gilt auch: $v_1+u_1 = v_2+u_2$&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+&lt;h1 id=&quot;7-ermittlung-der-geschossgeschwindigkeit-ballistisches-pendel&quot;&gt;7. Ermittlung der Geschossgeschwindigkeit (ballistisches Pendel)&lt;/h1&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://adrian.mvbuddies.de/bilder/physik11/mechanik/ball_pendel.jpg&quot; alt=&quot;bild_pendel&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Impulserhaltungssatz&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;$m_Gv_G = m_{K+G}v_{K+G}$&lt;/p&gt;
+
+&lt;p&gt;$v_G = \dfrac{m_{K+G}v_{K+G}}{m_G}$&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Energieerhaltungssatz&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;$\dfrac{1}{2}m_{K+G}*v_{K+G}^2 = m_{K+G}gh$&lt;/p&gt;
+
+&lt;p&gt;$v_{K+G} = \sqrt{2gh}$&lt;/p&gt;
+
+&lt;p&gt;-&amp;gt; Einsetzen: $v_G = \dfrac{m_{K+G}}{m_G}*\sqrt{2gh}$&lt;/p&gt;
+
+&lt;hr /&gt;
+&lt;h1 id=&quot;8-thermodynamik&quot;&gt;8. Thermodynamik&lt;/h1&gt;
+
+&lt;h2 id=&quot;81-phy-größe-temperatur&quot;&gt;8.1 phy. Größe: Temperatur&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;Bedeutung: gibt an, wie warm oder kalt ein Körper ist (Temperatur)&lt;/li&gt;
+  &lt;li&gt;Formelzeichen: $ϑ$ oder $T$&lt;/li&gt;
+  &lt;li&gt;Einheit: $1°C$ oder $1K$&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;82-phy-größe-innere-energie&quot;&gt;8.2 phy. Größe: innere Energie&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;Bedeutung: gibt die in einem System gespeicherte Energie an&lt;/li&gt;
+  &lt;li&gt;Formelzeichen: u&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;83-phy-größe-wärme&quot;&gt;8.3 phy. Größe: Wärme&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;Bedeutung: gibt an, wie viel thermische Energie von einem System auf ein anderes übertragen wird&lt;/li&gt;
+  &lt;li&gt;Formelzeichen: $Q$&lt;/li&gt;
+  &lt;li&gt;Einheit: $1J$&lt;/li&gt;
+  &lt;li&gt;Gleichung: $Q = mc\Delta T$ oder $Q = mc\Delta ϑ$&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Betrachtung und Umrechung von Einheiten&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;$1J = 1Ws$&lt;/li&gt;
+  &lt;li&gt;$100Ws = 1kWs$&lt;/li&gt;
+  &lt;li&gt;$3600kWs = 1kWh$&lt;/li&gt;
+&lt;/ul&gt;</content><author><name>Adrian</name></author><summary type="html">1. Kräfte in einer geneigten Ebene</summary></entry><entry><title type="html">Trigonometrische Funktionen</title><link href="/klasse10/mathe/trigonometrische-funktionen/" rel="alternate" type="text/html" title="Trigonometrische Funktionen" /><published>2019-05-15T00:00:00+02:00</published><updated>2019-05-15T00:00:00+02:00</updated><id>/klasse10/mathe/trigonometrische-funktionen</id><content type="html" xml:base="/klasse10/mathe/trigonometrische-funktionen/">&lt;p&gt;Ich habe jetzt als Winkel den griechischen Buchstaben &lt;strong&gt;Lambda&lt;/strong&gt; ($\lambda$) genommen. Es geht natürlich auch jeder andere Buchstabe.&lt;/p&gt;
+
+&lt;h2 id=&quot;das-bogenmaß&quot;&gt;Das Bogenmaß&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;Das Bogenmaß&lt;/strong&gt; ist neben dem sogenannten Gradmaß ein weiteres &lt;strong&gt;Winkelmaß&lt;/strong&gt;. Die Maßzahl entspricht der Bogenlänge auf dem Einheitskreis ($r = 1$)&lt;/p&gt;
+
+&lt;p&gt;Das Bogenmaß des Winkels $\lambda$ wird mit $arc(\lambda)$ bezeichnet.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Gleichung:&lt;/strong&gt;&lt;br /&gt;
+$arc(\lambda) = \dfrac{\pi*\lambda}{180°}$&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;umrechnungen-von-gradmaß-in-bogenmaß-und-umgekehrt&quot;&gt;Umrechnungen von Gradmaß in Bogenmaß und umgekehrt&lt;/h2&gt;
+
+&lt;h3 id=&quot;vom-gradmaß-ins-bogenmaß&quot;&gt;Vom Gradmaß ins Bogenmaß&lt;/h3&gt;
+
+&lt;p&gt;Die Formel, um vom Gradmaß ins Bogenmaß zu rechnen, ist wie folgt:&lt;/p&gt;
+
+&lt;p&gt;$arc(\lambda) = \dfrac{\pi*\lambda}{180°}$&lt;/p&gt;
+
+&lt;h3 id=&quot;vom-bogenmaß&quot;&gt;Vom Bogenmaß&lt;/h3&gt;
+
+&lt;p&gt;Die Formel, um vom Gradmaß ins Bogenmaß umzurechnen, ist die vorherige Funktion, nur ein bisschen umgestellt:&lt;/p&gt;
+
+&lt;p&gt;$\lambda = \dfrac{arc(\lambda)*180}{\pi}$&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;die-sinusfunktion&quot;&gt;Die Sinusfunktion&lt;/h2&gt;
+
+&lt;p&gt;Um sich irgendwie das Bild von der Sinusfunktion machen zu können brauchen wir einen Kreis mit dem Radius von 1. Außerdem haben wir neben dem Einheitskreis einen Punkt P, der sich auf der Kreislinie des Einheitskreises bewegt. Wenn wir jetzt jeder Winkelgröße $\lambda$ den Y-Wert de Punktes P zuordnet, so erhält man eine Periodische Funktion, welche auch die Sinusfunktion genannt wird. Der Graph dieser Funktion, nennt man auch Sinuskurve.&lt;/p&gt;
+
+&lt;p&gt;Hier mal eine grafische Sinusfunktion (mit &lt;a href=&quot;https://geogebra.org&quot;&gt;GeoGebra&lt;/a&gt; erstellt):&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://adrian.mvbuddies.de/bilder/mathe10/trifunk/sinus1.PNG&quot; alt=&quot;sinus&quot; class=&quot;img-responsive&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;eigenschaften-der-sinusfunktion&quot;&gt;Eigenschaften der Sinusfunktion&lt;/h3&gt;
+
+&lt;p&gt;Natürlich gehört auch zu jeder Funktion eine Reihe an Eigenschaften, die man abarbeiten muss:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Definitionsbereich:&lt;/strong&gt; $x\in\mathbb{R}$&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Wertebereich:&lt;/strong&gt; $[-1;1]$&lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;Monotonie:&lt;/strong&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;steigend: $-\dfrac{\pi}{2}+2k\pi \leq x \leq \dfrac{\pi}{2}+2k\pi \wedge k \in \mathbb{Z}$&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;fallend: $\dfrac{\pi}{2} + 2k\pi \leq x \leq \dfrac{\pi}{2} + (2k + 1)\pi \wedge k \in \mathbb{Z}$&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Länge der Periode:&lt;/strong&gt; $2\pi$&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Nullstellen:&lt;/strong&gt; $k\pi \wedge k \in \mathbb{Z}$&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Wegen der Symmetrie und Periodezität gelten:&lt;/p&gt;
+
+&lt;table class=&quot;table table-hover&quot;&gt;
+    &lt;thead&gt;
+                    &lt;th&gt;Bogenmaß ($k \in \mathbb{Z}$)&lt;/th&gt;
+                    &lt;th&gt;Gradmaß ($k \in \mathbb{Z}$)&lt;/th&gt;
+    &lt;/thead&gt;
+                &lt;tr&gt;
+                    &lt;td&gt;$sin(x+k*2\pi) = sin(x)$&lt;/td&gt;
+                    &lt;td&gt;$sin(x+k*360°) = sin(x)$&lt;/td&gt;
+                &lt;/tr&gt;
+                &lt;tr&gt;
+                    &lt;td&gt;$sin(\pi-x) = sin(x)$&lt;/td&gt;
+                    &lt;td&gt;$sin(180°-x) = sin(x)$&lt;/td&gt;
+                &lt;/tr&gt;
+                &lt;tr&gt;
+                    &lt;td&gt;$sin(-\pi-x) = sin(x)$&lt;/td&gt;
+                    &lt;td&gt;$sin(-180°-x) = sin(x)$&lt;/td&gt;
+                &lt;/tr&gt;
+                &lt;tr&gt;
+                    &lt;td&gt;$sin(\pi+x) = -sin(x)$&lt;/td&gt;
+                    &lt;td&gt;$sin(180°+x) = -sin(x)$&lt;/td&gt;
+                &lt;/tr&gt;
+                &lt;tr&gt;
+                    &lt;td&gt;$sin(-x) = -sin(x)$&lt;/td&gt;
+                    &lt;td&gt;$sin(-x) = -sin(x)$&lt;/td&gt;
+                &lt;/tr&gt;
+            &lt;/table&gt;
+
+&lt;p&gt;&lt;strong&gt;Beispielaufgaben: $[0 ; 2\pi]$&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;$sin(x) = 0,9 \quad | arcsin()$&lt;/p&gt;
+
+&lt;p&gt;$x_1 \approx 1,1$&lt;/p&gt;
+
+&lt;p&gt;$x_2 = \pi - x_1 = \pi - 1,1 = 2,04$&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Problem 1:&lt;/strong&gt; Es kann aber auch mal sein, dass der erste Wert, den man rausbekommt, nicht im Vorgegebenden Intervall liegt dann muss man folgendes machen:&lt;/p&gt;
+
+&lt;p&gt;$sin(x) = -0,8 \quad | arcsin()$&lt;/p&gt;
+
+&lt;p&gt;$x = -0,9 \rightarrow entfällt$&lt;/p&gt;
+
+&lt;p&gt;$2\pi + x = 2\pi-0,9 = 5,4 = x_1$&lt;/p&gt;
+
+&lt;p&gt;$x_2 = \pi - x = \pi + 0,9 = 4,04 $&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Erklärung:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Man hat als erstes Ergebnis jetzt den wert $x = -0,9$ rausbekommen. Da dieser nicht im Intervall von $0$ und $2\pi$ liegt, dreht man einfach mit diesem Wert nochmal einen Ganzen Kreis und somit $2\pi$. Somit rechnest du ja einfach zu diesen $0,9$ den Vollwinkel $2\pi$ drauf. Damit kommst du auf ein Ergebnis von ca. $5,4$ was dein erstes Ergebnis ist. Und damit du jetzt noch das zweite Ergebnis ausrechnen kannst, musst du dieses ergebnis jetzt nur noch auf $\pi$ raufrechnen um den für den $x_1$ gegenüberliegenden Winkel rauszufinden.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Problem 2:&lt;/strong&gt; Es kann aber auch mal sein, dass es eine Aufgabe wie z.B. $sin(x) = 2$ gibt. Dort musst du denn einfach nur hinschreiben, dass diese Funktion nicht definiert ist&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Problem 3:&lt;/strong&gt; Natürlich kann es auch sein dass du die Aufgabe $sin(x) = -0,3$ hast und das Intervall wie folgt aussieht: $[0;\pi]$. Wenn dann das erste Ergebnis negativ ist, kannst du ruhig aufhören zu rechnen, da die Sinuskurve niemals in den negativen Bereich gehen wird.&lt;/p&gt;
+
+&lt;h3 id=&quot;die-bedeutung-der-parameter-der-sinusfunktion&quot;&gt;Die Bedeutung der Parameter der Sinusfunktion&lt;/h3&gt;
+
+&lt;p&gt;&lt;strong&gt;Allgemeine Sinusfunkion:&lt;/strong&gt; $f(x) = a*sin(b*(x+c))+d$&lt;/p&gt;
+
+&lt;table class=&quot;table table-hover&quot;&gt;
+                &lt;thead&gt;
+                    &lt;th&gt;Gleichung&lt;/th&gt;
+                    &lt;th&gt;Einfluss auf den Graphen&lt;/th&gt;
+                &lt;/thead&gt;
+                &lt;tr&gt;
+                    &lt;td&gt;$f(x) = a*sin(x)$&lt;/td&gt;
+                    &lt;td&gt;$a=]1;\infty]$ : gestreckt in y-Richtung&lt;br /&gt;
+                        $a=]0;1[$ : gestaucht in y-Richtung &lt;br /&gt;
+                        $a=[-\infty;0[$ : zusätzlich an der x-Achse gespiegelt
+                    &lt;/td&gt;
+                &lt;/tr&gt;
+                &lt;tr&gt;
+                    &lt;td&gt;$f(x) = sin(bx)$&lt;/td&gt;
+                    &lt;td&gt;$b=]0;1[$ : gestreckt in x-Richtung &lt;br /&gt;
+                        $b=]1;\infty]$ : gestaucht in x-Richtung&lt;/td&gt;
+                &lt;/tr&gt;
+                &lt;tr&gt;
+                    &lt;td&gt;$f(x) = sin(x+c)$&lt;/td&gt;
+                    &lt;td&gt;$c=[-\infty;0[$ : Verschiebung nach rechts entlang der x-Achse &lt;br /&gt;
+                        $c=]0;\infty]$ : Verschiebung nach links entlang der x-Achse&lt;/td&gt;
+                &lt;/tr&gt;
+                &lt;tr&gt;
+                    &lt;td&gt;$f(x) = sin(x)+d$&lt;/td&gt;
+                    &lt;td&gt;$d=]0;\infty]$ : Verschiebung nach oben entlang der y-Achse &lt;br /&gt;
+                        $d=[-\infty;0[$ : Verschiebung nach unten entlang der y-Achse&lt;/td&gt;
+                &lt;/tr&gt;
+            &lt;/table&gt;
+
+&lt;p&gt;Da wir jetzt die allgemeine Form kennengelernt haben gelten natürlich auch ein paar andere Eigenschaften um etwas zu berechnen etc. (gilt nur für $f(x) = asin(b(x+c))$)&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Definitionsbereich :&lt;/strong&gt; $x \in \mathbb{R}$&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Wertebereich&lt;/strong&gt; : $[-a;a]$&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Nullstellen&lt;/strong&gt; : $x_k = \dfrac{k\pi - c}{b} \wedge k \in \mathbb{Z}$&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Periode&lt;/strong&gt; : $\dfrac{2\pi}{|b|}$&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Bei der Funktion mit dem Parameter $d$ muss man ist der &lt;strong&gt;Wertebereich&lt;/strong&gt; $[-a+d;a+d]$ und die &lt;strong&gt;Nullstellen&lt;/strong&gt; lassen sich wie gewohnt ausrechnen, indem man $f(x) = 0$ setzt.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;kosinus-und-tangensfunktion&quot;&gt;Kosinus und Tangensfunktion&lt;/h2&gt;
+
+&lt;h3 id=&quot;eigenschaften-der-kosinusfunktion&quot;&gt;Eigenschaften der Kosinusfunktion&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Definitionsbereich&lt;/strong&gt; : $x\in\mathbb{R}$&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Wertebereich&lt;/strong&gt; : $[-1;1]$&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Nullstellen&lt;/strong&gt; : $(2k+1)\dfrac{\pi}{2} \wedge k \in \mathbb{Z}$&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Periode&lt;/strong&gt; : $2\pi$&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Hier mal eine grafische Kosinusfunktion (mit &lt;a href=&quot;https://geogebra.org&quot;&gt;GeoGebra&lt;/a&gt; erstellt):&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://adrian.mvbuddies.de/bilder/mathe10/trifunk/kosinus.PNG&quot; alt=&quot;Kosinus&quot; class=&quot;img-responsive&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;eigenschaften-tangensfunktion&quot;&gt;Eigenschaften Tangensfunktion&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Definitionsbereich&lt;/strong&gt; : $x \in \mathbb{R} \quad\wedge\quad x \neq (2k + 1)\dfrac{\pi}{2} \wedge$ $k \in \mathbb{Z}$&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Wertebereich&lt;/strong&gt; : $y \in \mathbb{R}$&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Nullstellen&lt;/strong&gt; : $k\pi \wedge k \in \mathbb{Z}$&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Periode&lt;/strong&gt; : $\pi$&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Hier mal eine grafische Tangensfunktion (mit &lt;a href=&quot;https://geogebra.org&quot;&gt;GeoGebra&lt;/a&gt; erstellt):&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://adrian.mvbuddies.de/bilder/mathe10/trifunk/tangens.PNG&quot; alt=&quot;Tangens&quot; class=&quot;img-responsive&quot; /&gt;&lt;/p&gt;</content><author><name>Adrian</name></author><summary type="html">Ich habe jetzt als Winkel den griechischen Buchstaben Lambda ($\lambda$) genommen. Es geht natürlich auch jeder andere Buchstabe.</summary></entry><entry><title type="html">Trigonometrie</title><link href="/klasse10/mathe/trigonometrie/" rel="alternate" type="text/html" title="Trigonometrie" /><published>2019-05-15T00:00:00+02:00</published><updated>2019-05-15T00:00:00+02:00</updated><id>/klasse10/mathe/trigonometrie</id><content type="html" xml:base="/klasse10/mathe/trigonometrie/">&lt;p&gt;&lt;strong&gt;Alle Formeln, die ich hier schreibe, stehen auch nochmal im Tafelwerk auf Seite 19 (Pythagoras) und 26-27&lt;/strong&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;1-seitenberechnung-mit-dem-satz-des-pythagoras-rechtwinkliges-dreieck&quot;&gt;1. Seitenberechnung mit dem Satz des Pythagoras (rechtwinkliges Dreieck)&lt;/h2&gt;
+
+&lt;p&gt;Wie wir in der 9. Klasse gelernt haben, kann man mit dem Satz des Pythagoras die Seiten in einem&lt;br /&gt;
+&lt;strong&gt;rechtwinkligen Dreieck&lt;/strong&gt; berechnen&lt;/p&gt;
+
+&lt;p&gt;Der Satz des Pythagoras ist folgendermaßen definiert:&lt;br /&gt;
+Sind $a$ und $b$ die Längen der am rechten Winkel anliegenden Seiten, der Katheten, und $c$ die Länge der dem&lt;br /&gt;
+rechten Winkel gegenüberliegenden Seite, der Hypotenuse, dann lautet der Satz als Gleichung ausgedrückt:&lt;br /&gt;
+$c^2 = a^2 + b^2$&lt;br /&gt;
+Allgemeiner ist der Satz des Pythagoras wie folgt ausgedrückt: $H^2 = K_1^2 + K_2^2$.&lt;br /&gt;
+$K_1$ &amp;amp; $K_2$ = Katheten&lt;br /&gt;
+$H$ = Hypotenuse&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;2-winkel--und-seitenberechnung-mit-sinus-kosinus-und-tangens-rechtwinkliges-dreieck&quot;&gt;2. Winkel- und Seitenberechnung mit Sinus, Kosinus und Tangens (rechtwinkliges Dreieck)&lt;/h2&gt;
+
+&lt;p&gt;Da aber nun auch noch eine Matheaufgabe gestellt werden könnte, wo der Winkel berechnet werden soll, kommt man&lt;br /&gt;
+nicht mehr mit dem Satz des Pythagoras weiter. Und deswegen brauchen wir unsere drei Brüder Sinus, Kosinus und Tangens.&lt;br /&gt;
+Und wir gehen jetzt bei den Winkeln von $\alpha$ aus. Man kann aber auch $\beta$ oder auch von $\gamma$ ausgehen.&lt;br /&gt;
+&lt;strong&gt;Um die Winkel aber jetzt berechnen zu können, muss man bei der jeweiligen Operation jeweils den&lt;br /&gt;
+$sin^{-1}$ bei $sin$,&lt;br /&gt;
+$cos^{-1}$ bei $cos$ und&lt;br /&gt;
+$tan^{-1}$ bei $tan$ verwenden.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;21-sinus&quot;&gt;2.1 Sinus&lt;/h3&gt;
+
+&lt;p&gt;Der Sinus von Alpha ist das Verhältnis von Gegenkathete (gegenüber des Winkels) zur Hypotenuse.&lt;br /&gt;
+$sin(\alpha) = \dfrac{Gegenkathete}{Hypotenuse} = \dfrac{a}{c}$&lt;/p&gt;
+
+&lt;h3 id=&quot;22-kosinus&quot;&gt;2.2 Kosinus&lt;/h3&gt;
+
+&lt;p&gt;Der Kosinus von Alpha ist das Verhältnis von Ankathete (an dem Winkel anliegend) zur Hypotenuse.&lt;br /&gt;
+$cos(\alpha) = \dfrac{Ankathete}{Hypotenuse} = \dfrac{b}{c}$&lt;/p&gt;
+
+&lt;h3 id=&quot;23-tangens&quot;&gt;2.3 Tangens&lt;/h3&gt;
+
+&lt;p&gt;Der Tangens von Alpha ist das Verhältnis von Gegenkathete zur Ankathete oder auch das Verhältnis von Sinus und Kosinus.&lt;br /&gt;
+$tan(\alpha) = \dfrac{sin(\alpha)}{cos(\alpha)} = \dfrac{Gegenkathete}{Ankathete} = \dfrac{a}{b}$&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;3-winkel--seitenberechnung-und-flächeninhalt-bei-einem-beliebigen-dreieck&quot;&gt;3. Winkel-, Seitenberechnung und Flächeninhalt bei einem beliebigen Dreieck&lt;/h2&gt;
+
+&lt;p&gt;Wenn man jetzt aber kein rechtwinkliges Dreieck als Aufgabe bekommt, sondern ein beliebiges Dreieck, dann&lt;br /&gt;
+kommt man mit dem ganzen, was bis jetzt da steht nicht weiter. Und deswegen gibt es jetzt die folgenden Sätze&lt;br /&gt;
+um auch von diesen Dreiecken die Winkel und Seiten zu berechnen.&lt;/p&gt;
+
+&lt;h3 id=&quot;31-sinussatz&quot;&gt;3.1 Sinussatz&lt;/h3&gt;
+
+&lt;p&gt;Für den Sinussatz gibt es folgende Formel: $\dfrac{a}{sin(\alpha)} = \dfrac{b}{sin(\beta)} = \dfrac{c}{sin(\gamma)}$&lt;/p&gt;
+
+&lt;h3 id=&quot;32-kosinussatz&quot;&gt;3.2 Kosinussatz&lt;/h3&gt;
+
+&lt;p&gt;Für den Kosinussatz gibt es 3 Formeln:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;$a^2 = b^2+c^2-2bc*cos(\alpha)$&lt;/li&gt;
+  &lt;li&gt;$b^2 = a^2 + c^2-2ac*cos(\beta)$&lt;/li&gt;
+  &lt;li&gt;$c^2 = a^2 + b^2-2ab*cos(\gamma)$&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Man verwendet den Kosinussatz eigentlich nur, wenn man entweder 3 Seiten gegeben hat.&lt;br /&gt;
+Oder 2 Seiten (z.B. $a$ und $c$) den dazu eingeschlossenen Winkel ($\beta$)&lt;br /&gt;
+Beim Rest verwendet man den Sinussatz.&lt;/p&gt;
+
+&lt;h3 id=&quot;flächeninhalt-eines-beliebigen-dreieckes-berechnen&quot;&gt;Flächeninhalt eines beliebigen Dreieckes berechnen&lt;/h3&gt;
+
+&lt;p&gt;Da wir so einfach wie möglich an unser Ziel kommen wollen und wir uns nicht noch herumschlagen wollen&lt;br /&gt;
+die Höhe zu berechnen, nur damit wir den Flächeninhalt ausrechnen können, gibt es 1 (3) Formel, die da Abhilfe schaffen:&lt;br /&gt;
+$A = \dfrac{1}{2}bc*sin(\alpha)$&lt;/p&gt;
+
+&lt;p&gt;$A = \dfrac{1}{2}ac*sin(\beta)$&lt;/p&gt;
+
+&lt;p&gt;$A = \dfrac{1}{2}ab*sin(\gamma)$&lt;/p&gt;</content><author><name>Adrian</name></author><summary type="html">Alle Formeln, die ich hier schreibe, stehen auch nochmal im Tafelwerk auf Seite 19 (Pythagoras) und 26-27</summary></entry><entry><title type="html">Alkohole</title><link href="/klasse10/chemie/alkohole/" rel="alternate" type="text/html" title="Alkohole" /><published>2019-05-07T00:00:00+02:00</published><updated>2019-05-07T00:00:00+02:00</updated><id>/klasse10/chemie/alkohole</id><content type="html" xml:base="/klasse10/chemie/alkohole/">&lt;h2 id=&quot;trinkalkohol-als-wichtiger-vertreter---eigenschaften--molekülbau&quot;&gt;Trinkalkohol als wichtiger Vertreter - Eigenschaften &amp;amp; Molekülbau&lt;/h2&gt;
+
+&lt;p&gt;Die Struktur des Ethanmoleküls ermöglicht es dem Ethanol, in unpolaren Stoffen und auch in polaren Stoffen sich zu lösen. Wegen dem &lt;strong&gt;&lt;bl&gt;Alkylrest&lt;/bl&gt;&lt;/strong&gt;, welches beim Ethanol mit von der Partie ist &lt;bl&gt;($C_2H_5$)&lt;/bl&gt; kann es sich in den unpolaren Stoffen gut lösen. (lipophil) &lt;strong&gt;&lt;r&gt;Die Hydroxygruppe ($OH$)&lt;/r&gt;&lt;/strong&gt; hingegen ist für das Lösen in polaren Stoffen zuständig. (hydrophil)&lt;/p&gt;
+
+&lt;h3 id=&quot;h-brückenbindungen&quot;&gt;H-Brückenbindungen&lt;/h3&gt;
+
+&lt;p&gt;Zwischen einem Wasserstoffatom mit positiver Teilladung ($\delta^+$) eines Moleküls und einem freien Elektronenpaar am Sauerstoffatom mit negativer Teilladung ($\delta^-$) eines anderen Moleküls bestehen anziehende &lt;strong&gt;Wasserstoffbrückenbindungen&lt;/strong&gt; (H-Brücken)&lt;/p&gt;
+
+&lt;h3 id=&quot;homologe-reihe-der-alkohole&quot;&gt;Homologe Reihe der Alkohole&lt;/h3&gt;
+
+&lt;p&gt;Sowie die Alkane, Alkene und Alkine haben die Alkohole auch eine Homologe Reihe, die wie folgt aussieht:&lt;/p&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;Name&lt;/th&gt;
+      &lt;th&gt;Summenformel&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Methanol&lt;/td&gt;
+      &lt;td&gt;$CH_3OH$&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Ethanol&lt;/td&gt;
+      &lt;td&gt;$C_2H_5OH$&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Propanol&lt;/td&gt;
+      &lt;td&gt;$C_3H_7OH$&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Butanol&lt;/td&gt;
+      &lt;td&gt;$C_4H_9OH$&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Pentanol&lt;/td&gt;
+      &lt;td&gt;$C_5H_{11}OH$&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Hexanol&lt;/td&gt;
+      &lt;td&gt;$C_6H_{13}OH$&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Heptanol&lt;/td&gt;
+      &lt;td&gt;$C_7H_{15}OH$&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Octanol&lt;/td&gt;
+      &lt;td&gt;$C_8H_{17}OH$&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Nonanol&lt;/td&gt;
+      &lt;td&gt;$C_9H_{19}OH$&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Decanol&lt;/td&gt;
+      &lt;td&gt;$C_{10}H_{21}OH$&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;Die &lt;strong&gt;Allgemeine Summenformel&lt;/strong&gt; für die Alkohole lautet: $C_nH_{2n+1}OH$&lt;/p&gt;
+
+&lt;h3 id=&quot;eigenschaften-der-alkohole&quot;&gt;Eigenschaften der Alkohole&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Siedetemperatur + Zähflüssigkeit (Viskosität) nehmen bei steigender Kettenlänge zu -&amp;gt; Van-der-Waals Kräfte&lt;/li&gt;
+  &lt;li&gt;Siedetemperatur der Alkohole ist höher als bei den Alkanen (Ethan: -88°C; Ethanol: 78°C) -&amp;gt; V-d-W + H-Brücken&lt;/li&gt;
+  &lt;li&gt;So länger der Alkylrest des Alkohols wird, desto besser löst es sich in unpolaren Stoffen und desto schlechter in polaren Stoffen.&lt;/li&gt;
+  &lt;li&gt;So kürzer der Alkylrest des Alkohols ist, desto besser löst es sich in polaren Stoffen und desto schlechter in unpolaren Stoffen.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Eigentlich muss man sich nur eins merken: &lt;strong&gt;Ähnliches löst sich in Ählichem&lt;/strong&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;glycerin---ein-besonderer-alkohol&quot;&gt;Glycerin - ein besonderer Alkohol&lt;/h3&gt;
+
+&lt;p&gt;Die verkürzte Strukturformel von Glycerin sieht so aus: $CH_2OH-CHOH-CH_2OH$&lt;br /&gt;
+Die Summenformel lautet von Glycerin so: $C_3H_8O_3$&lt;/p&gt;
+
+&lt;h4 id=&quot;eigenschaften-von-glycerin&quot;&gt;Eigenschaften von Glycerin&lt;/h4&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Löslichkeit in Wasser -&amp;gt; Da drei Hydroxygruppen vorhanden sind, kann es sich sehr gut in Wasser lösen, da sich die Wassermoleküle mit den Hydroxygruppen über eine H-Brücke anziehen.&lt;/li&gt;
+  &lt;li&gt;Siedetemperatur liegt bei 290°C -&amp;gt; Es wird mehr Energie gebraucht, um die einzelnen Glycerin Moleküle auseinander zu bringen, da die H-Brücke eine starke Anziehung hat und so mehr zusammenhält, als die Van-der-Waals Bindungen&lt;/li&gt;
+  &lt;li&gt;ist zähflüssig -&amp;gt; Wie eben schon gesagt, halten durch die H-Brücken die Glycerinmoleküle mehr zusammen und so ist sie zähflüssiger als zum Beispiel Propanol&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Wie man jetzt mittlerweile gesehen hat, hat dieses Molekül nicht nur eine Hydroxygruppe sondern drei Hydroxygruppe. Und diese Alkohole nennt man denn &lt;strong&gt;mehrwertige Alkohole&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Glycerin heißt nämlich eigentlich ganz anders ;) : 1,2,3-Propan&lt;strong&gt;tri&lt;/strong&gt;ol -&amp;gt; &lt;strong&gt;drei&lt;/strong&gt;wertiger Alkohol&lt;/p&gt;
+
+&lt;h3 id=&quot;herstellung-von-ethanol-zusatz&quot;&gt;Herstellung von Ethanol (Zusatz)&lt;/h3&gt;
+
+&lt;p&gt;Ethanol entsteht bei der &lt;strong&gt;alkoholischen Gärung durch Hefepilze&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Glukose -&amp;gt; Ethanol + Kohlenstoffdioxid&lt;/p&gt;
+
+&lt;p&gt;$C_6H_{12}H_6$ -&amp;gt; $C_2H_5OH$ + $CO_2$&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Für die Gärung wird kein Sauerstoff benötigt und ist somit anearob.&lt;/li&gt;
+  &lt;li&gt;Gärung dient den Hefepilzen zur Energiegewinnung (keine Atmung)&lt;/li&gt;
+&lt;/ul&gt;</content><author><name>Adrian</name></author><category term="Alkohol" /><category term="OH" /><summary type="html">Trinkalkohol als wichtiger Vertreter - Eigenschaften &amp;amp; Molekülbau</summary></entry><entry><title type="html">Organische Chemie</title><link href="/klasse10/chemie/organische-chemie/" rel="alternate" type="text/html" title="Organische Chemie" /><published>2019-03-11T00:00:00+01:00</published><updated>2019-03-11T00:00:00+01:00</updated><id>/klasse10/chemie/organische-chemie</id><content type="html" xml:base="/klasse10/chemie/organische-chemie/">&lt;p&gt;Die organische Chemie beschäftigt sich mit Kohlenstoffverbindungen.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Ausnahmen&lt;/strong&gt;: Oxide des Kohlenstoffs, Kohlensäure und deren Salze (Carbonate)&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Merke!&lt;/strong&gt;: Kohlenstoffatome sind immer &lt;strong&gt;vierbindig&lt;/strong&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;1-kohlenwasserstoffe&quot;&gt;1. Kohlenwasserstoffe&lt;/h2&gt;
+
+&lt;p&gt;Kohlenwasserstoffe sind Verbindungen, deren Moleküle nur aus Kohlenstoff und Wasserstoff bestehen&lt;/p&gt;
+
+&lt;h3 id=&quot;11-methan-als-einfachster-kohlenwasserstoff&quot;&gt;1.1 Methan als einfachster Kohlenwasserstoff&lt;/h3&gt;
+
+&lt;h4 id=&quot;111-eigenschaften&quot;&gt;1.1.1 Eigenschaften:&lt;/h4&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;farblos, Gas, geruchslos&lt;/li&gt;
+  &lt;li&gt;brennbar, bildet explosives Gemisch mit Luft&lt;/li&gt;
+  &lt;li&gt;geringere Dichte als Luft&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;112-verwendung&quot;&gt;1.1.2 Verwendung:&lt;/h4&gt;
+
+&lt;p&gt;als Brennstoff (Heizen + Kochen)&lt;/p&gt;
+
+&lt;h4 id=&quot;113-struktur-des-metanmoleküls&quot;&gt;1.1.3 Struktur des Metanmoleküls:&lt;/h4&gt;
+
+&lt;p&gt;Das Methanmolekül ist &lt;strong&gt;tetraedisch&lt;/strong&gt; aufgebaut.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Summenformel&lt;/strong&gt;: $CH_4$&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Vereinfachte Strukturformel&lt;/strong&gt;: $CH_4$&lt;/p&gt;
+
+&lt;p&gt;Der räumliche Bau von Molekülen hat in der organischen Chemie eine sehr große Bedeutung!!&lt;/p&gt;
+
+&lt;h3 id=&quot;12-die-stoffgruppe-der-alkane&quot;&gt;1.2 Die Stoffgruppe der Alkane&lt;/h3&gt;
+
+&lt;p&gt;Alkane sind Kohlenwasserstoffe, bei denen die benachbarten Kohlensoffatome durch eine Bindung miteinander verknüpft sind.&lt;/p&gt;
+
+&lt;table class=&quot;table table-hover&quot;&gt;
+        &lt;thead&gt;
+        &lt;tr&gt;
+        &lt;th style=&quot;text-align:center&quot;&gt;Name&lt;/th&gt;
+        &lt;th style=&quot;text-align:center&quot;&gt;Anzahl C-Atome&lt;/th&gt;
+        &lt;th style=&quot;text-align:center&quot;&gt;Anzahl H-Atome&lt;/th&gt;
+        &lt;th style=&quot;text-align:center&quot;&gt;Summenf.&lt;/th&gt;
+        &lt;/tr&gt;
+        &lt;/thead&gt;
+        &lt;tbody&gt;
+        &lt;tr&gt;
+        &lt;td style=&quot;text-align:center&quot;&gt;Methan&lt;/td&gt;
+        &lt;td style=&quot;text-align:center&quot;&gt;1&lt;/td&gt;
+        &lt;td style=&quot;text-align:center&quot;&gt;4&lt;/td&gt;
+        &lt;td style=&quot;text-align:center&quot;&gt;$CH_4$&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+        &lt;td style=&quot;text-align:center&quot;&gt;Ethan&lt;/td&gt;
+        &lt;td style=&quot;text-align:center&quot;&gt;2&lt;/td&gt;
+        &lt;td style=&quot;text-align:center&quot;&gt;6&lt;/td&gt;
+        &lt;td style=&quot;text-align:center&quot;&gt;$C_2H_6$&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+        &lt;td style=&quot;text-align:center&quot;&gt;Propan&lt;/td&gt;
+        &lt;td style=&quot;text-align:center&quot;&gt;3&lt;/td&gt;
+        &lt;td style=&quot;text-align:center&quot;&gt;8&lt;/td&gt;
+        &lt;td style=&quot;text-align:center&quot;&gt;$C_3H_8$&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+        &lt;td style=&quot;text-align:center&quot;&gt;Butan&lt;/td&gt;
+        &lt;td style=&quot;text-align:center&quot;&gt;4&lt;/td&gt;
+        &lt;td style=&quot;text-align:center&quot;&gt;10&lt;/td&gt;
+        &lt;td style=&quot;text-align:center&quot;&gt;$C_4H_{10}$&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+        &lt;td style=&quot;text-align:center&quot;&gt;Pentan&lt;/td&gt;
+        &lt;td style=&quot;text-align:center&quot;&gt;5&lt;/td&gt;
+        &lt;td style=&quot;text-align:center&quot;&gt;12&lt;/td&gt;
+        &lt;td style=&quot;text-align:center&quot;&gt;$C_5H_{12}$&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+        &lt;td style=&quot;text-align:center&quot;&gt;Hexan&lt;/td&gt;
+        &lt;td style=&quot;text-align:center&quot;&gt;6&lt;/td&gt;
+        &lt;td style=&quot;text-align:center&quot;&gt;14&lt;/td&gt;
+        &lt;td style=&quot;text-align:center&quot;&gt;$C_6H_{14}$&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+        &lt;td style=&quot;text-align:center&quot;&gt;Heptan&lt;/td&gt;
+        &lt;td style=&quot;text-align:center&quot;&gt;7&lt;/td&gt;
+        &lt;td style=&quot;text-align:center&quot;&gt;16&lt;/td&gt;
+        &lt;td style=&quot;text-align:center&quot;&gt;$C_7H_{16}$&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+        &lt;td style=&quot;text-align:center&quot;&gt;Octan&lt;/td&gt;
+        &lt;td style=&quot;text-align:center&quot;&gt;8&lt;/td&gt;
+        &lt;td style=&quot;text-align:center&quot;&gt;18&lt;/td&gt;
+        &lt;td style=&quot;text-align:center&quot;&gt;$C_8H_{18}$&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+        &lt;td style=&quot;text-align:center&quot;&gt;Nonan&lt;/td&gt;
+        &lt;td style=&quot;text-align:center&quot;&gt;9&lt;/td&gt;
+        &lt;td style=&quot;text-align:center&quot;&gt;20&lt;/td&gt;
+        &lt;td style=&quot;text-align:center&quot;&gt;$C_9H_{20}$&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+        &lt;td style=&quot;text-align:center&quot;&gt;Decan&lt;/td&gt;
+        &lt;td style=&quot;text-align:center&quot;&gt;10&lt;/td&gt;
+        &lt;td style=&quot;text-align:center&quot;&gt;22&lt;/td&gt;
+        &lt;td style=&quot;text-align:center&quot;&gt;$C_{10}H_{22}$&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;/tbody&gt;
+        &lt;/table&gt;
+
+&lt;p&gt;Alkane bilden eine homologe Reihe, in der sich die Moleküle zweier aufeinander folgender Verbindungen jeweils&lt;br /&gt;
+durch eine $CH_2$-Einheit unterscheiden.&lt;br /&gt;
+Die chemischen Eigenschaften der Alkane stimmen infolge der gemeinsamen Strukturelemente weitgehend überein&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Allgemeine Summenformel der Alkane: $C_nH_{2n+2}$&lt;/strong&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;1121-eigenschaften-der-alkane&quot;&gt;1.1.2.1 Eigenschaften der Alkane&lt;/h4&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;mit zunehmender Kettenlänge steigen Siede- und Schmelztemperatur&lt;/li&gt;
+  &lt;li&gt;mit zunehmender Kettenlänge verändern sich die Aggregatzustände (gasf. -&amp;gt; flüssig -&amp;gt; fest)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id=&quot;13-reaktionen-der-alkane&quot;&gt;1.3 Reaktionen der Alkane&lt;/h3&gt;
+
+&lt;h4 id=&quot;131-verbrennungsreaktion&quot;&gt;1.3.1 Verbrennungsreaktion&lt;/h4&gt;
+
+&lt;p&gt;Alle Alkane sind brennbar. Die Verbrennung ist eine chemische Reaktion mit $O_2$&lt;/p&gt;
+
+&lt;h5 id=&quot;1311-vollständige-verbrennung&quot;&gt;1.3.1.1 Vollständige Verbrennung&lt;/h5&gt;
+
+&lt;p&gt;Alkan + Sauerstoff –&amp;gt; Kohlenstoffdioxid + Wasser&lt;br /&gt;
+$C_3H_8 + 5O_2 \Rightarrow 3CO_2 + 4H_2O$&lt;/p&gt;
+
+&lt;h5 id=&quot;1312-unvollständige-verbrennung&quot;&gt;1.3.1.2 unvollständige Verbrennung&lt;/h5&gt;
+
+&lt;p&gt;Alkan + Sauerstoff –&amp;gt; Kohlenstoffdioxid + Wasser + Ruß ($C$) + Kohlenstoffmonooxid($CO$)&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h4 id=&quot;132-substitutionsreaktion&quot;&gt;1.3.2 Substitutionsreaktion&lt;/h4&gt;
+
+&lt;p&gt;Hexan + Brom –&amp;gt; Bromhexan + Bromwasserstoff&lt;br /&gt;
+$C_6H_{14} + Br_2 \Rightarrow C_6H_{13}Br + HBr$&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id=&quot;14-isomerie-bei-alkanen&quot;&gt;1.4 Isomerie bei Alkanen&lt;/h3&gt;
+
+&lt;p&gt;Verbindungen mit gleicher Summenformel, aber unterschiedliche Struktur ihren Moleküle heißen Isomere.&lt;br /&gt;
+Isomere unterscheiden sich in ihren Eigenschaften, denn es sind verschiedene Stoffe&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id=&quot;15-nomenklatur-der-alkane&quot;&gt;1.5 Nomenklatur der Alkane&lt;/h3&gt;
+
+&lt;p&gt;Wenn man ein Alkan vor sich hat und es nicht zufällig einer der oben genannten ist, musst du sie im Test oder Klausur&lt;br /&gt;
+selber benennen. Dafür muss man nur die folgenden Regeln beachten und dann sollte nichts mehr schief gehen. ;)&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;Die längste, ununterbrochene Kohlenstoffkette wird durchnummeriert. Sie ergibt den Stammnamen&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Vor dem Namen der Seitenkette steht die Nummer des Kohlenstoffs, an diese sie geknüpft ist.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Bei der Nummerierung der längsten C-Kette ist darauf zu achten, dass die Seitenketten eine möglichst kleine Zahl haben&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Seitenketten heißen, der C-Atome entsprechend wie die Alkane, jedoch mit der Endung -yl anstatt -an ($-CH_3$ = Methyl; $-C_2H_5$ = Ethyl; $-C_3H_7$ = Propyl; usw.)&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Treten gleiche Seitenketten mehrmals auf, werden zunächst die Zahlen der Verknüpfungsstellen genannt und dann der Restename hinten dran (2x = di-; 3x = tri-; 4x = tetra-; 5x = penta-)&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Wenn es mehrere Ketten gibt, die gleich viele ununterbrochene Kohlenstofketten haben, nimmt man die Kette, die die meisten Nebenketten haben.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id=&quot;3-die-stoffgruppe-der-alkene&quot;&gt;3. Die Stoffgruppe der Alkene&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;Definition:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Alkene sind ungesättigte Kohlenwasserstoffe, deren Molekül &lt;strong&gt;mindestens eine&lt;/strong&gt; Doppelbindung enthalten&lt;/p&gt;
+
+&lt;h3 id=&quot;31-homologe-reihe-der-alkene&quot;&gt;3.1 Homologe Reihe der Alkene&lt;/h3&gt;
+
+&lt;p&gt;Die Alkene haben genauso wie die Alkane eine Homologe Reihe:&lt;/p&gt;
+
+&lt;table class=&quot;table table-hover&quot;&gt;
+        &lt;thead&gt;
+        &lt;tr&gt;
+        &lt;th style=&quot;text-align:center&quot;&gt;Name&lt;/th&gt;
+        &lt;th style=&quot;text-align:center&quot;&gt;Anzahl C-Atome&lt;/th&gt;
+        &lt;th style=&quot;text-align:center&quot;&gt;Anzahl H-Atome&lt;/th&gt;
+        &lt;th style=&quot;text-align:center&quot;&gt;Summenf.&lt;/th&gt;
+        &lt;/tr&gt;
+        &lt;/thead&gt;
+        &lt;tbody&gt;
+        &lt;tr&gt;
+        &lt;td style=&quot;text-align:center&quot;&gt;Ethen&lt;/td&gt;
+        &lt;td style=&quot;text-align:center&quot;&gt;2&lt;/td&gt;
+        &lt;td style=&quot;text-align:center&quot;&gt;4&lt;/td&gt;
+        &lt;td style=&quot;text-align:center&quot;&gt;$C_2H_4$&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+        &lt;td style=&quot;text-align:center&quot;&gt;Propen&lt;/td&gt;
+        &lt;td style=&quot;text-align:center&quot;&gt;3&lt;/td&gt;
+        &lt;td style=&quot;text-align:center&quot;&gt;6&lt;/td&gt;
+        &lt;td style=&quot;text-align:center&quot;&gt;$C_3H_6$&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+        &lt;td style=&quot;text-align:center&quot;&gt;Buten&lt;/td&gt;
+        &lt;td style=&quot;text-align:center&quot;&gt;4&lt;/td&gt;
+        &lt;td style=&quot;text-align:center&quot;&gt;8&lt;/td&gt;
+        &lt;td style=&quot;text-align:center&quot;&gt;$C_4H_8$&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+        &lt;td style=&quot;text-align:center&quot;&gt;Penten&lt;/td&gt;
+        &lt;td style=&quot;text-align:center&quot;&gt;5&lt;/td&gt;
+        &lt;td style=&quot;text-align:center&quot;&gt;10&lt;/td&gt;
+        &lt;td style=&quot;text-align:center&quot;&gt;$C_5H_{10}$&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+        &lt;td style=&quot;text-align:center&quot;&gt;Hexen&lt;/td&gt;
+        &lt;td style=&quot;text-align:center&quot;&gt;6&lt;/td&gt;
+        &lt;td style=&quot;text-align:center&quot;&gt;12&lt;/td&gt;
+        &lt;td style=&quot;text-align:center&quot;&gt;$C_6H_{12}$&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+        &lt;td style=&quot;text-align:center&quot;&gt;Hepten&lt;/td&gt;
+        &lt;td style=&quot;text-align:center&quot;&gt;7&lt;/td&gt;
+        &lt;td style=&quot;text-align:center&quot;&gt;14&lt;/td&gt;
+        &lt;td style=&quot;text-align:center&quot;&gt;$C_7H_{14}$&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+        &lt;td style=&quot;text-align:center&quot;&gt;Octen&lt;/td&gt;
+        &lt;td style=&quot;text-align:center&quot;&gt;8&lt;/td&gt;
+        &lt;td style=&quot;text-align:center&quot;&gt;16&lt;/td&gt;
+        &lt;td style=&quot;text-align:center&quot;&gt;$C_8H_{16}$&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+        &lt;td style=&quot;text-align:center&quot;&gt;Nonen&lt;/td&gt;
+        &lt;td style=&quot;text-align:center&quot;&gt;9&lt;/td&gt;
+        &lt;td style=&quot;text-align:center&quot;&gt;18&lt;/td&gt;
+        &lt;td style=&quot;text-align:center&quot;&gt;$C_9H_{18}$&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+        &lt;td style=&quot;text-align:center&quot;&gt;Decen&lt;/td&gt;
+        &lt;td style=&quot;text-align:center&quot;&gt;10&lt;/td&gt;
+        &lt;td style=&quot;text-align:center&quot;&gt;20&lt;/td&gt;
+        &lt;td style=&quot;text-align:center&quot;&gt;$C_{10}H_{20}$&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;/tbody&gt;
+        &lt;/table&gt;
+
+&lt;p&gt;&lt;strong&gt;Allgemeine Formel für die Alkene: $C_nH_{2n}$&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Sie haben außerdem ähnliche physikalische Eigenschaften wie die Alkane (van-der-waals Kräfte etc.)&lt;/p&gt;
+
+&lt;h3 id=&quot;32-reaktionen-der-alkene&quot;&gt;3.2 Reaktionen der Alkene&lt;/h3&gt;
+
+&lt;h4 id=&quot;321-additionsreaktion&quot;&gt;3.2.1 Additionsreaktion&lt;/h4&gt;
+
+&lt;p&gt;Die Additionsreaktion ist eine Chemische Reaktion, bei der 2 Moleküle der Edukte zu einem Molekül als Produkt verbinden (2 -&amp;gt; 1). Es gibt bei der Additionsreaktion 2 Arten von Reaktionen. Zum einen wäre das die &lt;strong&gt;Halogenierung&lt;/strong&gt; und zum anderen die &lt;strong&gt;Hydrierung&lt;/strong&gt;&lt;/p&gt;
+
+&lt;h5 id=&quot;3211-halogenierung&quot;&gt;3.2.1.1 Halogenierung&lt;/h5&gt;
+
+&lt;p&gt;Bei der Halogenierung reagiert ein Alken mit einem Halogen (7. Hauptgruppe)&lt;/p&gt;
+
+&lt;p&gt;Ethen + Brom –&amp;gt; 1,2-Dibromethan&lt;br /&gt;
+$CH_2=CH_2 + Br_2 \Rightarrow CH_2Br-CH_2Br$ (verkürzte Strukturformel)&lt;/p&gt;
+
+&lt;p&gt;$C_2H_4 + Br_2 \Rightarrow C_2H_4Br_2$&lt;/p&gt;
+
+&lt;h5 id=&quot;3212-hydrierung&quot;&gt;3.2.1.2 Hydrierung&lt;/h5&gt;
+
+&lt;p&gt;Bei der Hydrierung reagiert ein Alken mit Wasserstoff&lt;/p&gt;
+
+&lt;p&gt;Ethen + Wasserstoff –&amp;gt; Ethan&lt;/p&gt;
+
+&lt;p&gt;$CH_2=CH_2 + H_2 \Rightarrow CH_3-CH_3$ (verkürzte Strukturformel)&lt;/p&gt;
+
+&lt;p&gt;$C_2H_4 + H_2 \Rightarrow C_2H_6$&lt;/p&gt;
+
+&lt;h4 id=&quot;322-eliminierung&quot;&gt;3.2.2 Eliminierung&lt;/h4&gt;
+
+&lt;p&gt;Die Addition ist auch umkehrbar. Aus einem Molekül werden mindestens 2 Atomgruppen abgespalten.&lt;/p&gt;
+
+&lt;p&gt;$CH_3-CH_2-CH_3 \Rightarrow H_2 + CH_2=CH_2$ (verkürzte Strukturformel)&lt;/p&gt;
+
+&lt;p&gt;$C_3H_8 \Rightarrow H_2 + C_2H_4$&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;4-die-stoffgruppe-der-alkine&quot;&gt;4. Die Stoffgruppe der Alkine&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;Definition:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Alkine sind ungesättigte Kohlenwasserstoffe, deren Molekül &lt;strong&gt;mindestens eine&lt;/strong&gt; Dreifachbindung enthalten&lt;/p&gt;
+
+&lt;p&gt;Die Alkine haben genauso wie die Alkene und Alkane eine homologe Reihe. Die &lt;strong&gt;Allgemeine Formel&lt;/strong&gt; dafür lautet: $C_nH_{2n-2}$&lt;/p&gt;
+
+&lt;table class=&quot;table table-hover&quot;&gt;
+        &lt;thead&gt;
+        &lt;th style=&quot;text-align:center&quot;&gt;Name&lt;/th&gt;
+        &lt;th style=&quot;text-align:center&quot;&gt;Anzahl C-Atome&lt;/th&gt;
+        &lt;th style=&quot;text-align:center&quot;&gt;Anzahl H-Atome&lt;/th&gt;
+        &lt;th style=&quot;text-align:center&quot;&gt;Summenf.&lt;/th&gt;
+        &lt;/thead&gt;
+        &lt;tbody&gt;
+        &lt;tr&gt;
+        &lt;td style=&quot;text-align:center&quot;&gt;Ethin&lt;/td&gt;
+        &lt;td style=&quot;text-align:center&quot;&gt;2&lt;/td&gt;
+        &lt;td style=&quot;text-align:center&quot;&gt;2&lt;/td&gt;
+        &lt;td style=&quot;text-align:center&quot;&gt;$C_2H_2$&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+        &lt;td style=&quot;text-align:center&quot;&gt;Propin&lt;/td&gt;
+        &lt;td style=&quot;text-align:center&quot;&gt;3&lt;/td&gt;
+        &lt;td style=&quot;text-align:center&quot;&gt;4&lt;/td&gt;
+        &lt;td style=&quot;text-align:center&quot;&gt;$C_3H_4$&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+        &lt;td style=&quot;text-align:center&quot;&gt;Butin&lt;/td&gt;
+        &lt;td style=&quot;text-align:center&quot;&gt;4&lt;/td&gt;
+        &lt;td style=&quot;text-align:center&quot;&gt;6&lt;/td&gt;
+        &lt;td style=&quot;text-align:center&quot;&gt;$C_4H_6$&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+        &lt;td style=&quot;text-align:center&quot;&gt;Pentin&lt;/td&gt;
+        &lt;td style=&quot;text-align:center&quot;&gt;5&lt;/td&gt;
+        &lt;td style=&quot;text-align:center&quot;&gt;8&lt;/td&gt;
+        &lt;td style=&quot;text-align:center&quot;&gt;$C_5H_{8}$&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+        &lt;td style=&quot;text-align:center&quot;&gt;Hexin&lt;/td&gt;
+        &lt;td style=&quot;text-align:center&quot;&gt;6&lt;/td&gt;
+        &lt;td style=&quot;text-align:center&quot;&gt;10&lt;/td&gt;
+        &lt;td style=&quot;text-align:center&quot;&gt;$C_6H_{10}$&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+        &lt;td style=&quot;text-align:center&quot;&gt;Heptin&lt;/td&gt;
+        &lt;td style=&quot;text-align:center&quot;&gt;7&lt;/td&gt;
+        &lt;td style=&quot;text-align:center&quot;&gt;12&lt;/td&gt;
+        &lt;td style=&quot;text-align:center&quot;&gt;$C_7H_{12}$&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+        &lt;td style=&quot;text-align:center&quot;&gt;Octin&lt;/td&gt;
+        &lt;td style=&quot;text-align:center&quot;&gt;8&lt;/td&gt;
+        &lt;td style=&quot;text-align:center&quot;&gt;14&lt;/td&gt;
+        &lt;td style=&quot;text-align:center&quot;&gt;$C_8H_{14}$&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+        &lt;td style=&quot;text-align:center&quot;&gt;Nonin&lt;/td&gt;
+        &lt;td style=&quot;text-align:center&quot;&gt;9&lt;/td&gt;
+        &lt;td style=&quot;text-align:center&quot;&gt;16&lt;/td&gt;
+        &lt;td style=&quot;text-align:center&quot;&gt;$C_9H_{16}$&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+        &lt;td style=&quot;text-align:center&quot;&gt;Decin&lt;/td&gt;
+        &lt;td style=&quot;text-align:center&quot;&gt;10&lt;/td&gt;
+        &lt;td style=&quot;text-align:center&quot;&gt;18&lt;/td&gt;
+        &lt;td style=&quot;text-align:center&quot;&gt;$C_{10}H_{18}$&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;/tbody&gt;
+        &lt;/table&gt;
+
+&lt;p&gt;&lt;strong&gt;Eigenschaften:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;ähnliche physikalische Eigenschaften wie die Alkane/Alkene&lt;/li&gt;
+  &lt;li&gt;ähnliche Reaktionen wie die Alkene aufgrund der Dreifachbindung (Addition, Eliminierung)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Addition:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;$CH≡CH + H_2 \Rightarrow CH_2=CH_2$&lt;/p&gt;
+
+&lt;p&gt;$CH_2=CH_2 + H_2 \Rightarrow CH_3-CH_3$&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Eliminierung:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;$CH_3-CH_3 \Rightarrow CH_2=CH_2 + H_2$&lt;/p&gt;
+
+&lt;p&gt;$CH_2=CH_2 \Rightarrow CH≡CH + H_2$&lt;/p&gt;</content><author><name>Adrian</name></author><summary type="html">Die organische Chemie beschäftigt sich mit Kohlenstoffverbindungen.</summary></entry><entry><title type="html">Mechanik</title><link href="/klasse10/physik/mechanik/" rel="alternate" type="text/html" title="Mechanik" /><published>2019-02-22T00:00:00+01:00</published><updated>2019-02-22T00:00:00+01:00</updated><id>/klasse10/physik/mechanik</id><content type="html" xml:base="/klasse10/physik/mechanik/">&lt;p&gt;&lt;strong&gt;Alle Formeln sind auch noch mal im Tafelwerk zu finden: Dazu einfach auf die Seiten 84-86 gucken!&lt;br /&gt;
+(Außer bei Überlagerung von gleichförmigen Bewegungen)&lt;/strong&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;1-definition-von-bewegung-&quot;&gt;1. Definition von Bewegung &lt;a name=&quot;defbewegung&quot;&gt;&lt;/a&gt;&lt;/h2&gt;
+
+&lt;p&gt;1. Ein Körper ist in &lt;strong&gt;Bewegung&lt;/strong&gt;, wenn er seine Lage gegenüber einem Bezugkörper ändert.&lt;br /&gt;
+2. Ein Körper ist in &lt;strong&gt;Ruhe&lt;/strong&gt;, wenn er seine Lage gegenüber einem Bezugskörper beibehält.&lt;/p&gt;
+
+&lt;h2 id=&quot;2-bewegungsformen&quot;&gt;2. Bewegungsformen&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;geradlinige Bewegung&lt;/strong&gt; (Bsp.: Zug/Auto auf gerader Strecker, Mensch auf gerader Strecke)&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Kreisbewegung&lt;/strong&gt; (Bsp.: Riesenrad, Looping fahren, Erde dreht sich um die eigene Achse)&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Schwingung&lt;/strong&gt; (Bsp.: Schaukel, Pendel)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;3-bewegungsarten&quot;&gt;3. Bewegungsarten&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;gleichförmige Bewegung&lt;/strong&gt; (Geschwindigkeit($v$) konstant)&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;ungleichförmige Bewegung&lt;/strong&gt; (veränderliche Geschwindigkeiten)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;4-geschwindigkeit&quot;&gt;4. Geschwindigkeit&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;Definition:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Die Geschwindigkeit gibt an, wie schnell oder wie langsam sich ein Körper bewegt.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Formelzeichen:&lt;/strong&gt; $v$&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Einheiten:&lt;/strong&gt; $\dfrac{m}{s}$ und $\dfrac{km}{h}$&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Formel:&lt;/strong&gt; $v = \dfrac{s}{t}$&lt;br /&gt;
+$s$ = Strecke&lt;br /&gt;
+$t$ = Zeit&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Umrechnung von $\dfrac{m}{s}$ in $\dfrac{km}{h}$:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;$1\dfrac{m}{s} = 3,6\dfrac{km}{h}$&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;5-beschleunigung&quot;&gt;5. Beschleunigung&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;Definition:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Die Beschleunigung gibt an, wie schnell sich die Geschwindigkeit eines Körpers ändert.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Formelzeichen:&lt;/strong&gt; $a$&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Einheit:&lt;/strong&gt; $\dfrac{m}{s^2}$&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Formel:&lt;/strong&gt; $a = \dfrac{\Delta v}{\Delta t}$&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Strecke($s$) berechnen:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;$s$ = fläche von v/t Diagramm.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://adrian.mvbuddies.de/bilder/physik10/mechanik/Beschleunigung1.jpg&quot; alt=&quot;&quot; class=&quot;img-responsive&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Da Fläche ein Dreieck und die Fläche von Dreieck (rechtwinklig) gleich $A = \dfrac{ab}{2}$
+ist kommen wir auf $s = \dfrac{v_1t_1}{2}$ da aber die steigende Geschwindigkeit und keine Konstante, formen wir&lt;br /&gt;
+$a = \dfrac{v}{t}$ zu $v = at$ um welches wir dann in die Gleichung einsetzen:
+$s = \dfrac{att}{2}$ und das ganze jetzt noch zusammenfassen: $s = \dfrac{at^2}{2}$&lt;/p&gt;
+
+&lt;p&gt;Ein s/t Diagramm würde dann aussehen, wie eine halbe Parabel&lt;/p&gt;
+
+&lt;h3 id=&quot;51-der-freie-fall&quot;&gt;5.1 Der freie Fall&lt;/h3&gt;
+
+&lt;p&gt;&lt;strong&gt;Bewegungsform:&lt;/strong&gt; geradlinig&lt;br /&gt;
+&lt;strong&gt;Bewegungsart:&lt;/strong&gt; gleichmäßige Beschleunigung&lt;/p&gt;
+
+&lt;p&gt;Die Beschleunigung, mit der ein frei fallender Körper fällt, wird als &lt;strong&gt;Fallbeschleunigung $g$&lt;/strong&gt; bezeichnet.&lt;br /&gt;
+Die Fallbeschleunigung ist ortsabhängig.&lt;/p&gt;
+
+&lt;p&gt;In der Schule (wofür das hier gemacht ist) nutzen wir aber die Fallbeschleunigung: $g = 9,81\dfrac{m}{s^2}$&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id=&quot;52-gleichmäßig-beschleunigte-bewegung-mit-anfangsgeschwindigkeit&quot;&gt;5.2 Gleichmäßig beschleunigte Bewegung mit Anfangsgeschwindigkeit&lt;/h3&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://adrian.mvbuddies.de/bilder/physik10/mechanik/BeschleunigungMitV0.jpg&quot; alt=&quot;&quot; class=&quot;img-responsive&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Endgeschwindigkeit $v_{end}$ berechnen:&lt;/strong&gt;&lt;br /&gt;
+$v_{end} = v_0 + \Delta v$ -&amp;gt; Schräge von $v_0$ bis $v_{end}$ = $a$ -&amp;gt; $a = \dfrac{\Delta v}{t}$ -&amp;gt;&lt;br /&gt;
+$\Delta v = at$ -&amp;gt; und da $v_{end} = v_0 + \Delta v$ -&amp;gt; $v_{end} = v_0 + at$&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Strecke $s$ berechnen:&lt;/strong&gt;&lt;br /&gt;
+$s$ = Fläche des Graphen. Dies unterteilen wir in 2 “Teile”. Einmal ein Rechteck $A_1$ und ein Dreieck $A_2$&lt;/p&gt;
+
+&lt;p&gt;$A_1$: Die Fläche eines Rechteckes ist wie folgt definiert: $A = ab$ und diese sind folgende Größen: $a = v_0$ und $b = t_{end}$&lt;br /&gt;
+-&amp;gt; Also lautet die Strecke für den ersten Teil wie folgt: $A_1 = v_0t$&lt;/p&gt;
+
+&lt;p&gt;$A_2$: Da $A_2$ ein Dreieck mit einem rechten Winkel ist, nimmt man die Formel $A = \dfrac{ab}{2}$ und da setzen wir jetzt die jeweiligen Einheiten ein $A_2 = \dfrac{\Delta vt_{end}}{2}$&lt;br /&gt;
+Da wir aber eine gleichmäßig beschleunigte Bewegung hier vorliegen haben müssen wir $\Delta v$ wieder mit $at$ ersetzen, denn $ \Delta v = at_{end}$&lt;br /&gt;
+Jetzt sieht die Gleichung so aus: $A_2 = \dfrac{t_{end}t_{end}a}{2}$ und zusammengefasst würde da stehen:&lt;br /&gt;
+$A_2 = \dfrac{at_{end}^2}{2}$ und da $t_{end}$ sogesagt $t$ ist lautet die Formel: $A_2 = \dfrac{at^2}{2}$&lt;/p&gt;
+
+&lt;p&gt;Und da wir jetzt die beiden Flächen der Teile haben rechnen wir die beiden zusammen, um die Strecke zu bekommen:&lt;br /&gt;
+$A_{ges} = A_1 + A_2$ -&amp;gt; $A_{ges} = v_0t + \dfrac{at^2}{2}$ und somit ist $s = v_0t + \dfrac{at^2}{2}$&lt;br /&gt;
+Und wenn man jetzt noch eine Anfangsstrecke($s_0$) haben sollte, verbindet man die Anfangsstrecke mit der jetzigen Formel mit einem $+$ und raus kommt:&lt;br /&gt;
+$s = v_0t+\dfrac{at^2}{2}+s_0$&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;6-überlagerung-von-bewegungen&quot;&gt;6. Überlagerung von Bewegungen&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;Definition:&lt;/strong&gt;&lt;br /&gt;
+Führt ein Körper gleichzeitig mehrere Teilbewegungen aus, so überlagert sich diese unabhängig voneinander &lt;strong&gt;resultierenden&lt;/strong&gt; Gesamtbewegung.&lt;/p&gt;
+
+&lt;h3 id=&quot;61-überlagerung-zweier-gleichförmiger-bewegungen&quot;&gt;6.1 Überlagerung zweier gleichförmiger Bewegungen&lt;/h3&gt;
+
+&lt;h4 id=&quot;611-gleiche-richtung&quot;&gt;6.1.1 gleiche Richtung:&lt;/h4&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://adrian.mvbuddies.de/bilder/physik10/mechanik/ueberlagerung1.jpg&quot; alt=&quot;&quot; class=&quot;img-responsive&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Da sich zwei konstante Geschwindigkeiten $v_1$ und $v_2$ in die gleiche Richtung bewegen,&lt;br /&gt;
+ist die resultierende Geschwindigkeit $v$ die Summe aus den einzelnen Geschwindigkeiten: $v = v_1 + v_2$&lt;/p&gt;
+
+&lt;h4 id=&quot;612-entgegengesetzte-richtung&quot;&gt;6.1.2 entgegengesetzte Richtung:&lt;/h4&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://adrian.mvbuddies.de/bilder/physik10/mechanik/ueberlagerung2.jpg&quot; alt=&quot;&quot; class=&quot;img-responsive&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Da sich zwei konstante Geschwindigkeiten $v_1$ und $v_2$ in die entgegengesetzte Richtung bewegen,&lt;br /&gt;
+ist die resultierende Geschwindigkeit $v$ die Differenz aus den einzelnen Geschwindigkeiten: $v = v_1 - v_2$&lt;br /&gt;
+&lt;strong&gt;Nicht vergessen! $v$ kann auch negativ sein.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;613-im-rechten-winkel-zueinander&quot;&gt;6.1.3 im rechten Winkel zueinander:&lt;/h4&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://adrian.mvbuddies.de/bilder/physik10/mechanik/ueberlagerung3.jpg&quot; alt=&quot;&quot; class=&quot;img-responsive&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Da sich zwei konstante Geschwindigkeiten $v_1$ und $v_2$ in einem rechten Winkel zueinander “bewegen”,&lt;br /&gt;
+ist die resultierende Geschwindigkeit $v$ die Wurzel aus der Summe der einzelnen quadrierten Geschwindigkeiten:&lt;br /&gt;
+$v = \sqrt{v_1^2+v_2^2}$&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id=&quot;62-überlagerung-von-gleichförmiger-und-gleichmäßig-beschleunigter-bewegung&quot;&gt;6.2 Überlagerung von gleichförmiger und gleichmäßig beschleunigter Bewegung&lt;/h3&gt;
+
+&lt;h4 id=&quot;621-gleiche-richtung-senkrechter-wurf-nach-unten&quot;&gt;6.2.1 gleiche Richtung (Senkrechter Wurf nach unten):&lt;/h4&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://adrian.mvbuddies.de/bilder/physik10/mechanik/ueberlagerung4.jpg&quot; alt=&quot;&quot; class=&quot;img-responsive&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Da sich eine konstante Anfangsgeschwindigkeit $v_0$ und der Freie Fall $v_f = gt$ in die gleiche Richtung bewegen,&lt;br /&gt;
+ist die resultiere Geschwindigkeit $v$ die Summe der beiden Geschwindigkeiten: $v = v_0+gt$&lt;/p&gt;
+
+&lt;p&gt;Die Strecke $s$/$y$ berechnet man aus der Summe von der Strecke der Anfangsgeschwindigkeit $s = v_0t$ und&lt;br /&gt;
+der Strecke des Freien Falls $s = \dfrac{gt^2}{2}$ –&amp;gt; $s = v_0t+\dfrac{gt^2}{2}$&lt;br /&gt;
+Laut Tafelwerk (S. 86) ist es $v = -v_0-gt$ -&amp;gt; kommt aber mit der anderen Formel aufs gleiche hinaus, außer, dass das Ergebnis negativ sein sollte.&lt;/p&gt;
+
+&lt;h4 id=&quot;622-entgegengesetzte-richtung-senkrechter-wurf-nach-oben&quot;&gt;6.2.2 entgegengesetzte Richtung (senkrechter Wurf nach oben):&lt;/h4&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://adrian.mvbuddies.de/bilder/physik10/mechanik/ueberlagerung5.jpg&quot; alt=&quot;&quot; class=&quot;img-responsive&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Da sich eine konstante Anfangsgeschwindigkeit $v_0$ und der Freie Fall $v_f = gt$ in die entgegengesetzte Richtung bewegen,&lt;br /&gt;
+ist die resultiere Geschwindigkeit $v$ die Differenz der beiden Geschwindigkeiten: $v = v_0-gt$&lt;br /&gt;
+Die Strecke $s$/$y$ berechnet man aus der Differenz von der Strecke der Anfangsgeschwindigkeit $s = v_0t$ und&lt;br /&gt;
+der Strecke des Freien Falls $s = \dfrac{gt^2}{2}$ –&amp;gt; $s = v_0t-\dfrac{gt^2}{2}$&lt;br /&gt;
+Bei einem senkrechten Wurf nach oben, gibt es noch die Steigzeit $t_h$, die angibt, wie lange das&lt;br /&gt;
+Objekt insgesammt steigt. Dafür nutzt man die Formel: $t_h = \dfrac{v_0}{g}$&lt;br /&gt;
+Außerdem gibt es noch die Steighöhe $s_h$, die angibt, wie hoch ein Obejekt steigt, bis es wieder nach unten fällt&lt;br /&gt;
+Für die Steighöhe nutzt man diese Formel: $s_h = \dfrac{v_0^2}{2g}$&lt;/p&gt;
+
+&lt;h4 id=&quot;623-im-rechten-winkel-zueinander-waagerechter-wurf&quot;&gt;6.2.3 Im rechten Winkel zueinander (waagerechter Wurf):&lt;/h4&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://adrian.mvbuddies.de/bilder/physik10/mechanik/ueberlagerung6.jpg&quot; alt=&quot;&quot; class=&quot;img-responsive&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Da sich eine konstante Anfangsgeschwindigkeit $v_0$ und der freie Fall $v_f = gt$ in einem rechten Winkel&lt;br /&gt;
+zueinander “bewegen”, so ist die resultierende Geschwindigkeit $v$ die Wurzel aus der Summe der einzelnen&lt;br /&gt;
+Geschwindigkeiten zum Quadrat: $ v= \sqrt{v_0^2+g^2t^2}$&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Wissenswertes:&lt;/strong&gt; $v_y = -gt$ -&amp;gt; ist negativ, weil man in einem Koordinatensystem (Siehe Abbildung) ins Negative von der Y-Achse geht.&lt;/p&gt;
+
+&lt;p&gt;Die Geschwindigkeit $v_x$ ist genauso groß wie die Geschwindigkeit $v_0$ -&amp;gt; $v_x = v_0$&lt;/p&gt;
+
+&lt;p&gt;Die Strecke $s_x$ oder $x$ (siehe Schaubild) ist das, um die Strecke bei einer&lt;br /&gt;
+gleichförmigen Bewegung auszurechnen: $x = v_0t$&lt;br /&gt;
+Um die Strecke in Y-Richtung zu berechnen, muss man einfach die Formel $y = -\dfrac{gt^2}{2}$ nehmen. &lt;strong&gt;(Ergebnis ist negativ!)&lt;/strong&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;7-kräfte-und-ihre-wirkungen&quot;&gt;7. Kräfte und ihre Wirkungen&lt;/h2&gt;
+
+&lt;p&gt;Die Kraft ist eine Wechselwirkungsgröße. Sie sind nur an den Wirkungen erkennbar:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Geschwindigkeitsänderung&lt;/li&gt;
+  &lt;li&gt;Formänderung&lt;/li&gt;
+  &lt;li&gt;Bahnänderung&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Definition&lt;/strong&gt;&lt;br /&gt;
+Die Kraft gibt an, wie stark zwei Körper aufeinander einwirken.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Formelzeichen: $F$&lt;/li&gt;
+  &lt;li&gt;Einheit: $N$ (Newton) =&amp;gt; $1\dfrac{kg*m}{s^2} = 1N$&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;71-zusammensetzung-von-kräften-tw-s-85&quot;&gt;7.1 Zusammensetzung von Kräften (TW. S. 85)&lt;/h3&gt;
+
+&lt;p&gt;Jetzt kommt das gleiche wie bei der Überlagerung von gleichförmigen Bewegungen, bloß jetzt mit Kräften.&lt;/p&gt;
+
+&lt;h4 id=&quot;711-gleiche-richtung&quot;&gt;7.1.1 gleiche Richtung:&lt;/h4&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://adrian.mvbuddies.de/bilder/physik10/mechanik/kraft1.jpg&quot; alt=&quot;&quot; class=&quot;img-responsive&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Formel hierfür ist folgende: $F = F_1 + F_2$&lt;/p&gt;
+
+&lt;h4 id=&quot;712-entgegengesetzte-richtung&quot;&gt;7.1.2 entgegengesetzte Richtung:&lt;/h4&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://adrian.mvbuddies.de/bilder/physik10/mechanik/kraft2.jpg&quot; alt=&quot;&quot; class=&quot;img-responsive&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Formel hierfür ist folgende: $F = F_1 - F_2$&lt;/p&gt;
+
+&lt;h4 id=&quot;713-in-einem-rechten-winkel-zueinander&quot;&gt;7.1.3 in einem rechten Winkel zueinander:&lt;/h4&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://adrian.mvbuddies.de/bilder/physik10/mechanik/kraft3.jpg&quot; alt=&quot;&quot; class=&quot;img-responsive&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Die Formel dafür lautet: $F = \sqrt{F_1^2+F_2^2}$&lt;/p&gt;
+
+&lt;h3 id=&quot;72-newtonsche-gesetze&quot;&gt;7.2 Newtonsche Gesetze&lt;/h3&gt;
+
+&lt;h4 id=&quot;721-das-trägheitsgesetz-1-newtonsches-gesetz&quot;&gt;7.2.1 Das Trägheitsgesetz (1. Newtonsches Gesetz)&lt;/h4&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://adrian.mvbuddies.de/bilder/physik10/mechanik/newton1.jpg&quot; alt=&quot;&quot; class=&quot;img-responsive&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Ein Körper bleibt in Ruhe oder in gleichförmiger geradliniger Bewegung, solange die Summe der auf ihn&lt;br /&gt;
+wirkenden Kräfte null ist. $v = konstant$ &amp;amp; $\Sigma F_{außen} = 0$&lt;/p&gt;
+
+&lt;h4 id=&quot;722-das-newtonsche-grundgesetz-2-newtonsches-gesetz&quot;&gt;7.2.2 Das Newtonsche Grundgesetz (2. Newtonsches Gesetz)&lt;/h4&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://adrian.mvbuddies.de/bilder/physik10/mechanik/newton2.jpg&quot; alt=&quot;&quot; class=&quot;img-responsive&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Zwischen Kraft, Masse und Beschleunigung gilt folgender Zusammenhang: $F = ma$&lt;/p&gt;
+
+&lt;h4 id=&quot;723-das-wechselwirkungsgesetz-3-newtonsches-gesetz&quot;&gt;7.2.3 Das Wechselwirkungsgesetz (3. Newtonsches Gesetz)&lt;/h4&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://adrian.mvbuddies.de/bilder/physik10/mechanik/newton3.jpg&quot; alt=&quot;&quot; class=&quot;img-responsive&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Wirken 2 Körper aufeinander ein, so wirkt auf jeden der Körper eine Kraft.&lt;br /&gt;
+Die Kräfte sind gleich und entgegengesetzt gewichtet: $F_1 = -F_2$&lt;/p&gt;
+
+&lt;hr /&gt;</content><author><name>Adrian</name></author><summary type="html">Alle Formeln sind auch noch mal im Tafelwerk zu finden: Dazu einfach auf die Seiten 84-86 gucken! (Außer bei Überlagerung von gleichförmigen Bewegungen)</summary></entry></feed>

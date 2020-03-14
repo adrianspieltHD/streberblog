@@ -1,0 +1,836 @@
+<!doctype html>
+<!--
+  Minimal Mistakes Jekyll Theme 4.17.1 by Michael Rose
+  Copyright 2013-2019 Michael Rose - mademistakes.com | @mmistakes
+  Free for personal and commercial use under the MIT license
+  https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE
+-->
+<html lang="de" class="no-js">
+  <head>
+    <meta charset="utf-8">
+
+<!-- begin _includes/seo.html --><title>Mechanik - Der Streber Blog</title>
+<meta name="description" content="Alle Formeln sind auch noch mal im Tafelwerk zu finden: Dazu einfach auf die Seiten 84-86 gucken!(Außer bei Überlagerung von gleichförmigen Bewegungen)">
+
+
+  <meta name="author" content="Adrian">
+
+
+<meta property="og:type" content="article">
+<meta property="og:locale" content="de_DE">
+<meta property="og:site_name" content="Der Streber Blog">
+<meta property="og:title" content="Mechanik">
+<meta property="og:url" content="/klasse10/physik/mechanik/">
+
+
+  <meta property="og:description" content="Alle Formeln sind auch noch mal im Tafelwerk zu finden: Dazu einfach auf die Seiten 84-86 gucken!(Außer bei Überlagerung von gleichförmigen Bewegungen)">
+
+
+
+
+
+  <meta name="twitter:site" content="@monkischonki02">
+  <meta name="twitter:title" content="Mechanik">
+  <meta name="twitter:description" content="Alle Formeln sind auch noch mal im Tafelwerk zu finden: Dazu einfach auf die Seiten 84-86 gucken!(Außer bei Überlagerung von gleichförmigen Bewegungen)">
+  <meta name="twitter:url" content="/klasse10/physik/mechanik/">
+
+  
+    <meta name="twitter:card" content="summary">
+    
+  
+
+  
+
+
+
+  <meta property="article:published_time" content="2019-02-22T00:00:00+01:00">
+
+
+
+
+
+  
+
+  
+
+
+<link rel="canonical" href="/klasse10/physik/mechanik/">
+
+
+
+
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    
+      "@type": "Person",
+      "name": "Adrian H.",
+      "url": "/"
+    
+  }
+</script>
+
+
+
+
+
+
+<!-- end _includes/seo.html -->
+
+
+<link href="/feed.xml" type="application/atom+xml" rel="alternate" title="Der Streber Blog Feed">
+
+<!-- https://t.co/dKP3o1e -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<script>
+  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+</script>
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="/assets/css/main.css">
+
+<!--[if IE]>
+  <style>
+    /* old IE unsupported flexbox fixes */
+    .greedy-nav .site-title {
+      padding-right: 3em;
+    }
+    .greedy-nav button {
+      position: absolute;
+      top: 0;
+      right: 0;
+      height: 100%;
+    }
+  </style>
+<![endif]-->
+
+
+
+    <!-- start custom head snippets -->
+
+<!-- insert favicons. use https://realfavicongenerator.net/ -->
+
+<!-- end custom head snippets -->
+
+  </head>
+
+  <body class="layout--single">
+    <nav class="skip-links">
+  <h2 class="screen-reader-text">Skip links</h2>
+  <ul>
+    <li><a href="#site-nav" class="screen-reader-shortcut">Skip to primary navigation</a></li>
+    <li><a href="#main" class="screen-reader-shortcut">Skip to content</a></li>
+    <li><a href="#footer" class="screen-reader-shortcut">Skip to footer</a></li>
+  </ul>
+</nav>
+
+    <!--[if lt IE 9]>
+<div class="notice--danger align-center" style="margin: 0;">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience.</div>
+<![endif]-->
+
+    
+
+<div class="masthead">
+  <div class="masthead__inner-wrap">
+    <div class="masthead__menu">
+      <nav id="site-nav" class="greedy-nav">
+        
+        <a class="site-title" href="/">
+          Der Streber Blog
+          
+        </a>
+        <ul class="visible-links"><li class="masthead__menu-item">
+              <a href="/klasse10/" >Klasse 10</a>
+            </li><li class="masthead__menu-item">
+              <a href="/klasse11/" >Klasse 11</a>
+            </li></ul>
+        
+        <button class="greedy-nav__toggle hidden" type="button">
+          <span class="visually-hidden">Menü ein-/ausschalten</span>
+          <div class="navicon"></div>
+        </button>
+        <ul class="hidden-links hidden"></ul>
+      </nav>
+    </div>
+  </div>
+</div>
+
+
+    <div class="initial-content">
+      
+
+
+
+<script src='https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_CHTML' async></script>
+        <script type="text/x-mathjax-config">
+        MathJax.Hub.Config({tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}});
+        </script>
+
+<div id="main" role="main">
+  
+  <div class="sidebar sticky">
+  
+
+
+<div itemscope itemtype="https://schema.org/Person">
+
+  
+
+  <div class="author__content">
+    
+      <h3 class="author__name" itemprop="name">Adrian</h3>
+    
+    
+      <div class="author__bio" itemprop="description">
+        <p>Schüler am RCL welcher versucht, Zusammenfassungen in den Fächern Mathe, Physik und Chemie in seiner Freizeit zu schreiben</p>
+
+      </div>
+    
+  </div>
+
+  <div class="author__urls-wrapper">
+    <button class="btn btn--inverse">Folgen</button>
+    <ul class="author__urls social-icons">
+      
+        <li itemprop="homeLocation" itemscope itemtype="https://schema.org/Place">
+          <i class="fas fa-fw fa-map-marker-alt" aria-hidden="true"></i> <span itemprop="name">Deutschland</span>
+        </li>
+      
+
+      
+        
+          
+        
+          
+        
+          
+            <li><a href="https://twitter.com/monkischwonki02" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-twitter-square" aria-hidden="true"></i> Twitter</a></li>
+          
+        
+          
+        
+          
+            <li><a href="https://github.com/adrianspieltHD" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-github" aria-hidden="true"></i> GitHub</a></li>
+          
+        
+          
+            <li><a href="https://instagram.com/adrianh0802" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-instagram" aria-hidden="true"></i> Instagram</a></li>
+          
+        
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      <!--
+  <li>
+    <a href="http://link-to-whatever-social-network.com/user/" itemprop="sameAs" rel="nofollow noopener noreferrer">
+      <i class="fas fa-fw" aria-hidden="true"></i> Custom Social Profile Link
+    </a>
+  </li>
+-->
+    </ul>
+  </div>
+</div>
+
+  
+  </div>
+
+
+  <article class="page" itemscope itemtype="https://schema.org/CreativeWork">
+    <meta itemprop="headline" content="Mechanik">
+    <meta itemprop="description" content="Alle Formeln sind auch noch mal im Tafelwerk zu finden: Dazu einfach auf die Seiten 84-86 gucken!(Außer bei Überlagerung von gleichförmigen Bewegungen)">
+    <meta itemprop="datePublished" content="February 22, 2019">
+    
+
+    <div class="page__inner-wrap">
+      
+        <header>
+          <h1 id="page-title" class="page__title" itemprop="headline">Mechanik
+</h1>
+          
+            <p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> 
+
+
+
+
+  5 Minuten zum lesen
+
+</p>
+          
+        </header>
+      
+
+      <section class="page__content" itemprop="text">
+        
+          <aside class="sidebar__right sticky">
+            <nav class="toc">
+              <header><h4 class="nav__title"><i class="fas fa-file-alt"></i> Inhalt</h4></header>
+              <ul class="toc__menu">
+  <li><a href="#1-definition-von-bewegung-">1. Definition von Bewegung </a></li>
+  <li><a href="#2-bewegungsformen">2. Bewegungsformen</a></li>
+  <li><a href="#3-bewegungsarten">3. Bewegungsarten</a></li>
+  <li><a href="#4-geschwindigkeit">4. Geschwindigkeit</a></li>
+  <li><a href="#5-beschleunigung">5. Beschleunigung</a>
+    <ul>
+      <li><a href="#51-der-freie-fall">5.1 Der freie Fall</a></li>
+      <li><a href="#52-gleichmäßig-beschleunigte-bewegung-mit-anfangsgeschwindigkeit">5.2 Gleichmäßig beschleunigte Bewegung mit Anfangsgeschwindigkeit</a></li>
+    </ul>
+  </li>
+  <li><a href="#6-überlagerung-von-bewegungen">6. Überlagerung von Bewegungen</a>
+    <ul>
+      <li><a href="#61-überlagerung-zweier-gleichförmiger-bewegungen">6.1 Überlagerung zweier gleichförmiger Bewegungen</a>
+        <ul>
+          <li><a href="#611-gleiche-richtung">6.1.1 gleiche Richtung:</a></li>
+          <li><a href="#612-entgegengesetzte-richtung">6.1.2 entgegengesetzte Richtung:</a></li>
+          <li><a href="#613-im-rechten-winkel-zueinander">6.1.3 im rechten Winkel zueinander:</a></li>
+        </ul>
+      </li>
+      <li><a href="#62-überlagerung-von-gleichförmiger-und-gleichmäßig-beschleunigter-bewegung">6.2 Überlagerung von gleichförmiger und gleichmäßig beschleunigter Bewegung</a>
+        <ul>
+          <li><a href="#621-gleiche-richtung-senkrechter-wurf-nach-unten">6.2.1 gleiche Richtung (Senkrechter Wurf nach unten):</a></li>
+          <li><a href="#622-entgegengesetzte-richtung-senkrechter-wurf-nach-oben">6.2.2 entgegengesetzte Richtung (senkrechter Wurf nach oben):</a></li>
+          <li><a href="#623-im-rechten-winkel-zueinander-waagerechter-wurf">6.2.3 Im rechten Winkel zueinander (waagerechter Wurf):</a></li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li><a href="#7-kräfte-und-ihre-wirkungen">7. Kräfte und ihre Wirkungen</a>
+    <ul>
+      <li><a href="#71-zusammensetzung-von-kräften-tw-s-85">7.1 Zusammensetzung von Kräften (TW. S. 85)</a>
+        <ul>
+          <li><a href="#711-gleiche-richtung">7.1.1 gleiche Richtung:</a></li>
+          <li><a href="#712-entgegengesetzte-richtung">7.1.2 entgegengesetzte Richtung:</a></li>
+          <li><a href="#713-in-einem-rechten-winkel-zueinander">7.1.3 in einem rechten Winkel zueinander:</a></li>
+        </ul>
+      </li>
+      <li><a href="#72-newtonsche-gesetze">7.2 Newtonsche Gesetze</a>
+        <ul>
+          <li><a href="#721-das-trägheitsgesetz-1-newtonsches-gesetz">7.2.1 Das Trägheitsgesetz (1. Newtonsches Gesetz)</a></li>
+          <li><a href="#722-das-newtonsche-grundgesetz-2-newtonsches-gesetz">7.2.2 Das Newtonsche Grundgesetz (2. Newtonsches Gesetz)</a></li>
+          <li><a href="#723-das-wechselwirkungsgesetz-3-newtonsches-gesetz">7.2.3 Das Wechselwirkungsgesetz (3. Newtonsches Gesetz)</a></li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+</ul>
+            </nav>
+          </aside>
+        
+        <p><strong>Alle Formeln sind auch noch mal im Tafelwerk zu finden: Dazu einfach auf die Seiten 84-86 gucken!<br />
+(Außer bei Überlagerung von gleichförmigen Bewegungen)</strong></p>
+
+<h2 id="1-definition-von-bewegung-">1. Definition von Bewegung <a name="defbewegung"></a></h2>
+
+<p>1. Ein Körper ist in <strong>Bewegung</strong>, wenn er seine Lage gegenüber einem Bezugkörper ändert.<br />
+2. Ein Körper ist in <strong>Ruhe</strong>, wenn er seine Lage gegenüber einem Bezugskörper beibehält.</p>
+
+<h2 id="2-bewegungsformen">2. Bewegungsformen</h2>
+
+<ul>
+  <li><strong>geradlinige Bewegung</strong> (Bsp.: Zug/Auto auf gerader Strecker, Mensch auf gerader Strecke)</li>
+  <li><strong>Kreisbewegung</strong> (Bsp.: Riesenrad, Looping fahren, Erde dreht sich um die eigene Achse)</li>
+  <li><strong>Schwingung</strong> (Bsp.: Schaukel, Pendel)</li>
+</ul>
+
+<h2 id="3-bewegungsarten">3. Bewegungsarten</h2>
+
+<ul>
+  <li><strong>gleichförmige Bewegung</strong> (Geschwindigkeit($v$) konstant)</li>
+  <li><strong>ungleichförmige Bewegung</strong> (veränderliche Geschwindigkeiten)</li>
+</ul>
+
+<hr />
+
+<h2 id="4-geschwindigkeit">4. Geschwindigkeit</h2>
+
+<p><strong>Definition:</strong></p>
+
+<p>Die Geschwindigkeit gibt an, wie schnell oder wie langsam sich ein Körper bewegt.</p>
+
+<p><strong>Formelzeichen:</strong> $v$</p>
+
+<p><strong>Einheiten:</strong> $\dfrac{m}{s}$ und $\dfrac{km}{h}$</p>
+
+<p><strong>Formel:</strong> $v = \dfrac{s}{t}$<br />
+$s$ = Strecke<br />
+$t$ = Zeit</p>
+
+<p><strong>Umrechnung von $\dfrac{m}{s}$ in $\dfrac{km}{h}$:</strong></p>
+
+<p>$1\dfrac{m}{s} = 3,6\dfrac{km}{h}$</p>
+
+<hr />
+
+<h2 id="5-beschleunigung">5. Beschleunigung</h2>
+
+<p><strong>Definition:</strong></p>
+
+<p>Die Beschleunigung gibt an, wie schnell sich die Geschwindigkeit eines Körpers ändert.</p>
+
+<p><strong>Formelzeichen:</strong> $a$</p>
+
+<p><strong>Einheit:</strong> $\dfrac{m}{s^2}$</p>
+
+<p><strong>Formel:</strong> $a = \dfrac{\Delta v}{\Delta t}$</p>
+
+<p><strong>Strecke($s$) berechnen:</strong></p>
+
+<p>$s$ = fläche von v/t Diagramm.</p>
+
+<p><img src="https://adrian.mvbuddies.de/bilder/physik10/mechanik/Beschleunigung1.jpg" alt="" class="img-responsive" /></p>
+
+<p>Da Fläche ein Dreieck und die Fläche von Dreieck (rechtwinklig) gleich $A = \dfrac{ab}{2}$
+ist kommen wir auf $s = \dfrac{v_1t_1}{2}$ da aber die steigende Geschwindigkeit und keine Konstante, formen wir<br />
+$a = \dfrac{v}{t}$ zu $v = at$ um welches wir dann in die Gleichung einsetzen:
+$s = \dfrac{att}{2}$ und das ganze jetzt noch zusammenfassen: $s = \dfrac{at^2}{2}$</p>
+
+<p>Ein s/t Diagramm würde dann aussehen, wie eine halbe Parabel</p>
+
+<h3 id="51-der-freie-fall">5.1 Der freie Fall</h3>
+
+<p><strong>Bewegungsform:</strong> geradlinig<br />
+<strong>Bewegungsart:</strong> gleichmäßige Beschleunigung</p>
+
+<p>Die Beschleunigung, mit der ein frei fallender Körper fällt, wird als <strong>Fallbeschleunigung $g$</strong> bezeichnet.<br />
+Die Fallbeschleunigung ist ortsabhängig.</p>
+
+<p>In der Schule (wofür das hier gemacht ist) nutzen wir aber die Fallbeschleunigung: $g = 9,81\dfrac{m}{s^2}$</p>
+
+<hr />
+
+<h3 id="52-gleichmäßig-beschleunigte-bewegung-mit-anfangsgeschwindigkeit">5.2 Gleichmäßig beschleunigte Bewegung mit Anfangsgeschwindigkeit</h3>
+
+<p><img src="https://adrian.mvbuddies.de/bilder/physik10/mechanik/BeschleunigungMitV0.jpg" alt="" class="img-responsive" /></p>
+
+<p><strong>Endgeschwindigkeit $v_{end}$ berechnen:</strong><br />
+$v_{end} = v_0 + \Delta v$ -&gt; Schräge von $v_0$ bis $v_{end}$ = $a$ -&gt; $a = \dfrac{\Delta v}{t}$ -&gt;<br />
+$\Delta v = at$ -&gt; und da $v_{end} = v_0 + \Delta v$ -&gt; $v_{end} = v_0 + at$</p>
+
+<p><strong>Strecke $s$ berechnen:</strong><br />
+$s$ = Fläche des Graphen. Dies unterteilen wir in 2 “Teile”. Einmal ein Rechteck $A_1$ und ein Dreieck $A_2$</p>
+
+<p>$A_1$: Die Fläche eines Rechteckes ist wie folgt definiert: $A = ab$ und diese sind folgende Größen: $a = v_0$ und $b = t_{end}$<br />
+-&gt; Also lautet die Strecke für den ersten Teil wie folgt: $A_1 = v_0t$</p>
+
+<p>$A_2$: Da $A_2$ ein Dreieck mit einem rechten Winkel ist, nimmt man die Formel $A = \dfrac{ab}{2}$ und da setzen wir jetzt die jeweiligen Einheiten ein $A_2 = \dfrac{\Delta vt_{end}}{2}$<br />
+Da wir aber eine gleichmäßig beschleunigte Bewegung hier vorliegen haben müssen wir $\Delta v$ wieder mit $at$ ersetzen, denn $ \Delta v = at_{end}$<br />
+Jetzt sieht die Gleichung so aus: $A_2 = \dfrac{t_{end}t_{end}a}{2}$ und zusammengefasst würde da stehen:<br />
+$A_2 = \dfrac{at_{end}^2}{2}$ und da $t_{end}$ sogesagt $t$ ist lautet die Formel: $A_2 = \dfrac{at^2}{2}$</p>
+
+<p>Und da wir jetzt die beiden Flächen der Teile haben rechnen wir die beiden zusammen, um die Strecke zu bekommen:<br />
+$A_{ges} = A_1 + A_2$ -&gt; $A_{ges} = v_0t + \dfrac{at^2}{2}$ und somit ist $s = v_0t + \dfrac{at^2}{2}$<br />
+Und wenn man jetzt noch eine Anfangsstrecke($s_0$) haben sollte, verbindet man die Anfangsstrecke mit der jetzigen Formel mit einem $+$ und raus kommt:<br />
+$s = v_0t+\dfrac{at^2}{2}+s_0$</p>
+
+<hr />
+
+<h2 id="6-überlagerung-von-bewegungen">6. Überlagerung von Bewegungen</h2>
+
+<p><strong>Definition:</strong><br />
+Führt ein Körper gleichzeitig mehrere Teilbewegungen aus, so überlagert sich diese unabhängig voneinander <strong>resultierenden</strong> Gesamtbewegung.</p>
+
+<h3 id="61-überlagerung-zweier-gleichförmiger-bewegungen">6.1 Überlagerung zweier gleichförmiger Bewegungen</h3>
+
+<h4 id="611-gleiche-richtung">6.1.1 gleiche Richtung:</h4>
+
+<p><img src="https://adrian.mvbuddies.de/bilder/physik10/mechanik/ueberlagerung1.jpg" alt="" class="img-responsive" /></p>
+
+<p>Da sich zwei konstante Geschwindigkeiten $v_1$ und $v_2$ in die gleiche Richtung bewegen,<br />
+ist die resultierende Geschwindigkeit $v$ die Summe aus den einzelnen Geschwindigkeiten: $v = v_1 + v_2$</p>
+
+<h4 id="612-entgegengesetzte-richtung">6.1.2 entgegengesetzte Richtung:</h4>
+
+<p><img src="https://adrian.mvbuddies.de/bilder/physik10/mechanik/ueberlagerung2.jpg" alt="" class="img-responsive" /></p>
+
+<p>Da sich zwei konstante Geschwindigkeiten $v_1$ und $v_2$ in die entgegengesetzte Richtung bewegen,<br />
+ist die resultierende Geschwindigkeit $v$ die Differenz aus den einzelnen Geschwindigkeiten: $v = v_1 - v_2$<br />
+<strong>Nicht vergessen! $v$ kann auch negativ sein.</strong></p>
+
+<h4 id="613-im-rechten-winkel-zueinander">6.1.3 im rechten Winkel zueinander:</h4>
+
+<p><img src="https://adrian.mvbuddies.de/bilder/physik10/mechanik/ueberlagerung3.jpg" alt="" class="img-responsive" /></p>
+
+<p>Da sich zwei konstante Geschwindigkeiten $v_1$ und $v_2$ in einem rechten Winkel zueinander “bewegen”,<br />
+ist die resultierende Geschwindigkeit $v$ die Wurzel aus der Summe der einzelnen quadrierten Geschwindigkeiten:<br />
+$v = \sqrt{v_1^2+v_2^2}$</p>
+
+<hr />
+
+<h3 id="62-überlagerung-von-gleichförmiger-und-gleichmäßig-beschleunigter-bewegung">6.2 Überlagerung von gleichförmiger und gleichmäßig beschleunigter Bewegung</h3>
+
+<h4 id="621-gleiche-richtung-senkrechter-wurf-nach-unten">6.2.1 gleiche Richtung (Senkrechter Wurf nach unten):</h4>
+
+<p><img src="https://adrian.mvbuddies.de/bilder/physik10/mechanik/ueberlagerung4.jpg" alt="" class="img-responsive" /></p>
+
+<p>Da sich eine konstante Anfangsgeschwindigkeit $v_0$ und der Freie Fall $v_f = gt$ in die gleiche Richtung bewegen,<br />
+ist die resultiere Geschwindigkeit $v$ die Summe der beiden Geschwindigkeiten: $v = v_0+gt$</p>
+
+<p>Die Strecke $s$/$y$ berechnet man aus der Summe von der Strecke der Anfangsgeschwindigkeit $s = v_0t$ und<br />
+der Strecke des Freien Falls $s = \dfrac{gt^2}{2}$ –&gt; $s = v_0t+\dfrac{gt^2}{2}$<br />
+Laut Tafelwerk (S. 86) ist es $v = -v_0-gt$ -&gt; kommt aber mit der anderen Formel aufs gleiche hinaus, außer, dass das Ergebnis negativ sein sollte.</p>
+
+<h4 id="622-entgegengesetzte-richtung-senkrechter-wurf-nach-oben">6.2.2 entgegengesetzte Richtung (senkrechter Wurf nach oben):</h4>
+
+<p><img src="https://adrian.mvbuddies.de/bilder/physik10/mechanik/ueberlagerung5.jpg" alt="" class="img-responsive" /></p>
+
+<p>Da sich eine konstante Anfangsgeschwindigkeit $v_0$ und der Freie Fall $v_f = gt$ in die entgegengesetzte Richtung bewegen,<br />
+ist die resultiere Geschwindigkeit $v$ die Differenz der beiden Geschwindigkeiten: $v = v_0-gt$<br />
+Die Strecke $s$/$y$ berechnet man aus der Differenz von der Strecke der Anfangsgeschwindigkeit $s = v_0t$ und<br />
+der Strecke des Freien Falls $s = \dfrac{gt^2}{2}$ –&gt; $s = v_0t-\dfrac{gt^2}{2}$<br />
+Bei einem senkrechten Wurf nach oben, gibt es noch die Steigzeit $t_h$, die angibt, wie lange das<br />
+Objekt insgesammt steigt. Dafür nutzt man die Formel: $t_h = \dfrac{v_0}{g}$<br />
+Außerdem gibt es noch die Steighöhe $s_h$, die angibt, wie hoch ein Obejekt steigt, bis es wieder nach unten fällt<br />
+Für die Steighöhe nutzt man diese Formel: $s_h = \dfrac{v_0^2}{2g}$</p>
+
+<h4 id="623-im-rechten-winkel-zueinander-waagerechter-wurf">6.2.3 Im rechten Winkel zueinander (waagerechter Wurf):</h4>
+
+<p><img src="https://adrian.mvbuddies.de/bilder/physik10/mechanik/ueberlagerung6.jpg" alt="" class="img-responsive" /></p>
+
+<p>Da sich eine konstante Anfangsgeschwindigkeit $v_0$ und der freie Fall $v_f = gt$ in einem rechten Winkel<br />
+zueinander “bewegen”, so ist die resultierende Geschwindigkeit $v$ die Wurzel aus der Summe der einzelnen<br />
+Geschwindigkeiten zum Quadrat: $ v= \sqrt{v_0^2+g^2t^2}$</p>
+
+<p><strong>Wissenswertes:</strong> $v_y = -gt$ -&gt; ist negativ, weil man in einem Koordinatensystem (Siehe Abbildung) ins Negative von der Y-Achse geht.</p>
+
+<p>Die Geschwindigkeit $v_x$ ist genauso groß wie die Geschwindigkeit $v_0$ -&gt; $v_x = v_0$</p>
+
+<p>Die Strecke $s_x$ oder $x$ (siehe Schaubild) ist das, um die Strecke bei einer<br />
+gleichförmigen Bewegung auszurechnen: $x = v_0t$<br />
+Um die Strecke in Y-Richtung zu berechnen, muss man einfach die Formel $y = -\dfrac{gt^2}{2}$ nehmen. <strong>(Ergebnis ist negativ!)</strong></p>
+
+<hr />
+
+<h2 id="7-kräfte-und-ihre-wirkungen">7. Kräfte und ihre Wirkungen</h2>
+
+<p>Die Kraft ist eine Wechselwirkungsgröße. Sie sind nur an den Wirkungen erkennbar:</p>
+
+<ul>
+  <li>Geschwindigkeitsänderung</li>
+  <li>Formänderung</li>
+  <li>Bahnänderung</li>
+</ul>
+
+<p><strong>Definition</strong><br />
+Die Kraft gibt an, wie stark zwei Körper aufeinander einwirken.</p>
+
+<ul>
+  <li>Formelzeichen: $F$</li>
+  <li>Einheit: $N$ (Newton) =&gt; $1\dfrac{kg*m}{s^2} = 1N$</li>
+</ul>
+
+<h3 id="71-zusammensetzung-von-kräften-tw-s-85">7.1 Zusammensetzung von Kräften (TW. S. 85)</h3>
+
+<p>Jetzt kommt das gleiche wie bei der Überlagerung von gleichförmigen Bewegungen, bloß jetzt mit Kräften.</p>
+
+<h4 id="711-gleiche-richtung">7.1.1 gleiche Richtung:</h4>
+
+<p><img src="https://adrian.mvbuddies.de/bilder/physik10/mechanik/kraft1.jpg" alt="" class="img-responsive" /></p>
+
+<p>Formel hierfür ist folgende: $F = F_1 + F_2$</p>
+
+<h4 id="712-entgegengesetzte-richtung">7.1.2 entgegengesetzte Richtung:</h4>
+
+<p><img src="https://adrian.mvbuddies.de/bilder/physik10/mechanik/kraft2.jpg" alt="" class="img-responsive" /></p>
+
+<p>Formel hierfür ist folgende: $F = F_1 - F_2$</p>
+
+<h4 id="713-in-einem-rechten-winkel-zueinander">7.1.3 in einem rechten Winkel zueinander:</h4>
+
+<p><img src="https://adrian.mvbuddies.de/bilder/physik10/mechanik/kraft3.jpg" alt="" class="img-responsive" /></p>
+
+<p>Die Formel dafür lautet: $F = \sqrt{F_1^2+F_2^2}$</p>
+
+<h3 id="72-newtonsche-gesetze">7.2 Newtonsche Gesetze</h3>
+
+<h4 id="721-das-trägheitsgesetz-1-newtonsches-gesetz">7.2.1 Das Trägheitsgesetz (1. Newtonsches Gesetz)</h4>
+
+<p><img src="https://adrian.mvbuddies.de/bilder/physik10/mechanik/newton1.jpg" alt="" class="img-responsive" /></p>
+
+<p>Ein Körper bleibt in Ruhe oder in gleichförmiger geradliniger Bewegung, solange die Summe der auf ihn<br />
+wirkenden Kräfte null ist. $v = konstant$ &amp; $\Sigma F_{außen} = 0$</p>
+
+<h4 id="722-das-newtonsche-grundgesetz-2-newtonsches-gesetz">7.2.2 Das Newtonsche Grundgesetz (2. Newtonsches Gesetz)</h4>
+
+<p><img src="https://adrian.mvbuddies.de/bilder/physik10/mechanik/newton2.jpg" alt="" class="img-responsive" /></p>
+
+<p>Zwischen Kraft, Masse und Beschleunigung gilt folgender Zusammenhang: $F = ma$</p>
+
+<h4 id="723-das-wechselwirkungsgesetz-3-newtonsches-gesetz">7.2.3 Das Wechselwirkungsgesetz (3. Newtonsches Gesetz)</h4>
+
+<p><img src="https://adrian.mvbuddies.de/bilder/physik10/mechanik/newton3.jpg" alt="" class="img-responsive" /></p>
+
+<p>Wirken 2 Körper aufeinander ein, so wirkt auf jeden der Körper eine Kraft.<br />
+Die Kräfte sind gleich und entgegengesetzt gewichtet: $F_1 = -F_2$</p>
+
+<hr />
+
+
+        
+      </section>
+
+      <footer class="page__meta">
+        
+        
+
+
+  
+
+        
+          <p class="page__date"><strong><i class="fas fa-fw fa-calendar-alt" aria-hidden="true"></i> Aktualisiert:</strong> <time datetime="2019-02-22T00:00:00+01:00">February 22, 2019</time></p>
+        
+      </footer>
+
+      
+
+      
+  <nav class="pagination">
+    
+      <a href="#" class="pagination--pager disabled">Vorherige</a>
+    
+    
+      <a href="/klasse10/chemie/organische-chemie/" class="pagination--pager" title="Organische Chemie
+">Nächste</a>
+    
+  </nav>
+
+    </div>
+
+    
+  </article>
+
+  
+  
+    <div class="page__related">
+      <h4 class="page__related-title">Ihnen gefällt vielleicht auch</h4>
+      <div class="grid__wrapper">
+        
+          
+
+
+
+<div class="grid__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+    <h2 class="archive__item-title" itemprop="headline">
+      
+        <a href="/klasse11/mathematik/kurvendiskussion/" rel="permalink">Kurvendiskussion
+</a>
+      
+    </h2>
+    
+      <p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> 
+
+
+
+
+  7 Minuten zum lesen
+
+</p>
+    
+    <p class="archive__item-excerpt" itemprop="description">1. Der Definitionsbereich
+</p>
+  </article>
+</div>
+
+        
+          
+
+
+
+<div class="grid__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+    <h2 class="archive__item-title" itemprop="headline">
+      
+        <a href="/klasse11/physik/mechanik11/" rel="permalink">Mechanik Klasse 11
+</a>
+      
+    </h2>
+    
+      <p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> 
+
+
+
+
+  2 Minuten zum lesen
+
+</p>
+    
+    <p class="archive__item-excerpt" itemprop="description">1. Kräfte in einer geneigten Ebene
+</p>
+  </article>
+</div>
+
+        
+          
+
+
+
+<div class="grid__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+    <h2 class="archive__item-title" itemprop="headline">
+      
+        <a href="/klasse10/mathe/trigonometrische-funktionen/" rel="permalink">Trigonometrische Funktionen
+</a>
+      
+    </h2>
+    
+      <p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> 
+
+
+
+
+  4 Minuten zum lesen
+
+</p>
+    
+    <p class="archive__item-excerpt" itemprop="description">Ich habe jetzt als Winkel den griechischen Buchstaben Lambda ($\lambda$) genommen. Es geht natürlich auch jeder andere Buchstabe.
+</p>
+  </article>
+</div>
+
+        
+          
+
+
+
+<div class="grid__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+    <h2 class="archive__item-title" itemprop="headline">
+      
+        <a href="/klasse10/mathe/trigonometrie/" rel="permalink">Trigonometrie
+</a>
+      
+    </h2>
+    
+      <p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> 
+
+
+
+
+  2 Minuten zum lesen
+
+</p>
+    
+    <p class="archive__item-excerpt" itemprop="description">Alle Formeln, die ich hier schreibe, stehen auch nochmal im Tafelwerk auf Seite 19 (Pythagoras) und 26-27
+</p>
+  </article>
+</div>
+
+        
+      </div>
+    </div>
+  
+  
+</div>
+
+    </div>
+
+    
+
+    <div id="footer" class="page__footer">
+      <footer>
+        <!-- start custom footer snippets -->
+
+<!-- end custom footer snippets -->
+        <div class="page__footer-follow">
+  <ul class="social-icons">
+    
+      <li><strong>Folgen:</strong></li>
+    
+
+    
+      
+        
+          <li><a href="https://twitter.com/monkischwonki02" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-twitter-square" aria-hidden="true"></i> Twitter</a></li>
+        
+      
+        
+      
+        
+          <li><a href="https://github.com/adrianspieltHD" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-github" aria-hidden="true"></i> GitHub</a></li>
+        
+      
+        
+      
+        
+      
+        
+          <li><a href="https://instagram.com/adrianh0802" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-instagram" aria-hidden="true"></i> Instagram</a></li>
+        
+      
+    
+
+    <li><a href="/feed.xml"><i class="fas fa-fw fa-rss-square" aria-hidden="true"></i> Feed</a></li>
+  </ul>
+</div>
+
+<div class="page__footer-copyright">&copy; 2019 Adrian H.. Möglich durch <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
+
+      </footer>
+    </div>
+
+    
+  <script src="/assets/js/main.min.js"></script>
+  <script src="https://kit.fontawesome.com/4eee35f757.js"></script>
+
+
+
+
+
+
+
+
+
+
+  </body>
+</html>
